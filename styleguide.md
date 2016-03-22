@@ -1,7 +1,7 @@
 #ETSY STYLE GUIDE
 
 
-#Colors
+##Colors
 
 *Orange: #f56400
 *Blue: #34a8c4
@@ -13,7 +13,7 @@
 *Grey-type: #aaaaaa
 *Dark-grey-type: #666666
 
-#Typefaces:
+##Typefaces:
 
 ####Headings
 
@@ -27,7 +27,7 @@ font-family: 'Bitter', 'Times', serif;
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 font-family: 'Lato', 'Arial', sans-serif;
 
-###Etsy SVG:
+##Etsy SVG:
 Cut and paste all of this into your html. You will need to resize accordingly.
 
 ```
