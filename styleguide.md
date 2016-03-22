@@ -1,6 +1,5 @@
-![Etsy Style Guide](Macintosh HD/Users/alexanderallis/Documents/TIY/Week8/Etsy/EtsyStyleGuide.pdf)
-Format: ![Alt Text]
-
+![GitHub Logo](/EtsyStyleGuide.jpg)
+Format: ![Etsy Style Guide](url)
 #ETSY STYLE GUIDE
 
 
