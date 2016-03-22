@@ -15,15 +15,15 @@
 
 #Typefaces:
 
-##Headings
+####Headings
 
-###Bitter 400,700:
+######Bitter 400,700:
 <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
 font-family: 'Bitter', 'Times', serif;
 
-##body
+####body
 
-###Lato
+######Lato
 <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 font-family: 'Lato', 'Arial', sans-serif;
 
