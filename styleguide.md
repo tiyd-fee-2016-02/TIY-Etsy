@@ -1,5 +1,5 @@
 ![GitHub Logo](/EtsyStyleGuide.jpg)
-Format: ![Etsy Style Guide](url)
+
 #ETSY STYLE GUIDE
 
 
