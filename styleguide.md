@@ -1,3 +1,6 @@
+![Etsy Style Guide](/Users/alexanderallis/Documents/TIY/Week8/Etsy/EtsyStyleGuide.pdf)
+Format: ![Alt Text](url)
+
 #ETSY STYLE GUIDE
 
 
