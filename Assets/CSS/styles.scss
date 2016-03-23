@@ -1,0 +1,93 @@
+$Orange: #f56400;
+$Blue: #34a8c4;
+$Background: #efefeb;
+$Grey-border: #dcdcd9;
+$Blue-border: #2f98b1;
+$Grey-type: #aaaaaa;
+$Dark-grey-type: #666666;
+$Bitter: 'Bitter', 'Times', serif;
+$Lato: 'Lato', 'Arial', sans-serif;
+
+body{
+  background-color: $Background;
+}
+
+.trending-header{
+  margin-top: 5%;
+  // border-bottom: 3px solid $Grey-border;
+  width: 964px;
+  margin-left: 15%;
+  font-family: $Bitter;
+
+  .trending-header-title{
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: $Dark-grey-type;
+  }
+
+  .trending-header-title:hover{
+    text-decoration: underline;
+
+  }
+
+  .trending-header-desc{
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 0;
+    color: $Grey-type;
+  }
+
+} //end trending-header
+
+
+.trending-grid-container{
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 964px;
+  height: auto;
+
+  .trending-grid-column{
+    display: inline-block;
+    border: 1px solid $Orange;
+    width: 220px;
+  }
+
+  .trending-grid-column:nth-child(2n+1){
+    margin-right: 20px;
+  }
+
+  #trending-grid-col-two{
+    margin-right: 18px;
+  }
+
+} //end trending-grid-container
+
+.trending-card-container {
+  width: 220px;
+  height: auto;
+
+  .trending-card-image{
+    border: 1px solid black;
+    width: 220px;
+    height: auto;
+  }
+
+  .trending-card-title{
+    border: 1px solid blue;
+    color: $Dark-grey-type;
+  }
+
+  .trending-card-seller{
+    border: 1px solid yellow;
+    display: inline;
+    color: $Grey-type;
+  }
+
+  .trending-card-price{
+    float: right;
+    border: 1px solid pink;
+    display: inline;
+    color: #78C042;
+  }
+}

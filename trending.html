@@ -1,0 +1,46 @@
+<div ng-controller = "etsyController" class = "trending-pg-container">
+
+  <header class = "trending-header">
+    <a href = "" class = "trending-header-title">Trending Items</a>
+    <p class = "trending-header-desc">Explore shoppers' top finds from around the marketplace.</p>
+  </header>
+  <hr>
+
+
+
+
+  <section class = "trending-grid-container">
+
+    <div id = "trending-grid-col-one" class = "trending-grid-column">
+        <div class = "trending-card-container">
+            <div class = "trending-card-image"> <img src="{{trending.results[0].MainImage.url_170x135}}"></img>
+            </div>
+            <div class = "trending-card-title"> {{trending.results[0].title}}
+            </div>
+            <div class = "trending-card-seller"> {{trending.results[0].Shop.shop_name}}
+            </div>
+            <div class = "trending-card-price"> ${{trending.results[0].price}}
+            </div>
+        </div> <!-- closes trending-card-container -->
+    </div>     <!-- closes column one -->
+
+
+    <div id = "trending-grid-col-two" class = "trending-grid-column">
+      column two
+    </div>   <!-- closes column two -->
+
+
+    <div id = "trending-grid-col-three" class = "trending-grid-column">
+      column three
+    </div>   <!-- closes column three -->
+
+
+    <div id = "trending-grid-col-four" class = "trending-grid-column">
+      column four
+    </div>   <!-- closes column four -->
+
+
+  </section>
+
+
+</div>

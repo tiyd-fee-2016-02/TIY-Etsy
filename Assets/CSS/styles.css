@@ -1,0 +1,56 @@
+body {
+  background-color: #efefeb; }
+
+.trending-header {
+  margin-top: 5%;
+  width: 964px;
+  margin-left: 15%;
+  font-family: "Bitter", "Times", serif; }
+  .trending-header .trending-header-title {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-bottom: 0;
+    color: #666666; }
+  .trending-header .trending-header-title:hover {
+    text-decoration: underline; }
+  .trending-header .trending-header-desc {
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 0;
+    color: #aaaaaa; }
+
+.trending-grid-container {
+  margin-top: 5%;
+  margin-left: 15%;
+  width: 964px;
+  height: auto; }
+  .trending-grid-container .trending-grid-column {
+    display: inline-block;
+    border: 1px solid #f56400;
+    width: 220px; }
+  .trending-grid-container .trending-grid-column:nth-child(2n+1) {
+    margin-right: 20px; }
+  .trending-grid-container #trending-grid-col-two {
+    margin-right: 18px; }
+
+.trending-card-container {
+  width: 220px;
+  height: auto; }
+  .trending-card-container .trending-card-image {
+    border: 1px solid black;
+    width: 220px;
+    height: auto; }
+  .trending-card-container .trending-card-title {
+    border: 1px solid blue;
+    color: #666666; }
+  .trending-card-container .trending-card-seller {
+    border: 1px solid yellow;
+    display: inline;
+    color: #aaaaaa; }
+  .trending-card-container .trending-card-price {
+    float: right;
+    border: 1px solid pink;
+    display: inline;
+    color: #78C042; }
+
+/*# sourceMappingURL=styles.css.map */

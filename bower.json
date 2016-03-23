@@ -1,0 +1,23 @@
+{
+  "name": "TIY-Etsy",
+  "homepage": "https://github.com/tiyd-fee-2016-02/TIY-Etsy",
+  "authors": [
+    "Nicky Cadavillo <nicoleacadavillo@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.2",
+    "jquery": "^2.2.2",
+    "angular-route": "^1.5.2"
+  }
+}
