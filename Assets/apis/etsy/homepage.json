@@ -2,7 +2,7 @@
   "heroImage1": [
     {
       "heroimageurl": "http/lafjsdl;fkadskfjs.com",
-      "herotext": "Pokéball",
+      "herotext": "Pokéball"
     }
   ],
   "heroImageScroll": [
@@ -32,10 +32,24 @@
   ],
   "commTastemakers": [
     {
-      "tastemakerName"
-
-
+      "tastemakerName": "Judy",
+      "tastemakerImage": "url",
+      "tastemakerProductImgs": [
+        "imgurl", "imgurl", "imgurl", "imgurl"
+      ],
+      "tastemakerURL": "url",
+      "tastemakerNumItems": "123"
+    }
+  ],
+  "heroImage2": [
+    {
+      "heroImgURL": "heroURL",
+      "featuredUserImg": "featuredUserimgURL",
+      "featuredUserQuote": "“As I take this leap into a career as a ceramic artist, I will always be a student at heart.”",
+      "featuredUserName": "Emily Smith",
+      "featuredUserStoreName": "Emily's Store",
+      "storeCountry": "Lithuania",
+      "storeCity": "Moscow"
     }
   ]
-
 }
