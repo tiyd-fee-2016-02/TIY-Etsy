@@ -77,21 +77,25 @@
         color: #6c6c63; }
         .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
           border-bottom: solid 3px #f56400; }
+  .site-header .site-header-left-drop-caret {
+    display: inline-block;
+    float: right;
+    margin: 0 7%; }
   .site-header .site-header-clothing-dropdown {
-    margin: 0 15%;
+    margin: 0 14%;
     height: 60%;
-    border: solid thin black;
     display: none; }
     .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav {
       position: absolute;
       height: 59%;
       width: 17.5%;
-      border: solid thin black;
       display: inline-block; }
       .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav .site-header-clothing-drop-left-link {
-        padding: 1em 0; }
+        padding: 1em .5em; }
         .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav .site-header-clothing-drop-left-link:hover {
           background-color: lightblue; }
+      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav .clothing-left-link-1 {
+        margin: 5% 0 0 0; }
     .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav {
       position: absolute;
       height: 59%;
