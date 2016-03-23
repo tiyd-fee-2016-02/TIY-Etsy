@@ -38,7 +38,7 @@ To prevent overlapping classifications on the git merge, consider page-specific 
 
 Divide your class names into two parts separated by a hyphen.
 ######Ex: class="page-yourclassname"
-Where 'trending' is the page your group is working on, and 'yourclassname' is your class name. Avoiding common names like 'container', 'section', and 'header' will make sure your stylesheets won't accidently apply to someone else's page after the merge.
+Where 'page' is the page your group is working on, and 'yourclassname' is your class name. Avoiding common names like 'container', 'section', and 'header' will make sure your stylesheets won't accidently apply to someone else's page after the merge.
 
 ##Etsy SVG:
 Cut and paste all of this into your html. You will need to resize accordingly.
