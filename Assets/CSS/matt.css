@@ -1,0 +1,106 @@
+a {
+  color: #000; }
+
+.listing-PageContainer {
+  background: #efefeb; }
+
+.off {
+  display: none; }
+
+.listing-SubHeader {
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+
+.listing-Proper {
+  display: inline-block;
+  width: 76%;
+  background: #fff;
+  border: #e4f3d9 1px solid;
+  border-radius: 3px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 2%;
+  padding-right: 2%; }
+
+/*=========================BELOW THIS IS THE LEFT COLUMN============================*/
+.listingProper-ColLeft {
+  display: inline-block;
+  float: left;
+  width: 59%; }
+
+.listing-imgCarosel {
+  width: 570px;
+  height: 700px;
+  background: #f5f5f1; }
+
+/*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
+.listing-ColRight {
+  display: inline-block;
+  float: right;
+  width: 39%; }
+
+.listing-Desc {
+  border: #E4F3D9 5px solid;
+  border-bottom: #E4F3D9 40px solid;
+  border-radius: 3px;
+  margin-bottom: 20px; }
+
+.listing-socialMedia {
+  border: 5px #EFEFEB solid;
+  border-bottom: #EFEFEB 40px solid;
+  border-radius: 3px;
+  margin-bottom: 20px; }
+
+.listing-storeSummary {
+  border: #E5F4F7 5px solid;
+  border-radius: 3px; }
+
+.listing-subFooter {
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-bottom: 30px;
+  padding-top: 30px; }
+
+.listing-thumbZoom {
+  display: inline-block; }
+
+.listing-tabsThemselves {
+  border-bottom: #DADBD6 1px solid;
+  text-align: center;
+  font-family: 'Lato', 'Arial', sans-serif; }
+
+.listing-tab {
+  background: #F5F6F1;
+  box-sizing: border-box;
+  display: inline-block;
+  border: #DADBD6 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-bottom: -2px;
+  margin-top: 10px;
+  color: #0192B5; }
+
+.listing-tabSelected {
+  background: #Fff;
+  border-bottom: 1px #fff solid;
+  color: #666666; }
+
+.listing-tabContent {
+  margin-top: 50px;
+  display: none; }
+
+.listing-tabContentSelected {
+  display: block; }
+
+.stars {
+  color: #FFDC1E; }
+
+/*# sourceMappingURL=matt.css.map */

@@ -1,50 +1,85 @@
-<div class="listingPageContainer">
-  <div class="listingSubHeader">
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/CSS/matt.css">
+  <link rel="stylesheet" href="assets/CSS/reset.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+  <script src="Assets/JS/listingPageController.js"></script>
+  <script src="Assets/JS/app.js"></script>
+</head>
+<body ng-app="listingPageApp">
+
+
+<div class="listing-PageContainer" ng-controller="listingPageController">
+  <div class="listing-SubHeader">
 this is where the shop, 'favorite this shop' button, 4 more listings in this shop, and link to rest of shop listings goes
+<br>
   </div><!--end listingsubheader-->
-  <div class="listingProper">
-    this is all the white area in the listing page
-    <span class="listingColLeft">
+  <div class="listing-Proper">
+    <span class="listingProper-ColLeft">
 
-      <div class="imgCarosel">
+      <div class="listing-imgCarosel">
       </div>
 
-      <div class="thumbZoom">
+      <div class="listing-thumbZoom">
+        This is where the extra thumbnails and zoom button go.
       </div>
 
-      <div class ="tabContainer">
-        <span class="itemDetails">
-          this tab is for item details
-        </span>
-        <span class ="userReviews">
-          this tab is for user reviews
-        </span>
-        <span class="shippingPolicies">
-          this tab is for shipping and policies.
-        </span>
+      <div class ="listing-tabContainer">
+        <div class="listing-tabsThemselves">
+          <a href="#"><span class="listing-tab listing-tabSelected">
+            Item Details
+          </span><a/>
+          <a href="#"><span class ="listing-tab">
+            <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (123)
+          </span><a/>
+          <a href ="#"><span class="listing-tab">
+            Shipping and Policies.<br>
+          </span><a/>
+        </div><!--tabsthemselves-->
+        <div class="listing-tabContent">
+        this is the content of the reviews tab.
+        </div><!--reviews content-->
+        <div class="listing-tabContent listing-tabContentSelected">
+          {{listing.title}} <br>
+          {{listing.description}} <br>
+          {{listing.quantity}} Available<br>
+
+          {{listing.tags[0]}}<br>
+          {{listing.tags[1]}}<br>
+          {{listing.tags[2]}}<br>
+        </div><!--reviews content-->
+        <div class="listing-tabContent">
+        this is the content of the policies tab.
+        </div><!--reviews content-->
+
       </div><!--end of tabConainer-->
     </span><!--end listingColLeft-->
 
-    <span class="listingColRight">
-      <div class="listingDesc">
+    <span class="listing-ColRight">
+      <div class="listing-Desc">
         the listing description and buy buttons
       </div>
-      <div class="socialMedia">
+      <div class="listing-socialMedia">
         the tiny social media managemnet bar
       </div>
-      <div class="storeSummary">
+      <div class="listing-storeSummary">
         a few more items from this store in particular
       </div>
     </span>
-    
+
   </div><!--end listing proper-->
 
-<div class ="subFooter">
+<div class ="listing-subFooter">
   this is for the tags and listing stats.
 </div>
 
 
-
-
-
 </div><!--end listing page container-->
+
+</body>
+</html>
