@@ -1,12 +1,9 @@
+body {
+  background-color: #f5f5f1; }
+
 #wrapper {
   margin-left: 8%;
   margin-right: 8%; }
-
-.center-header {
-  text-align: center; }
-
-.cat-button {
-  margin-left: 45%; }
 
 .row-1 .col-1-4 {
   border: 1px solid;
