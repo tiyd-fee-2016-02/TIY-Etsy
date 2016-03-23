@@ -5,34 +5,348 @@
   <script src='./bower_components/angular-route/angular-route.js'></script>
   <script src='./bower_components/jquery/dist/jquery.js'></script>
   <script src='./assets/js/app.js'></script>
-  <link href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css' rel='stylesheet'>
+  <script src='./assets/js/scripts.js'></script>
+  <!-- <link href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css' rel='stylesheet'> -->
   <link href='./bower_components/font-awesome/css/font-awesome.css' rel='stylesheet'>
   <link href='./assets/css/styles.css' rel='stylesheet'>
 </head>
 <body ng-app=''>
   <header class='site-header'>
     <div class='site-header-top-wrap'>
+
+      <div class='site-header-etsy-logo'>
+        Etsy
+      </div>
+
       <div class='site-header-search-bar-wrapper'>
-        <input class='site-header-search-bar'>
+        <input class='site-header-search-bar' placeholder="  Search for items or shops">
+        <a href='#'>
+          <div class='site-header-search-button'>Search</div>
+        </a>
       </div>
+
+      <div class='site-header-top-nav-sell-wrap'
+          <a href="#">Sell on Etsy</a>
+      </div>
+
       <div class='site-header-top-nav-wrapper'>
-        <a href="#">Sell on Etsy</a>
-        <a href='#'>Home</a>
-        <a href='#'>Favorites</a>
-        <a href='#'>You</a>
-        <a href='#'>Cart</a>
+        <div class='site-header-top-nav-home-wrap'>
+          <i class="fa fa-home"></i>
+          <a href='#'>Home</a>
+        </div>
+        <div class='site-header-top-nav-favorites-wrap'>
+          <i class="fa fa-heart"></i>
+          <a href='#'>Favorites</a>
+        </div>
+        <div class='site-header-top-nav-you-wrap'>
+          <i class="fa fa-user"></i>
+          <a href='#'>You</a>
+        </div>
+        <div class='site-header-top-nav-cart-wrap'>
+          <i class="fa fa-shopping-cart"></i>
+          <a href='#'>Cart</a>
+        </div>
       </div>
     </div>
+
     <div class='site-header-dropdown-nav-wrap'>
-      <a href='#'>Clothing & Accessories</a>
-      <a href='#'>Jewelry</a>
-      <a href='#'>Craft Supplies</a>
-      <a href='#'>Weddings</a>
-      <a href='#'>Entertainment</a>
-      <a href='#'>Home & Living</a>
-      <a href='#'>Kids & Baby</a>
-      <a href='#'>Vintage</a>
+      <div class='site-header-dropdown-nav-links-wrap'>
+        <span class='site-header-clothing-accessories'>
+          <a href='#'>Clothing & Accessories</a>
+        </span>
+        <span class='site-header-jewelry'>
+          <a href='#'>Jewelry</a>
+        </span>
+        <span class='site-header-craft-supplies'>
+          <a href='#'>Craft Supplies</a>
+        </span>
+        <span class='site-header-weddings'>
+          <a href='#'>Weddings</a>
+        </span>
+        <span class='site-header-entertainment'>
+          <a href='#'>Entertainment</a>
+        </span>
+        <span class='site-header-home-living'>
+          <a href='#'>Home & Living</a>
+        </span>
+        <span class='site-header-kids-baby'>
+          <a href='#'>Kids & Baby</a>
+        </span>
+        <span class='site-header-vintage'>
+          <a href='#'>Vintage</a>
+        </span>
+      </div>
     </div>
+
+    <div class='site-header-clothing-dropdown'>
+      <span class='site-header-clothing-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-clothing-drop-left-link clothing-left-link-1'>this is the clothing drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-clothing-drop-left-link clothing-left-link-2'>this is the clothing drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-clothing-drop-left-link clothing-left-link-3'>this is the clothing drop3</div>
+        </a>
+      </span>
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-1'>
+        <span class='site-header-clothing-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-clothing-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-2'>
+        <span class='site-header-clothing-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-clothing-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-3'>
+        <span class='site-header-clothing-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-clothing-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-right-nav'>
+      </span>
+
+    </div>
+
+    <div class='site-header-jewelry-dropdown'>
+      <span class='site-header-jewelry-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-jewelry-drop-left-link jewelry-left-link-1'>this is the jewelry drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-jewelry-drop-left-link jewelry-left-link-2'>this is the jewelry drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-jewelry-drop-left-link jewelry-left-link-3'>this is the jewelry drop3</div>
+        </a>
+      </span>
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-1'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-jewelry-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-2'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-jewelry-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-3'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-jewelry-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-right-nav'>
+      </span>
+
+    </div>
+
+    <div class='site-header-craft-dropdown'>
+      <span class='site-header-craft-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-craft-drop-left-link craft-left-link-1'>this is the craft drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-craft-drop-left-link craft-left-link-2'>this is the craft drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-craft-drop-left-link craft-left-link-3'>this is the craft drop3</div>
+        </a>
+      </span>
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-1'>
+        <span class='site-header-craft-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-craft-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-2'>
+        <span class='site-header-craft-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-craft-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-3'>
+        <span class='site-header-craft-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-craft-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-craft-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-wedding-dropdown'>
+      <span class='site-header-wedding-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-wedding-drop-left-link wedding-left-link-1'>this is the wedding drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-wedding-drop-left-link wedding-left-link-2'>this is the wedding drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-wedding-drop-left-link wedding-left-link-3'>this is the wedding drop3</div>
+        </a>
+      </span>
+      <span class='site-header-wedding-dropdown-middle-nav wedding-middle-nav-1'>
+        <span class='site-header-wedding-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-wedding-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-wedding-dropdown-middle-nav wedding-middle-nav-2'>
+        <span class='site-header-wedding-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-wedding-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-wedding-dropdown-middle-nav wedding-middle-nav-3'>
+        <span class='site-header-wedding-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-wedding-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-wedding-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-entertainment-dropdown'>
+      <span class='site-header-entertainment-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-entertainment-drop-left-link entertainment-left-link-1'>this is the entertainment drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-entertainment-drop-left-link entertainment-left-link-2'>this is the entertainment drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-entertainment-drop-left-link entertainment-left-link-3'>this is the entertainment drop3</div>
+        </a>
+      </span>
+      <span class='site-header-entertainment-dropdown-middle-nav entertainment-middle-nav-1'>
+        <span class='site-header-entertainment-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-entertainment-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-entertainment-dropdown-middle-nav entertainment-middle-nav-2'>
+        <span class='site-header-entertainment-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-entertainment-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-entertainment-dropdown-middle-nav entertainment-middle-nav-3'>
+        <span class='site-header-entertainment-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-entertainment-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-entertainment-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-living-dropdown'>
+      <span class='site-header-living-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-living-drop-left-link living-left-link-1'>this is the living drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-living-drop-left-link living-left-link-2'>this is the living drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-living-drop-left-link living-left-link-3'>this is the living drop3</div>
+        </a>
+      </span>
+      <span class='site-header-living-dropdown-middle-nav living-middle-nav-1'>
+        <span class='site-header-living-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-living-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-living-dropdown-middle-nav living-middle-nav-2'>
+        <span class='site-header-living-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-living-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-living-dropdown-middle-nav living-middle-nav-3'>
+        <span class='site-header-living-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-living-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-living-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-kids-dropdown'>
+      <span class='site-header-kids-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-kids-drop-left-link kids-left-link-1'>this is the kids drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-kids-drop-left-link kids-left-link-2'>this is the kids drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-kids-drop-left-link kids-left-link-3'>this is the kids drop3</div>
+        </a>
+      </span>
+      <span class='site-header-kids-dropdown-middle-nav kids-middle-nav-1'>
+        <span class='site-header-kids-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-kids-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-kids-dropdown-middle-nav kids-middle-nav-2'>
+        <span class='site-header-kids-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-kids-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-kids-dropdown-middle-nav kids-middle-nav-3'>
+        <span class='site-header-kids-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-kids-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-kids-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-vintage-dropdown'>
+      <span class='site-header-vintage-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-vintage-drop-left-link vintage-left-link-1'>this is the vintage drop1</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-vintage-drop-left-link vintage-left-link-2'>this is the vintage drop2</div>
+        </a>
+        <a href='#'>
+          <div class='site-header-vintage-drop-left-link vintage-left-link-3'>this is the vintage drop3</div>
+        </a>
+      </span>
+      <span class='site-header-vintage-dropdown-middle-nav vintage-middle-nav-1'>
+        <span class='site-header-vintage-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-vintage-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-vintage-dropdown-middle-nav vintage-middle-nav-2'>
+        <span class='site-header-vintage-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-vintage-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-vintage-dropdown-middle-nav vintage-middle-nav-3'>
+        <span class='site-header-vintage-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-vintage-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-vintage-dropdown-right-nav'>
+      </span>
+    </div>
+
+
   </header>
 
 </body>
