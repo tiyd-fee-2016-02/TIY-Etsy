@@ -6,12 +6,14 @@ body {
     background-color:#f5f5f1;
     font-size: 13px;
     display: block;
-    line-height: 20px;
+    line-height: 25px;
     margin-top: 250px;
     margin-bottom: 50px;
     font-family: 'Lato', 'Arial', sans-serif;
 }
-
+.fa {
+    padding-right: 5px;
+}
 a {
     text-decoration: none;
     color: #0192b5;
@@ -24,13 +26,14 @@ a:hover {
 .footer-content {
     color: ##e2e2e2;
     border-bottom: 1px solid #e2e2e2;
-    width: 76%;
+    width: 980px;
+    height: 250px;
     text-align: left;
     display: flex;
     justify-content: baseline;
     margin-left: 12%;
     margin-right: 12%;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 15px;
 
 }
