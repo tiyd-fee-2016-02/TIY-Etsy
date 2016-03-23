@@ -117,5 +117,24 @@
       float: right; }
     .row-4 .cat-related .related-img-container .bottom-right {
       margin-top: -103px; }
+    .row-4 .cat-related .related-shop-details .shop-img {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      padding: 10px; }
+    .row-4 .cat-related .related-shop-details .shop-footer-content {
+      display: inline-block;
+      margin-left: 10px; }
+      .row-4 .cat-related .related-shop-details .shop-footer-content h5 {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 10px; }
+      .row-4 .cat-related .related-shop-details .shop-footer-content .fa {
+        display: inline-block; }
+      .row-4 .cat-related .related-shop-details .shop-footer-content .fa-heart {
+        margin-left: 180px; }
+      .row-4 .cat-related .related-shop-details .shop-footer-content p {
+        display: inline-block;
+        margin: 0; }
 
 /*# sourceMappingURL=styles.css.map */

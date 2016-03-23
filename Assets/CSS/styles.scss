@@ -4,6 +4,14 @@
   margin-right: 8%;
 }
 
+.center-header {
+   text-align: center;
+}
+
+.cat-button {
+   margin-left: 45%;
+}
+
 .row-1 {
   // border: 1px solid;
 
@@ -103,4 +111,100 @@
 		width: 100%;
 		height: 200px;
 	}
-}
+}//end of styling for 
+
+//styling for 3rd row
+.row-3{
+   display: flex;
+   flex-wrap: wrap;
+   .cat-browse {
+      border: 1px solid;
+	  display: flex;
+     flex-direction: column;
+	  list-style: none;
+	  width: 235px;
+	  margin-top: 20px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+
+   }
+   .row-3-img {
+      width: 100%;
+      height: 200px;
+   }
+   .cat-header {
+		margin-left: 20px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+	}
+   .browse-cat {
+      margin-left: 20px;
+      margin-bottom: 0;
+   }
+}//end of styling for Browse more categories!
+
+
+//styling for 4th row = Related Shops
+.row-4 {
+   display: flex;
+   flex-wrap: wrap;
+   .cat-related {
+      border: 1px solid;
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+     width: 322px;
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+     .related-img-container {
+        .main {
+           width: 60.5%;
+           height: 200px;;
+        }
+        .top-right{
+           width: 39%;
+           height: 99px;
+           float: right;
+        }
+        .bottom-right {
+           @extend .top-right;
+           margin-top: -103px;
+        }
+
+     }
+     .related-shop-details {
+        .shop-img {
+           display: inline-block;
+         //   margin: 10px;
+           height: 40px;
+           width: 40px;
+           padding: 10px;
+        }
+
+        .shop-footer-content {
+           display: inline-block;
+           margin-left: 10px;
+           h5 {
+              display: inline-block;
+            //   margin: 0;
+              margin-top: 0;
+              margin-bottom: 10px;
+           }
+           .fa {
+              display: inline-block;
+           }
+           .fa-heart {
+             margin-left: 180px;
+           }
+           .fa-stars {
+
+          }
+           p {
+              display: inline-block;
+              margin: 0;
+           }
+        }
+     }
+   }
+} //end of related shop details styling!
