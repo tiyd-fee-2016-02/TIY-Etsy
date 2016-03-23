@@ -1,0 +1,41 @@
+{
+  "heroImage1": [
+    {
+      "heroimageurl": "http/lafjsdl;fkadskfjs.com",
+      "herotext": "Pokéball",
+    }
+  ],
+  "heroImageScroll": [
+    {
+      "storeOwnerName": "Sammy",
+      "storeOwnerImage": "image.url",
+      "storeName": "woodstorming",
+      "storeCountry": "Lithuania",
+      "storeCity": "Moscow",
+      "products":[
+      {"url": "url", "productDescription": "cool product", "productLink": "url"},
+      {"url": "url", "productDescription": "cool product", "productLink": "url"},
+      {"url": "url", "productDescription": "cool product", "productLink": "url"},
+      {"url": "url", "productDescription": "cool product", "productLink": "url"}
+      ]
+    }
+  ],
+  "editorsPicksTop2": [
+    {"picksLink": "url", "picksPic": "imgurl", "epcategory": "clever arrangements"},
+    {"picksLink": "url", "picksPic": "imgurl", "epcategory": "clever arrangements"}
+  ],
+  "editorsPicksBottom4": [
+    {"picksLink": "url", "picksPic": "imgurl", "epcategory": "clever arrangements"},
+    {"picksLink": "url", "picksPic": "imgurl", "epcategory": "clever arrangements"},
+    {"picksLink": "url", "picksPic": "imgurl", "epcategory": "clever arrangements"},
+    {"picksLink": "url", "picksPic": "imgurl", "epcategory": "clever arrangements"}
+  ],
+  "commTastemakers": [
+    {
+      "tastemakerName"
+
+
+    }
+  ]
+
+}
