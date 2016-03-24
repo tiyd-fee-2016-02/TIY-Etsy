@@ -96,12 +96,12 @@
 <!-- =========================== 3RD ROW, Browse more categories ================================== -->
  <h1 class="center-header">Browse More Categories</h1>
     <div class="row-3">
-       <div class="colC-1-4 cat-browse">
-          <img src="#" class="row-3-img"></img>
-          <h5 class="browse-cat">JEWELRY</h5>
-          <h3 class="cat-header">Necklaces</h3>
+       <div class="cat-browse"  ng-repeat="cat in categories" ng-if="$index < 12">
+          <a href="{{categories[0].sub_categories[0].sub_category_link}}"><img src="{{categories[0].sub_categories[0].sub_category_image}}" class="row-3-img"></img></a>
+          <h5 class="browse-cat">{{categories[0].category}}</h5>
+          <h3 class="cat-header"> <a href="{{categories[0].sub_categories[0].sub_category_link}}">{{categories[0].sub_categories[0].sub_category}}</a></h3>
        </div>
-       <div class="colC-2-4 cat-browse">
+       <!-- <div class="colC-2-4 cat-browse">
           <img src="#" class="row-3-img"></img>
           <h5 class="browse-cat">HOME & LIVING</h5>
           <h3 class="cat-header">Home Décor</h3>
@@ -155,7 +155,7 @@
           <img src="#" class="row-3-img"></img>
           <h5 class="browse-cat">PAPER & PARTY SUPPLIES</h5>
           <h3 class="cat-header">Party Supplies</h3>
-       </div>
+       </div> -->
     </div>
 <!-- =========================== 4th ROW, Related Shops
 Why does this show up sometimes, and not others? ================================== -->
