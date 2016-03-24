@@ -12,4 +12,10 @@ etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http,
    .error(function (data) {
       console.log('There was an error!', data);
 		});
+
+	$scope.assignListingID = function(myListingID) {
+		listingID = myListingID;
+		console.log("assignListingID() => " + listingID);
+	};
+
 }]);
