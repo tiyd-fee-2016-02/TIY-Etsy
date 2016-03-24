@@ -6,7 +6,7 @@ body {
     background-color:#f5f5f1;
     font-size: 13px;
     display: block;
-    line-height: 25px;
+    line-height: 26px;
     margin-top: 250px;
     margin-bottom: 5px;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -17,6 +17,7 @@ body {
 
 .fa {
     padding-right: 5px;
+    font-size: 1.1em;
 }
 
 .footer-content {
@@ -27,10 +28,11 @@ body {
     text-align: left;
     display: flex;
     justify-content: baseline;
-    margin-left: 13%;
-    margin-right: 12%;
+    margin-left: 15%;
+    margin-right: 10%;
     padding-top: 30px;
     padding-bottom: 15px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -100,35 +102,43 @@ body {
 //     }
 //     }
 
-.hahaJones{
+.subfooter{
     text-align: center;
     ul li{
         display:inline-block;
     }
     a{
         display: inline-block;
-        border: 1px solid #999;
+        border: 1px solid #e2e2e2;
         text-decoration: none;
         float: left;
-        line-height: 18px;
-        padding: 8px 10px;
+        line-height: 16px;
+        padding: 8px 15px;
         color: #666;
-        margin: 0px;
+        font-size: 12px;
+    }
+    a:hover{
+        background-color: rgb(204,233,241);
     }
     .help-link {
-            border: 1px solid #666;
+            border: 1px solid #e2e2e2;
             text-decoration: none;
             float: left;
-            line-height: 18px;
+            line-height: 16px;
             padding: 8px 10px;
             color: #444;
             display: block;
-            margin-left: 50px;
+            margin-left: 30px;
             width: 150px;
             text-align: center;
             font-weight: bold;
             font-size: 16px;
+            border-radius: 2px;
         }
+    .help-link:hover {
+        background-color: #f5f5f1;
+        border:1px solid #999;
+    }
 }
 .final-row{
     text-align: center;
@@ -138,8 +148,10 @@ body {
     }
     a {
         text-decoration: none;
-        padding: 5px;
-        font-size:13px;
+        padding: 8px;
+        font-size:12px;
+        margin-top: 15px;
+        line-height: 18px;
     }
 
     #copy{
