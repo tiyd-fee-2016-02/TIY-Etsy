@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="etsyApp">
     <head>
         <meta charset="utf-8">
         <title></title>
@@ -10,6 +10,11 @@
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
     </head>
     <body>
+
+  <div ng-view>
+
+  </div>
+
 	<div id="wrapper">
 		<h2>All Categories</h2>
 		<div class="row-1">
@@ -128,7 +133,11 @@
 <!-- =========================== 3RD ROW ================================== -->
 
 	</div>
-    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="Assets/JS/app.js"></script>
+    <script src="Assets/JS/category-controller.js"></script>
     </body>
 </html>
+`

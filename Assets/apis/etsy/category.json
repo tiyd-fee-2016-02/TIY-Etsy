@@ -1,0 +1,72 @@
+[
+  {
+    "category_id" : "0",
+    "long_name" : "Jewelry",
+    "link" : "https://www.etsy.com/c/jewelry?ref=catlink-1179",
+    "card_link" : "https://www.etsy.com/c/jewelry?ref=catcard-1179-241976182",
+    "show_all_link" : "https://www.etsy.com/c/jewelry?ref=catcard-a-1179-199696564&page=1",
+    "imgage" : "https://img1.etsystatic.com/055/1/10128979/il_340x270.754323621_lg8v.jpg",
+    "category_path" : "Jewelry (8,105,261 items)",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "Necklaces",
+        "sub_category_link" : "https://www.etsy.com/c/jewelry/necklaces?ref=catcard-l-1217-199696564"
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "Earrings",
+        "sub_category_link" : "https://www.etsy.com/c/jewelry/earrings?ref=catcard-l-1203-199696564",
+        "sub_category_path" : "Earrings (1,715,549 items)"
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "Braclets",
+        "sub_category_link" : "https://www.etsy.com/c/jewelry/bracelets?ref=catcard-l-1193-199696564",
+        "sub_category_path" : "Bracelets (1,327,630 items)"
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "Rings",
+        "sub_category_link" : "https://www.etsy.com/c/jewelry/rings?ref=catcard-l-1231-199696564",
+        "sub_category_path" : "Rings (845,463 items)"
+      }
+    ]
+  },
+  {
+    "category_id" : "1",
+    "long_name" : "Home & Living",
+    "link" : "https://www.etsy.com/c/home-and-living?ref=catlink-891",
+    "card-link" : "https://www.etsy.com/c/home-and-living?ref=catcard-891-252038162",
+    "show_all_link" : "https://www.etsy.com/c/home-and-living?ref=catcard-a-891-252038162&page=1",
+    "imgage" : "https://img1.etsystatic.com/118/1/11600888/il_340x270.986094035_9ktb.jpg",
+    "category_path" : "Home & Living (6,092,745 items)",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "Home Decor",
+        "sub_category_link" : "https://www.etsy.com/c/home-and-living/home-decor?ref=catcard-l-1002-252038162"
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "Litchen & Dining",
+        "sub_category_link" : "https://www.etsy.com/c/home-and-living/kitchen-and-dining?ref=catcard-l-1031-252038162",
+        "sub_category_path" : "Kitchen & Dining (1,515,980 items)"
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "Bedding",
+        "sub_category_link" : "https://www.etsy.com/c/home-and-living/bedding?ref=catcard-l-911-252038162",
+        "sub_category_path" : "Bedding (319,929 items)"
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "Storage & Organization",
+        "sub_category_link" : "https://www.etsy.com/c/home-and-living/storage-and-organization?ref=catcard-l-1165-252038162",
+        "sub_category_path" : "Storage & Organization (182,633 items)"
+      }
+    ]
+  }
+]
