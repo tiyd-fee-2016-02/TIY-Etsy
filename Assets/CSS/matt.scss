@@ -129,3 +129,14 @@ border-radius: 3px;
 .stars{
   color: #FFDC1E;
 }
+
+/*======================BELOW HERE IS THUMBNAILS==============================*/
+
+.thumbnails {
+  display: inline-block;
+  img {
+    width: 30px;
+    border-radius: 5px;
+    margin: 0 4px;
+  }
+}
