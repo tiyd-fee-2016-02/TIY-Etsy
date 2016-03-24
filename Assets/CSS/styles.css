@@ -25,6 +25,7 @@ body {
   width: 964px;
   height: auto; }
   .trending-grid-container .trending-grid-column {
+    vertical-align: top;
     display: inline-block;
     border: 1px solid #f56400;
     width: 220px; }
@@ -37,9 +38,9 @@ body {
   width: 220px;
   height: auto; }
   .trending-card-container .trending-card-image {
-    border: 1px solid black;
-    width: 220px;
-    height: auto; }
+    border: 1px solid black; }
+    .trending-card-container .trending-card-image img {
+      width: 100%; }
   .trending-card-container .trending-card-title {
     border: 1px solid blue;
     color: #666666; }

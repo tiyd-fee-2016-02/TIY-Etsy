@@ -48,6 +48,7 @@ body{
   height: auto;
 
   .trending-grid-column{
+    vertical-align: top;
     display: inline-block;
     border: 1px solid $Orange;
     width: 220px;
@@ -69,8 +70,10 @@ body{
 
   .trending-card-image{
     border: 1px solid black;
-    width: 220px;
-    height: auto;
+
+    img{
+      width: 100%;
+    }
   }
 
   .trending-card-title{
