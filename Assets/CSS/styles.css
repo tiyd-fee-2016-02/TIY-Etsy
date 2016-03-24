@@ -1,0 +1,87 @@
+.home-subscribe-aboutEtsy-container {
+  background-color: #f5f5f1;
+  padding-bottom: 100px;
+  padding-top: 100px; }
+
+.home-subscribe-aboutEtsy {
+  min-width: 100%;
+  margin-left: 9%;
+  margin-right: 9%; }
+
+.home-subscribe-aboutEtsy-colDiv {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-right: 25px; }
+
+.home-subscribe-aboutEtsy-colDiv-title {
+  font-family: "Bitter", "Times", serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: .1px; }
+
+.home-subscribe-aboutEtsy-colDiv-blurb {
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 17px;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+  line-height: 1.5; }
+
+.home-subscribe-aboutEtsy-submitEmail {
+  position: relative;
+  text-align: center;
+  width: 82%;
+  height: 170px;
+  background-image: url(../images/homepageimages/weddings-texture.png);
+  background-color: #dcdcd9;
+  border-color: #aaaaaa;
+  border-radius: 3px; }
+
+.home-subscribe-aboutEtsy-submitEmail-image {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  left: 0; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer {
+  display: inline-block; }
+
+.home-subscribe-aboutEtsy-submitEmail-blurb {
+  font-family: "Bitter", "Times", serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.5;
+  padding-top: 35px;
+  padding-bottom: 5px; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input {
+  padding: 5px;
+  height: 22px;
+  width: 260px;
+  border-color: #aaaaaa;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1.5px; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input::-webkit-input-placeholder {
+  font-size: 14px;
+  overflow: visible; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button {
+  color: white;
+  background: #34a8c4;
+  border-radius: 3px;
+  border-color: #2f98b1;
+  border-style: solid;
+  border-width: 1px;
+  height: 35px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px; }
+
+/*# sourceMappingURL=styles.css.map */
