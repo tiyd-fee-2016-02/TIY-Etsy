@@ -13,9 +13,9 @@ Updated the trello with new checklists. Written wireframing. Pair programmed our
 
 ##March 24. Team Lead: Andrew##
 
--Started CSS styling.
--Completed and integrated subscribe section into home.html.
--Updated html wireframe.
--Converted home.html into a partial.
--Created controllers.
--Integrated the home partial into index.html with ng-view and angular routing.
+-Started CSS styling.  (Basic frame for Hero Image 1 and Hero Image Banner.  Editors picks half way done. (Daniel) )
+-Completed and integrated subscribe section into home.html (Jeremy).
+-Updated html wireframe (integrating correct json calls (Jeremy) )
+-Converted home.html into a partial (Team).
+-Created controllers (Jeremy).
+-Integrated the home partial into index.html with ng-view and angular routing (Team).
