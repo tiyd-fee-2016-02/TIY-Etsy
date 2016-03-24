@@ -148,4 +148,14 @@ a {
     border-radius: 5px;
     margin: 0 4px; }
 
+/*======================BELOW HERE IS SUB-FOOTER==============================*/
+.tags div {
+  float: left;
+  background-color: white;
+  color: #34a8c4;
+  margin: 0 10px 10px 0;
+  border: solid 1px #e2e2e2;
+  padding: 6px;
+  border-radius: 4px; }
+
 /*# sourceMappingURL=matt.css.map */
