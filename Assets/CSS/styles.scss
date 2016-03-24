@@ -401,8 +401,8 @@ a:hover {
          border: 1px solid $Grey-border;
          border-radius: 3px;
          background-color: white;
-         padding: 5px;
-         padding-top: 2px;
+         padding: 3px 5px 3px 5px;
+        //  padding-top: 2px;
          .fa-bars {
             font-size: 16px;
          }
