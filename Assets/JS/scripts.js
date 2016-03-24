@@ -9,23 +9,35 @@ $(document).ready(function(){
   $('.site-header-clothing-dropdown').hover(function(){
     $('.site-header-clothing-dropdown').toggleClass('show');
     $('.clothing-middle-nav-1').show();
-    $('.site-header-clothing-accessories').css('border-bottom','3px', '#f56400');
+    $('.clothing-middle-nav-2').hide();
+    $('.clothing-middle-nav-3').hide();
+    $('.clothing-middle-nav-4').hide(); 
+    // $('.site-header-clothing-accessories').css('border-bottom','solid 3px #f56400');//this is experimental and should work to persist the border-bottom link styling..but it aint work
   });
   //show the proper middle nav on hover
   $('.clothing-left-link-1').hover(function(){
     $('.clothing-middle-nav-1').show();
     $('.clothing-middle-nav-2').hide();
     $('.clothing-middle-nav-3').hide();
+    $('.clothing-middle-nav-4').hide();
   });
   $('.clothing-left-link-2').hover(function(){
     $('.clothing-middle-nav-2').show();
     $('.clothing-middle-nav-1').hide();
     $('.clothing-middle-nav-3').hide();
+    $('.clothing-middle-nav-4').hide();
   });
   $('.clothing-left-link-3').hover(function(){
     $('.clothing-middle-nav-3').show();
     $('.clothing-middle-nav-1').hide();
     $('.clothing-middle-nav-2').hide();
+    $('.clothing-middle-nav-4').hide();
+  });
+  $('.clothing-left-link-4').hover(function(){
+    $('.clothing-middle-nav-4').show();
+    $('.clothing-middle-nav-3').hide();
+    $('.clothing-middle-nav-2').hide();
+    $('.clothing-middle-nav-1').hide();
   });
 
 
