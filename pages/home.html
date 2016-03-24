@@ -1,0 +1,177 @@
+<div class="home-wrapper">
+  <div class="home-hero-image-1">
+    <img src="{{heroimage.image}}">
+    <div class="home-hero-image-1-text">
+      <h1>Shop directly from people around the world</h1>
+    </div>
+    <div class="home-hero-image-1-banner">
+      <div class="home-hero-image-1-banner-userinfo">
+        <div class="home-hero-image-1-banner-userinfo-image">
+          <img src="{{user.image}}">
+        </div>
+        <div class="home-hero-image-1-banner-userinfo-name-store">
+          {{name}} of {{store}}
+        </div>
+        <div class="home-hero-image-1-banner-userinfo-city-country">
+          {{city}}, {{country}}
+        </div>
+      </div><!-- End hero image 1 user info-->
+      <div class="home-hero-image-1-banner-products">
+        <ul>
+          <li class="home-hero-image-1-banner-products-thumbnail">  <!--ADD NG-REPEAT-->
+          </li>
+        </ul>
+      </div><!--End hero image 1 products-->
+    </div><!--End Hero Image 1 banner-->
+  </div><!--End Hero Image 1-->
+
+  <div class="home-editor-pick-wrapper">
+    <div class="home-editor-pick-header">
+      <h1>Discover items you can't find anywhere else</h1>
+    </div>
+    <div class="home-editor-pick-card-wrapper">
+      <div class="home-editor-pick-card-wrapper-top-2"> <!--ADD NG-REPEAT-->
+        <div class="home-editor-pick-card-wrapper-top-2-image">
+          <img src="{{image}}">
+        </div>
+        <div class="home-editor-pick-card-wrapper-top-2-text">
+          <div>EDITORS' PICKS</div>
+          <div>{{pick.title}}</div>
+        </div>
+      </div><!--End top 2-->
+      <div class="home-editor-pick-card-wrapper-bottom-4"> <!--ADD NG-REPEAT-->
+        <div class="home-editor-pick-card-wrapper-bottom-4-image">
+          <img src="{{image}}">
+        </div>
+        <div class="home-editor-pick-card-wrapper-bottom-4-text">
+          <div>EDITORS' PICKS</div>
+          <div>{{pick.title}}</div>
+        </div>
+      </div><!--End bottom 4-->
+    </div><!-- End editor pick card wrapper-->
+    <div class="home-editor-pick-more-btn">More Editors' Picks ></div>
+  </div><!--End editor pick wrapper-->
+  <div class="home-community-tastemakers-wrapper">
+    <div class="home-community-tastemakers-header">
+      <h1>Community Tastemakers</h1>
+      <h3>Get inspiration from these Etsy members' top picks.</h3>
+    </div><!--End Community Tastemakers Header-->
+    <div class="home-community-tastemaker-user-container">
+      <a href="{{tastemaker[0].url}}" class="home-community-tastemaker-user-one-link">
+        <div class="home-community-tastemaker-user-one">
+          <div class="home-community-tastemaker-user-one-header">
+            <img src="{{tastemaker[0].img}}">
+            <p><a href="{{tastemaker[0].url}}">{{tastemaker[0].name}}'s</a> Favorites</p>
+          </div>
+          <ul class="home-community-tastemaker-user-one-img-container">
+            <li class="home-community-tastemaker-user-one-img"> <!--ADD NG-REPEAT-->
+              <img src="{{tastemaker[$index].imgurl}}">
+            </li>
+          </ul>
+          <div class="home-community-tastemaker-user-one-footer">
+            <h6>{{tastemaker[0].name}}'s</a> Favorites</h6>
+            <h5>{{tastemaker[0].itemnumber}} items</h5>
+            <p>></p>
+          </div>
+        </div>
+      </a><!--END TASTEMAKER 1-->
+      <a href="{{tastemaker[1].url}}" class="home-community-tastemaker-user-two-link">
+        <div class="home-community-tastemaker-user-two">
+          <div class="home-community-tastemaker-user-two-header">
+            <img src="{{tastemaker[1].img}}">
+            <p><a href="{{tastemaker[1].url}}">{{tastemaker[1].name}}'s</a> Favorites</p>
+          </div>
+          <ul class="home-community-tastemaker-user-two-img-container">
+            <li class="home-community-tastemaker-user-two-img"> <!--ADD NG-REPEAT-->
+              <img src="{{tastemaker[$index].imgurl}}">
+            </li>
+          </ul>
+          <div class="home-community-tastemaker-user-two-footer">
+            <h6>{{tastemaker[1].name}}'s</a> Favorites</h6>
+            <h5>{{tastemaker[1].itemnumber}} items</h5>
+            <p>></p>
+          </div>
+        </div>
+      </a><!--END TASTEMAKER 2-->
+      <a href="{{tastemaker[2].url}}" class="home-community-tastemaker-user-three-link">
+        <div class="home-community-tastemaker-user-three">
+          <div class="home-community-tastemaker-user-three-header">
+            <img src="{{tastemaker[2].img}}">
+            <p><a href="{{tastemaker[2].url}}">{{tastemaker[2].name}}'s</a> Favorites</p>
+          </div>
+          <ul class="home-community-tastemaker-user-three-img-container">
+            <li class="home-community-tastemaker-user-three-img"> <!--ADD NG-REPEAT-->
+              <img src="{{tastemaker[$index].imgurl}}">
+            </li>
+          </ul>
+          <div class="home-community-tastemaker-user-three-footer">
+            <h6>{{tastemaker[2].name}}'s</a> Favorites</h6>
+            <h5>{{tastemaker[2].itemnumber}} items</h5>
+            <p>></p>
+          </div>
+        </div>
+      </a><!--END TASTEMAKER 3-->
+      <a href="{{tastemaker[3].url}}" class="home-community-tastemaker-user-four-link">
+        <div class="home-community-tastemaker-user-four">
+          <div class="home-community-tastemaker-user-four-header">
+            <img src="{{tastemaker[3].img}}">
+            <p><a href="{{tastemaker[3].url}}">{{tastemaker[3].name}}'s</a> Favorites</p>
+          </div>
+          <ul class="home-community-tastemaker-user-four-img-container">
+            <li class="home-community-tastemaker-user-four-img"> <!--ADD NG-REPEAT-->
+              <img src="{{tastemaker[$index].imgurl}}">
+            </li>
+          </ul>
+          <div class="home-community-tastemaker-user-four-footer">
+            <h6>{{tastemaker[3].name}}'s</a> Favorites</h6>
+            <h5>{{tastemaker[3].itemnumber}} items</h5>
+            <p>></p>
+          </div>
+        </div>
+      </a><!--END TASTEMAKER 4-->
+    </div><!--End Commmunity Tastemaker user container-->
+    <div class="home-community-tastemakers-browse-container">
+      <h1>What items do your favorite brands and bloggers love?</h1>
+      <div class="home-community-tastemakers-browse-container-btn">
+        Browse Their Favorites
+      </div>
+    </div><!--END Community Tastemakers browse container-->
+  </div><!--End Community Tastemakers wrapper-->
+  <div class="home-hero-image-2">
+    <img src="{{hero image 2}}">
+    <div class="home-hero-image-2-user-image">
+      <img class="{{hero user image}}">
+    </div>
+    <div class="home-hero-image-2-user-info">
+      <h1>{{Quote}}</h1>
+      <h3>Meet <a href="{{user store link}}">{{hero user name}} of {{hero user store}}</a></h3>
+    </div>
+  </div><!--End Hero Image 2-->
+  <div class="home-subscribe-aboutEtsy-container">
+    <section class="home-subscribe-aboutEtsy">
+      <div class="home-subscribe-aboutEtsy-colDiv">
+        <img src="Assets/images/homepageimages/trust-1.png">
+        <h2 class="home-subscribe-aboutEtsy-colDiv-title">Satisfied Customers</h2>
+        <div class="home-subscribe-aboutEtsy-colDiv-blurb">Get to know shops and items with reviews from our community.</div>
+      </div>
+      <div class="home-subscribe-aboutEtsy-colDiv">
+        <img src="Assets/images/homepageimages/trust-2.png">
+        <h2 class="home-subscribe-aboutEtsy-colDiv-title">Passionate Sellers</h2>
+        <div class="home-subscribe-aboutEtsy-colDiv-blurb">Buy from creative people who care about quality and craftsmanship.</div>
+      </div>
+      <div class="home-subscribe-aboutEtsy-colDiv">
+        <img src="Assets/images/homepageimages/trust-3.png">
+        <h2 class="home-subscribe-aboutEtsy-colDiv-title">Secure Transactions</h2>
+        <div class="home-subscribe-aboutEtsy-colDiv-blurb">Feel confident knowing our Trust & Safety team is here to protect you.</div>
+      </div>
+      <div class="home-subscribe-aboutEtsy-submitEmail">
+        <img class="home-subscribe-aboutEtsy-submitEmail-image" src="Assets/images/homepageimages/your-feed-finds.png">
+        <h2 class="home-subscribe-aboutEtsy-submitEmail-blurb">Get top trends and fresh editors' picks <br> in your inbox with Etsy Finds.</h2>
+        <div class="home-subscribe-aboutEtsy-submitEmail-fieldcontainer">
+          <input class="home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input" type="text" placeholder="Enter your email">
+          <button type="submit" class="home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button">Subscribe</button>
+        </div>
+      </div>
+    </section>
+  </div> <!-- End subscribe section ---------------------->
+</div> <!--End Home Wrapper-->
