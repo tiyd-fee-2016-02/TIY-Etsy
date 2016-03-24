@@ -5,13 +5,13 @@
 
 ##Colors
 
-* Orange: #f56400
-* Blue: #34a8c4
-* Background: ##efefeb
-* Grey-border: #dcdcd9
-* Blue-border: #2f98b1
-* Grey-type: #aaaaaa
-* Dark-grey-type: #666666
+* $Orange: #f56400
+* $Blue: #34a8c4
+* $Background: ##efefeb
+* $Grey-border: #dcdcd9
+* $Blue-border: #2f98b1
+* $Grey-type: #aaaaaa
+* $Dark-grey-type: #666666
 
 ##Typefaces:
 

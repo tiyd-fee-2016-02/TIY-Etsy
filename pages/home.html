@@ -6,17 +6,21 @@
     </div>
     <div class="home-hero-image-1-banner">
       <div class="home-hero-image-1-banner-userinfo">
-        <div class="home-hero-image-1-banner-userinfo-image">
+        <div class="home-hero-image-1-banner-userinfo-image" id = "home-userinfo-text-wrap">
           <img src="{{stuff.heroImageScroll[0].storeOwnerImage}}">
         </div>
+        <div class = "home-name-store-city-country" id = "home-userinfo-text-wrap">
         <div class="home-hero-image-1-banner-userinfo-name-store">
+          <div class="home-usesr-info-top-margin">
           {{stuff.heroImageScroll[0].storeOwnerName}} of {{stuff.heroImageScroll[0].storeName}}
+        </div>
         </div>
         <div class="home-hero-image-1-banner-userinfo-city-country">
           {{stuff.heroImageScroll[0].storeCity}}, {{stuff.heroImageScroll[0].storeCountry}}
         </div>
+      </div>
       </div><!-- End hero image 1 user info-->
-      <div class="home-hero-image-1-banner-products">
+      <div class="home-hero-image-1-banner-products" >
         <ul>
           <li class="home-hero-image-1-banner-products-thumbnail">  <!--ADD NG-REPEAT-->
           </li>
@@ -31,12 +35,14 @@
     </div>
     <div class="home-editor-pick-card-wrapper">
       <div class="home-editor-pick-card-wrapper-top-2" ng-repeat="picks in stuff.editorsPicksTop2">
+        <div class="home-editor-pick-card-inner-wrapper-top-2">
         <div class="home-editor-pick-card-wrapper-top-2-image">
           <img src="{{picks.picksPic}}">
         </div>
         <div class="home-editor-pick-card-wrapper-top-2-text">
           <div>EDITORS' PICKS</div>
           <div>{{picks.epcategory}}</div>
+        </div>
         </div>
       </div><!--End top 2-->
       <div class="home-editor-pick-card-wrapper-bottom-4" ng-repeat="picks in stuff.editorsPicksBottom4">

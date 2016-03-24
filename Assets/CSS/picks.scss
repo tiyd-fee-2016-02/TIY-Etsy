@@ -15,7 +15,16 @@ margin-top: 75px;
 
 .home-editor-pick-card-wrapper-top-2 {
   width: 50%;
+  height: 210px;
   display: inline-block;
   vertical-align: top;
   border: 1px solid purple;
+  padding: 10px;
+  font-family: 'Lato', 'Arial', sans-serif;
+    .home-editor-pick-card-inner-wrapper-top-2 {
+      display: inline-block;
+      vertical-align: top;
+      border: 1px solid yellow;
+      color: $Grey-type;
+    }
 }
