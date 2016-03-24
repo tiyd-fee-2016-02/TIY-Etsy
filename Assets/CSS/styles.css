@@ -1,0 +1,141 @@
+.home-hero-image-1 {
+  font-size: 42px;
+  border: 1px solid red;
+  width: 100%;
+  height: 400px;
+  font-family: "Bitter", "Times", serif;
+  position: relative; }
+
+.home-hero-image-1-text {
+  width: 560px;
+  padding-top: 50px;
+  left: 200px;
+  position: absolute; }
+
+.home-hero-image-1-banner {
+  border: 1px solid green;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute; }
+
+.home-hero-image-1-banner-userinfo {
+  font-size: 14px; }
+
+.home-editor-pick-wrapper {
+  width: 980px;
+  height: 784px;
+  margin: 0 auto;
+  border: 1px solid orange; }
+
+.home-editor-pick-header {
+  font-family: "Bitter", "Times", serif;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 75px; }
+
+.home-editor-pick-card-wrapper-top-2 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid purple; }
+
+.home-subscribe-aboutEtsy-container {
+  background-color: #f5f5f1;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 100%; }
+
+.home-subscribe-aboutEtsy {
+  min-width: 76%;
+  margin-left: 12%; }
+
+.home-subscribe-aboutEtsy-colDiv {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-right: 60px; }
+
+.home-subscribe-aboutEtsy-colDiv-title {
+  font-family: "Bitter", "Times", serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: .1px; }
+
+.home-subscribe-aboutEtsy-colDiv-blurb {
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 17px;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+  line-height: 1.5; }
+
+.home-subscribe-aboutEtsy-submitEmail {
+  position: relative;
+  text-align: center;
+  width: 87%;
+  height: 170px;
+  background-image: url(../images/homepageimages/weddings-texture.png);
+  background-color: #dcdcd9;
+  border-color: #d2d2d2;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px; }
+
+.home-subscribe-aboutEtsy-submitEmail-image {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  left: 0; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer {
+  display: inline-block;
+  position: absolute;
+  left: 29.5%; }
+
+.home-subscribe-aboutEtsy-submitEmail-blurb {
+  font-family: "Bitter", "Times", serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.5;
+  padding-top: 35px;
+  padding-bottom: 5px; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input {
+  padding: 5px;
+  height: 22px;
+  width: 260px;
+  font-size: 15px;
+  border-color: #aaaaaa;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1.5px; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input::-webkit-input-placeholder {
+  font-size: 14px;
+  overflow: visible; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button {
+  color: white;
+  background: #34a8c4;
+  border-radius: 3px;
+  border-color: #2f98b1;
+  border-style: solid;
+  border-width: 1px;
+  height: 35px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+  z-index: 10; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button:hover {
+  background: #3cb1cb; }
+
+/*# sourceMappingURL=styles.css.map */
