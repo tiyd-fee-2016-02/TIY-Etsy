@@ -284,8 +284,7 @@ a:hover {
     border: 1px solid #dcdcd9;
     border-radius: 3px;
     background-color: white;
-    padding: 5px;
-    padding-top: 2px; }
+    padding: 3px 5px 3px 5px; }
     .row-5 .hover-nav .hamburger-nav .fa-bars {
       font-size: 16px; }
     .row-5 .hover-nav .hamburger-nav .fa-sort-desc {
