@@ -6,11 +6,12 @@
     border-bottom: solid thin #dcdcd9; }
     .site-header .site-header-top-wrap .site-header-etsy-logo {
       display: inline-block;
-      margin: 0 0 0 15%;
-      padding: .5em .5em .5em 0;
-      font-size: 2.5em;
+      margin: 0 0 0 16%;
+      padding: .3em .5em .5em 0;
+      font-size: 2.8em;
       font-family: serif;
-      color: #f56400; }
+      color: #f56400;
+      font-weight: 500; }
     .site-header .site-header-top-wrap .site-header-search-bar-wrapper {
       display: inline-block;
       width: 30%; }
@@ -36,11 +37,11 @@
       display: inline-block;
       text-align: center;
       vertical-align: center;
-      margin: 0 0 2% 8.5%; }
+      margin: 0 0 2% 6.5%; }
     .site-header .site-header-top-wrap .site-header-top-nav-wrapper {
       display: inline-block;
       float: right;
-      margin: 1.5% 15% 0 0; }
+      margin: 1.5% 16% 0 0; }
       .site-header .site-header-top-wrap .site-header-top-nav-wrapper .fa {
         display: block;
         font-size: 1.5em;
@@ -69,7 +70,7 @@
   .site-header .site-header-dropdown-nav-wrap {
     border-bottom: solid thin #dcdcd9; }
     .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap {
-      margin: 0 15% 1px 15%; }
+      margin: 0 16% 1px 16%; }
       .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
         display: inline-block;
         padding: .75em 0;
@@ -160,6 +161,14 @@
         padding: 1em 0; }
         .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .site-header-jewelry-drop-left-link:hover {
           background-color: lightblue; }
+      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .jewelry-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .jewelry-left-link-1:hover {
+          background-color: white; }
     .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav {
       position: absolute;
       height: 52%;
@@ -198,10 +207,14 @@
       width: 17.5%;
       border-right: solid thin #dcdcd9;
       display: inline-block; }
-      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .site-header-craft-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .site-header-craft-drop-left-link:hover {
-          background-color: lightblue; }
+      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .craft-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .craft-left-link-1:hover {
+          background-color: white; }
     .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav {
       position: absolute;
       height: 52%;

@@ -4,6 +4,7 @@ $(document).ready(function(){
   //show clothing dropdown on hover
   $('.site-header-clothing-accessories').hover( function(){
     $('.site-header-clothing-dropdown').toggleClass('show');
+    $('.clothing-middle-nav-1').show();
   });
   //persist clothing dropdown
   $('.site-header-clothing-dropdown').hover(function(){
@@ -11,7 +12,7 @@ $(document).ready(function(){
     $('.clothing-middle-nav-1').show();
     $('.clothing-middle-nav-2').hide();
     $('.clothing-middle-nav-3').hide();
-    $('.clothing-middle-nav-4').hide(); 
+    $('.clothing-middle-nav-4').hide();
     // $('.site-header-clothing-accessories').css('border-bottom','solid 3px #f56400');//this is experimental and should work to persist the border-bottom link styling..but it aint work
   });
   //show the proper middle nav on hover
@@ -45,27 +46,82 @@ $(document).ready(function(){
   //show jewelry dropdown on hover
   $('.site-header-jewelry').hover( function(){
   $('.site-header-jewelry-dropdown').toggleClass('show');
+  $('.jewelry-middle-nav-2').show();
+  $('.jewelry-middle-nav-3').hide();
+  $('.jewelry-middle-nav-4').hide();
+  $('.jewelry-middle-nav-5').hide();
+  $('.jewelry-middle-nav-6').hide();
+  $('.jewelry-middle-nav-7').hide();
   });
   //persist jewelry dropdown
   $('.site-header-jewelry-dropdown').hover( function(){
   $('.site-header-jewelry-dropdown').toggleClass('show');
-  $('.jewelry-middle-nav-1').show();
+  $('.jewelry-middle-nav-2').show();
+  $('.jewelry-middle-nav-3').hide();
+  $('.jewelry-middle-nav-4').hide();
+  $('.jewelry-middle-nav-5').hide();
+  $('.jewelry-middle-nav-6').hide();
+  $('.jewelry-middle-nav-7').hide();
   });
   //show the proper middle nav on hover
-  $('.jewelry-left-link-1').hover(function(){
-  $('.jewelry-middle-nav-1').show();
-  $('.jewelry-middle-nav-2').hide();
-  $('.jewelry-middle-nav-3').hide();
-  });
+  // $('.jewelry-left-link-1').hover(function(){
+  // $('.jewelry-middle-nav-1').show();
+  // $('.jewelry-middle-nav-2').hide();
+  // $('.jewelry-middle-nav-3').hide();
+  // });
   $('.jewelry-left-link-2').hover(function(){
-  $('.jewelry-middle-nav-2').show();
-  $('.jewelry-middle-nav-1').hide();
-  $('.jewelry-middle-nav-3').hide();
+    $('.jewelry-middle-nav-1').hide();
+    $('.jewelry-middle-nav-2').show();
+    $('.jewelry-middle-nav-3').hide();
+    $('.jewelry-middle-nav-4').hide();
+    $('.jewelry-middle-nav-5').hide();
+    $('.jewelry-middle-nav-6').hide();
+    $('.jewelry-middle-nav-7').hide();
   });
   $('.jewelry-left-link-3').hover(function(){
-  $('.jewelry-middle-nav-3').show();
-  $('.jewelry-middle-nav-1').hide();
-  $('.jewelry-middle-nav-2').hide();
+    $('.jewelry-middle-nav-1').hide();
+    $('.jewelry-middle-nav-2').hide();
+    $('.jewelry-middle-nav-3').show();
+    $('.jewelry-middle-nav-4').hide();
+    $('.jewelry-middle-nav-5').hide();
+    $('.jewelry-middle-nav-6').hide();
+    $('.jewelry-middle-nav-7').hide();
+  });
+  $('.jewelry-left-link-4').hover(function(){
+    $('.jewelry-middle-nav-1').hide();
+    $('.jewelry-middle-nav-2').hide();
+    $('.jewelry-middle-nav-3').hide();
+    $('.jewelry-middle-nav-4').show();
+    $('.jewelry-middle-nav-5').hide();
+    $('.jewelry-middle-nav-6').hide();
+    $('.jewelry-middle-nav-7').hide();
+  });
+  $('.jewelry-left-link-5').hover(function(){
+    $('.jewelry-middle-nav-1').hide();
+    $('.jewelry-middle-nav-2').hide();
+    $('.jewelry-middle-nav-3').hide();
+    $('.jewelry-middle-nav-4').hide();
+    $('.jewelry-middle-nav-5').show();
+    $('.jewelry-middle-nav-6').hide();
+    $('.jewelry-middle-nav-7').hide();
+  });
+  $('.jewelry-left-link-6').hover(function(){
+    $('.jewelry-middle-nav-1').hide();
+    $('.jewelry-middle-nav-2').hide();
+    $('.jewelry-middle-nav-3').hide();
+    $('.jewelry-middle-nav-4').hide();
+    $('.jewelry-middle-nav-5').hide();
+    $('.jewelry-middle-nav-6').show();
+    $('.jewelry-middle-nav-7').hide();
+  });
+  $('.jewelry-left-link-7').hover(function(){
+    $('.jewelry-middle-nav-1').hide();
+    $('.jewelry-middle-nav-2').hide();
+    $('.jewelry-middle-nav-3').hide();
+    $('.jewelry-middle-nav-4').hide();
+    $('.jewelry-middle-nav-5').hide();
+    $('.jewelry-middle-nav-6').hide();
+    $('.jewelry-middle-nav-7').show();
   });
 
   //show craft dropdown on hover
