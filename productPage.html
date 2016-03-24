@@ -23,15 +23,21 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
     <span class="listingProper-ColLeft">
 
       <div class="listing-imgCarosel">
-        <img src = "{{images.url_570xN}}"></img>
+        <img src = "{{images[0].url_570xN}}"></img>
+        <div class = "carousel-left">
+          <div class = "carousel-left-button"><</div>
+        </div>
+        <div class = "carousel-right">
+          <div class = "carousel-right-button">></div>
+        </div>
       </div>
 
       <div class="listing-thumbZoom">
-
         <div class = "thumbnails" ng-repeat = "image in images">
           <img src = "{{image.url_75x75}}"></img>
         </div>
       </div>
+      
 
       <div class ="listing-tabContainer">
         <div class="listing-tabsThemselves">
@@ -42,7 +48,7 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
             <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (123)
           </span><a/>
           <a href ="#"><span class="listing-tab">
-            Shipping and Policies.<br>
+            Shipping and Policies<br>
           </span><a/>
         </div><!--tabsthemselves-->
         <div class="listing-tabContent">

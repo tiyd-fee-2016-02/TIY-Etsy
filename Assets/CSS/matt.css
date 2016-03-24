@@ -35,7 +35,43 @@ a {
 .listing-imgCarosel {
   width: 570px;
   height: 700px;
-  background: #f5f5f1; }
+  background: #f5f5f1;
+  position: relative; }
+  .listing-imgCarosel .carousel-left {
+    width: 285px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .listing-imgCarosel .carousel-left .carousel-left-button {
+      width: 40px;
+      height: 80px;
+      background-color: #cfcdc9;
+      opacity: 0.8;
+      color: white;
+      position: absolute;
+      top: 285; }
+  .listing-imgCarosel .carousel-right {
+    width: 285px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 285; }
+    .listing-imgCarosel .carousel-right .carousel-right-button {
+      width: 40px;
+      height: 80px;
+      background-color: #cfcdc9;
+      opacity: 0.8;
+      color: white;
+      position: absolute;
+      top: 285;
+      left: 245; }
+
+.carousel-left:hover .carousel-left-button {
+  background-color: blue; }
+
+.carousel-right:hover .carousel-right-button {
+  background-color: blue; }
 
 /*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
 .listing-ColRight {
@@ -105,7 +141,8 @@ a {
 
 /*======================BELOW HERE IS THUMBNAILS==============================*/
 .thumbnails {
-  display: inline-block; }
+  display: inline-block;
+  margin-top: 7px; }
   .thumbnails img {
     width: 30px;
     border-radius: 5px;
