@@ -1,3 +1,4 @@
+
 $Orange: #f56400;
 $Blue: #34a8c4;
 $Background: #efefeb;
@@ -8,6 +9,9 @@ $Grey-type: #aaaaaa;
 $Dark-grey-type: #666666;
 $Bitter: 'Bitter', 'Times', serif;
 $Lato: 'Lato', 'Arial', sans-serif;
+
+@import 'hero';
+@import 'picks';
 
 .home-subscribe-aboutEtsy-container {
   background-color: $Grey-background;

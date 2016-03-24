@@ -1,0 +1,30 @@
+
+.home-hero-image-1 {
+  font-size: 42px;
+  border: 1px solid red;
+  width: 100%;
+  height: 400px;
+  font-family: $Bitter;
+  position: relative;
+}
+
+.home-hero-image-1-text {
+  width: 560px;
+  padding-top: 50px;
+  left: 200px;
+  position: absolute;
+}
+
+.home-hero-image-1-banner {
+  border: 1px solid green;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+
+}
+
+.home-hero-image-1-banner-userinfo {
+  font-size: 14px;
+}
