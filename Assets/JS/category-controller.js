@@ -1,7 +1,7 @@
 
 etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http, $scope) {
 
-  $scope.message = 'This is the category content';
+  // $scope.message = 'This is the category content';
 
 	$http.get('Assets/apis/etsy/category.json')
 		.success(function (data) {

@@ -1,18 +1,20 @@
 [
   {
     "category_id" : "0",
-    "long_name" : "Jewelry",
+    "category" : "Jewelry",
     "link" : "https://www.etsy.com/c/jewelry?ref=catlink-1179",
     "card_link" : "https://www.etsy.com/c/jewelry?ref=catcard-1179-241976182",
-    "show_all_link" : "https://www.etsy.com/c/jewelry?ref=catcard-a-1179-199696564&page=1",
-    "imgage" : "https://img1.etsystatic.com/055/1/10128979/il_340x270.754323621_lg8v.jpg",
+    "shop_all_link" : "https://www.etsy.com/c/jewelry?ref=catcard-a-1179-199696564&page=1",
+    "image" : "https://img1.etsystatic.com/055/1/10128979/il_340x270.754323621_lg8v.jpg",
     "category_path" : "Jewelry (8,105,261 items)",
+    "sub_category_shop_all_link" : "https://www.etsy.com/c/jewelry?ref=catcard-a-1179-271077812&page=1",
     "sub_categories" :
     [
       {
         "sub_category_id" : "0",
         "sub_category" : "Necklaces",
-        "sub_category_link" : "https://www.etsy.com/c/jewelry/necklaces?ref=catcard-l-1217-199696564"
+        "sub_category_link" : "https://www.etsy.com/c/jewelry/necklaces?ref=catcard-l-1217-199696564",
+        "sub_category_path" : "Necklaces (2,865,679 items)"
       },
       {
         "sub_category_id" : "1",
@@ -36,22 +38,24 @@
   },
   {
     "category_id" : "1",
-    "long_name" : "Home & Living",
+    "category" : "Home & Living",
     "link" : "https://www.etsy.com/c/home-and-living?ref=catlink-891",
-    "card-link" : "https://www.etsy.com/c/home-and-living?ref=catcard-891-252038162",
-    "show_all_link" : "https://www.etsy.com/c/home-and-living?ref=catcard-a-891-252038162&page=1",
-    "imgage" : "https://img1.etsystatic.com/118/1/11600888/il_340x270.986094035_9ktb.jpg",
+    "card_link" : "https://www.etsy.com/c/home-and-living?ref=catcard-891-252038162",
+    "shop_all_link" : "https://www.etsy.com/c/home-and-living?ref=catcard-a-891-252038162&page=1",
+    "image" : "https://img1.etsystatic.com/118/1/11600888/il_340x270.986094035_9ktb.jpg",
     "category_path" : "Home & Living (6,092,745 items)",
+    "sub_category_shop_all_link" : "https://www.etsy.com/c/home-and-living?ref=catcard-a-891-266505316&page=1",
     "sub_categories" :
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "Home Decor",
-        "sub_category_link" : "https://www.etsy.com/c/home-and-living/home-decor?ref=catcard-l-1002-252038162"
+        "sub_category" : "Home Décor",
+        "sub_category_link" : "https://www.etsy.com/c/home-and-living/home-decor?ref=catcard-l-1002-252038162",
+        "sub_category_path" : "Home Décor (2,682,676 items)"
       },
       {
         "sub_category_id" : "1",
-        "sub_category" : "Litchen & Dining",
+        "sub_category" : "Kitchen & Dining",
         "sub_category_link" : "https://www.etsy.com/c/home-and-living/kitchen-and-dining?ref=catcard-l-1031-252038162",
         "sub_category_path" : "Kitchen & Dining (1,515,980 items)"
       },
@@ -66,6 +70,487 @@
         "sub_category" : "Storage & Organization",
         "sub_category_link" : "https://www.etsy.com/c/home-and-living/storage-and-organization?ref=catcard-l-1165-252038162",
         "sub_category_path" : "Storage & Organization (182,633 items)"
+      }
+    ]
+  },
+  {
+    "category_id" : "2",
+    "category" : "Craft Supplies & Tools",
+    "link" : "https://www.etsy.com/c/craft-supplies-and-tools?ref=catlink-562",
+    "card_link" : "https://www.etsy.com/c/craft-supplies-and-tools?ref=catcard-562-243933285",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/072/2/6721518/il_340x270.816770838_c89b.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "3",
+    "category" : "Art & Collections",
+    "link" : "https://www.etsy.com/c/art-and-collectibles?ref=catlink-66",
+    "card_link" : "https://www.etsy.com/c/art-and-collectibles?ref=catcard-66-171461708",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/139/0/8196359/il_340x270.861288076_a4si.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "4",
+    "category" : "Clothing",
+    "link" : "",
+    "card_link" : "https://www.etsy.com/c/clothing?ref=catcard-374-266875145",
+    "shop_all_link" : "",
+    "image" : "https://img1.etsystatic.com/133/1/9328362/il_340x270.916444865_1hmr.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "5",
+    "category" : "Accessories",
+    "link" : "https://www.etsy.com/c/accessories?ref=catlink-1",
+    "card_link" : "https://www.etsy.com/c/accessories?ref=catcard-1-241348092",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/102/0/10938520/il_340x270.881761042_5ijx.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "6",
+    "category" : "Paper & Party Supplies",
+    "link" : "https://www.etsy.com/c/paper-and-party-supplies?ref=catlink-1250",
+    "card_link" : "https://www.etsy.com/c/paper-and-party-supplies?ref=catcard-1250-258711101",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/120/1/10290270/il_340x270.880925238_tkw3.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "7",
+    "category" : "Bath & Beauty",
+    "link" : "https://www.etsy.com/c/bath-and-beauty?ref=catlink-199",
+    "card_link" : "https://www.etsy.com/c/bath-and-beauty?ref=catcard-199-159465423",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/059/1/7429842/il_340x270.684207068_m9dl.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "8",
+    "category" : "Bags & Purses",
+    "link" : "https://www.etsy.com/c/bags-and-purses?ref=catlink-132",
+    "card_link" : "https://www.etsy.com/c/bags-and-purses?ref=catcard-132-286253567",
+    "shop_all_link" : "",
+    "image" : "https://img1.etsystatic.com/108/1/5903037/il_340x270.988454575_8zb4.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "9",
+    "category" : "Weddings",
+    "link" : "https://www.etsy.com/c/weddings?ref=catlink-1633",
+    "card_link" : "https://www.etsy.com/c/weddings?ref=catcard-1633-265982645",
+    "shop_all_link" : "",
+    "image" : "https://img1.etsystatic.com/122/0/6586953/il_340x270.911484763_scll.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "10",
+    "category" : "Toys & Games",
+    "link" : "https://www.etsy.com/c/toys-and-games?ref=catlink-1552",
+    "card_link" : "https://www.etsy.com/c/toys-and-games?ref=catcard-1552-265698894",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/126/0/9855263/il_340x270.911051330_3768.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "11",
+    "category" : "Books, Movies, Music",
+    "link" : "https://www.etsy.com/c/books-movies-and-music?ref=catlink-323",
+    "card_link" : "https://www.etsy.com/c/books-movies-and-music?ref=catcard-323-257837126",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/119/1/9361820/il_340x270.914018756_geqv.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "12",
+    "category" : "Electronics",
+    "link" : "https://www.etsy.com/c/electronics-and-accessories?ref=catlink-825",
+    "card_link" : "https://www.etsy.com/c/electronics-and-accessories?ref=catcard-825-223543837",
+    "shop_all_link" : "",
+    "image" : "https://img1.etsystatic.com/138/1/10290270/il_340x270.866852715_i6t8.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "13",
+    "category" : "Pet Supplies",
+    "link" : "https://www.etsy.com/c/pet-supplies?ref=catlink-1351",
+    "card_link" : "https://www.etsy.com/c/pet-supplies?ref=catcard-1351-162216564",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/128/0/6993388/il_340x270.924416054_rs1p.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      }
+    ]
+  },
+  {
+    "category_id" : "14",
+    "category" : "Shoes",
+    "link" : "https://www.etsy.com/c/shoes?ref=catlink-1429",
+    "card_link" : "https://www.etsy.com/c/shoes?ref=catcard-1429-247275248",
+    "shop_all_link" : "",
+    "image" : "https://img0.etsystatic.com/139/1/7340438/il_340x270.887057436_o1rg.jpg",
+    "category_path" : "",
+    "sub_category_shop_all_link" : "",
+    "sub_categories" :
+    [
+      {
+        "sub_category_id" : "0",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "1",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "2",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
+      },
+      {
+        "sub_category_id" : "3",
+        "sub_category" : "",
+        "sub_category_link" : "",
+        "sub_category_path" : ""
       }
     ]
   }
