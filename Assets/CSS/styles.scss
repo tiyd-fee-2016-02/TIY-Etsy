@@ -11,6 +11,7 @@ $Lato: 'Lato', 'Arial', sans-serif;
 
 .home-subscribe-aboutEtsy-container {
   background-color: $Grey-background;
+  width: 100%;
   padding:{
     bottom: 100px;
     top: 100px;
@@ -18,11 +19,10 @@ $Lato: 'Lato', 'Arial', sans-serif;
 }
 
 .home-subscribe-aboutEtsy {
-  min-width: 100%;
+  min-width: 76%;
   margin: {
-    left: 9%;
-    right: 9%;
-  };
+    left: 12%;
+  }
 }
 
 // Styling for the individual subscribe columns
@@ -31,7 +31,7 @@ $Lato: 'Lato', 'Arial', sans-serif;
   display: inline-block;
   text-align: center;
   width: 25%;
-  margin-right: 25px;
+  margin-right: 60px;
 }
 
 .home-subscribe-aboutEtsy-colDiv-title {
@@ -63,14 +63,16 @@ $Lato: 'Lato', 'Arial', sans-serif;
 .home-subscribe-aboutEtsy-submitEmail {
   position: relative;
   text-align: center;
-  width: 82%;
+  width: 87%;
   height: 170px;
   background: {
     image: url(../images/homepageimages/weddings-texture.png);
     color: $Grey-border;
   }
   border: {
-    color: $Grey-type;
+    color: rgb(210,210,210);
+    style: solid;
+    width: 1px;
     radius: 3px;
   }
 }
@@ -84,6 +86,8 @@ $Lato: 'Lato', 'Arial', sans-serif;
 
 .home-subscribe-aboutEtsy-submitEmail-fieldcontainer {
   display: inline-block;
+  position: absolute;
+  left: 29.5%;
 }
 
 .home-subscribe-aboutEtsy-submitEmail-blurb {
@@ -105,6 +109,7 @@ $Lato: 'Lato', 'Arial', sans-serif;
   padding: 5px;
   height: 22px;
   width: 260px;
+  font-size: 15px;
   border: {
     color: $Grey-type;
     radius: 3px;
@@ -136,4 +141,9 @@ $Lato: 'Lato', 'Arial', sans-serif;
     weight: bold;
   }
   margin-left: 8px;
+  z-index: 10;
+}
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button:hover {
+  background: rgb(60, 177, 203);
 }
