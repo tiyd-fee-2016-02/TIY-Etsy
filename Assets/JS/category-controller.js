@@ -1,3 +1,4 @@
+var listingID = "";
 
 etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http, $scope) {
 
