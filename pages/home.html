@@ -1,19 +1,19 @@
-<div class="home-wrapper">
+<div class="home-wrapper" ng-controller="homepageController">
   <div class="home-hero-image-1">
-    <img src="{{heroimage.image}}">
+    <img src="{{stuff.heroImage1[0].heroimageurl}}">
     <div class="home-hero-image-1-text">
       <h1>Shop directly from people around the world</h1>
     </div>
     <div class="home-hero-image-1-banner">
       <div class="home-hero-image-1-banner-userinfo">
         <div class="home-hero-image-1-banner-userinfo-image">
-          <img src="{{user.image}}">
+          <img src="{{stuff.heroImageScroll[0].storeOwnerImage}}">
         </div>
         <div class="home-hero-image-1-banner-userinfo-name-store">
-          {{name}} of {{store}}
+          {{stuff.heroImageScroll[0].storeOwnerName}} of {{stuff.heroImageScroll[0].storeName}}
         </div>
         <div class="home-hero-image-1-banner-userinfo-city-country">
-          {{city}}, {{country}}
+          {{stuff.heroImageScroll[0].storeCity}}, {{stuff.heroImageScroll[0].storeCountry}}
         </div>
       </div><!-- End hero image 1 user info-->
       <div class="home-hero-image-1-banner-products">
@@ -30,22 +30,22 @@
       <h1>Discover items you can't find anywhere else</h1>
     </div>
     <div class="home-editor-pick-card-wrapper">
-      <div class="home-editor-pick-card-wrapper-top-2"> <!--ADD NG-REPEAT-->
+      <div class="home-editor-pick-card-wrapper-top-2" ng-repeat="picks in stuff.editorsPicksTop2">
         <div class="home-editor-pick-card-wrapper-top-2-image">
-          <img src="{{image}}">
+          <img src="{{picks.picksPic}}">
         </div>
         <div class="home-editor-pick-card-wrapper-top-2-text">
           <div>EDITORS' PICKS</div>
-          <div>{{pick.title}}</div>
+          <div>{{picks.epcategory}}</div>
         </div>
       </div><!--End top 2-->
-      <div class="home-editor-pick-card-wrapper-bottom-4"> <!--ADD NG-REPEAT-->
+      <div class="home-editor-pick-card-wrapper-bottom-4" ng-repeat="picks in stuff.editorsPicksBottom4">
         <div class="home-editor-pick-card-wrapper-bottom-4-image">
-          <img src="{{image}}">
+          <img src="{{picks.picksPic}}">
         </div>
         <div class="home-editor-pick-card-wrapper-bottom-4-text">
           <div>EDITORS' PICKS</div>
-          <div>{{pick.title}}</div>
+          <div>{{picks.epcategory}}</div>
         </div>
       </div><!--End bottom 4-->
     </div><!-- End editor pick card wrapper-->
@@ -57,24 +57,24 @@
       <h3>Get inspiration from these Etsy members' top picks.</h3>
     </div><!--End Community Tastemakers Header-->
     <div class="home-community-tastemaker-user-container">
-      <a href="{{tastemaker[0].url}}" class="home-community-tastemaker-user-one-link">
+      <a href="{{stuff.commTastemakers[0].tastemakerURL}}" class="home-community-tastemaker-user-one-link">
         <div class="home-community-tastemaker-user-one">
           <div class="home-community-tastemaker-user-one-header">
-            <img src="{{tastemaker[0].img}}">
-            <p><a href="{{tastemaker[0].url}}">{{tastemaker[0].name}}'s</a> Favorites</p>
+            <img src="{{stuff.commTastemakers[0].tastemakerImage}}">
+            <p><a href="{{stuff.commTastemakers[0].tastemakerURL}}">{{stuff.commTastemakers[0].tastemakerName}}'s</a> Favorites</p>
           </div>
           <ul class="home-community-tastemaker-user-one-img-container">
-            <li class="home-community-tastemaker-user-one-img"> <!--ADD NG-REPEAT-->
-              <img src="{{tastemaker[$index].imgurl}}">
+            <li class="home-community-tastemaker-user-one-img" ng-repeat="pics in stuff.commTastemakers[0].tastemakerProductImgs"> <!--ADD NG-REPEAT-->
+              <img src="{{pics}}">
             </li>
           </ul>
           <div class="home-community-tastemaker-user-one-footer">
-            <h6>{{tastemaker[0].name}}'s</a> Favorites</h6>
-            <h5>{{tastemaker[0].itemnumber}} items</h5>
+            <h6>{{stuff.commTastemakers[0].tastemakerName}}'s</a> Favorites</h6>
+            <h5>{{stuff.commTastemakers[0].tastemakerNumItems}} items</h5>
             <p>></p>
           </div>
         </div>
-      </a><!--END TASTEMAKER 1-->
+      </a><!--END TASTEMAKER 1--> <!-- also end valid json calls! -->
       <a href="{{tastemaker[1].url}}" class="home-community-tastemaker-user-two-link">
         <div class="home-community-tastemaker-user-two">
           <div class="home-community-tastemaker-user-two-header">

@@ -1,7 +1,7 @@
 {
   "heroImage1": [
     {
-      "heroimageurl": "img0.etsystatic.com/site-assets/homepage-carousel/shc-makepienotwar.jpg",
+      "heroimageurl": "https://img0.etsystatic.com/site-assets/homepage-carousel/shc-makepienotwar.jpg",
       "herotext": "Shop directly from people around the world."
     }
   ],
@@ -70,7 +70,7 @@
   ],
   "heroImage2": [
     {
-      "heroImgURL": "img0.etsystatic.com/site-assets/homepage-carousel/lunaticart_cropped.jpg",
+      "heroImgURL": "https://img0.etsystatic.com/site-assets/homepage-carousel/lunaticart_cropped.jpg",
       "featuredUserImg": "https://img0.etsystatic.com/039/0/5199914/isc_90x90.14920164228_82aw.jpg",
       "featuredUserLink": "https://www.etsy.com/shop/LUNATICART?ref=hp_so_ft_av",
       "featuredUserQuote": "“I strongly believe that being a conscious consumer is an important way to increase social equity and make a real difference around us.”",
