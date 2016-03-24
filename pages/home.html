@@ -5,18 +5,22 @@
       <h1>Shop directly from people around the world</h1>
     </div>
     <div class="home-hero-image-1-banner">
-      <div class="home-hero-image-1-banner-userinfo">
-        <div class="home-hero-image-1-banner-userinfo-image">
+      <div class="home-hero-image-1-banner-userinfo" >
+        <div class="home-hero-image-1-banner-userinfo-image" id = "home-userinfo-text-wrap">
           <img src="{{user.image}}">
         </div>
+        <div class = "home-name-store-city-country" id = "home-userinfo-text-wrap">
         <div class="home-hero-image-1-banner-userinfo-name-store">
+          <div class="home-usesr-info-top-margin">
           {{name}} of {{store}}
+        </div>
         </div>
         <div class="home-hero-image-1-banner-userinfo-city-country">
           {{city}}, {{country}}
         </div>
+      </div>
       </div><!-- End hero image 1 user info-->
-      <div class="home-hero-image-1-banner-products">
+      <div class="home-hero-image-1-banner-products" >
         <ul>
           <li class="home-hero-image-1-banner-products-thumbnail">  <!--ADD NG-REPEAT-->
           </li>
@@ -30,13 +34,16 @@
       <h1>Discover items you can't find anywhere else</h1>
     </div>
     <div class="home-editor-pick-card-wrapper">
+
       <div class="home-editor-pick-card-wrapper-top-2"> <!--ADD NG-REPEAT-->
+        <div class="home-editor-pick-card-inner-wrapper-top-2">
         <div class="home-editor-pick-card-wrapper-top-2-image">
           <img src="{{image}}">
         </div>
         <div class="home-editor-pick-card-wrapper-top-2-text">
           <div>EDITORS' PICKS</div>
           <div>{{pick.title}}</div>
+        </div>
         </div>
       </div><!--End top 2-->
       <div class="home-editor-pick-card-wrapper-bottom-4"> <!--ADD NG-REPEAT-->
