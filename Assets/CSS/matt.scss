@@ -57,6 +57,7 @@ a{
         color: white;
         position: absolute;
         top: 285;
+        border-radius: 0 4px 4px 0;
       }
     }
     .carousel-right {
@@ -74,6 +75,7 @@ a{
         position: absolute;
         top: 285;
         left: 245;
+        border-radius: 4px 0 0 4px;
       }
     }
 
@@ -81,13 +83,13 @@ a{
 
 .carousel-left:hover {
   .carousel-left-button {
-    background-color: blue;
+    background-color: #67BED3;
   }
 }
 
 .carousel-right:hover {
   .carousel-right-button {
-    background-color: blue;
+    background-color: #67BED3;
   }
 }
 
