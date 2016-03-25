@@ -50,7 +50,8 @@ a {
       opacity: 0.8;
       color: white;
       position: absolute;
-      top: 285; }
+      top: 285;
+      border-radius: 0 4px 4px 0; }
   .listing-imgCarosel .carousel-right {
     width: 285px;
     height: 700px;
@@ -65,13 +66,14 @@ a {
       color: white;
       position: absolute;
       top: 285;
-      left: 245; }
+      left: 245;
+      border-radius: 4px 0 0 4px; }
 
 .carousel-left:hover .carousel-left-button {
-  background-color: blue; }
+  background-color: #67BED3; }
 
 .carousel-right:hover .carousel-right-button {
-  background-color: blue; }
+  background-color: #67BED3; }
 
 /*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
 .listing-ColRight {
