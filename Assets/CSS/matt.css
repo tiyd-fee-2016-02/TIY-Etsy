@@ -12,6 +12,8 @@ a {
   margin-right: 12%;
   padding-bottom: 30px;
   padding-top: 30px; }
+  .listing-SubHeader .shop-avatar {
+    display: inline-block; }
 
 .listing-Proper {
   display: inline-block;
@@ -30,7 +32,7 @@ a {
 .listingProper-ColLeft {
   display: inline-block;
   float: left;
-  width: 59%; }
+  width: 58%; }
 
 .listing-imgCarosel {
   width: 570px;
@@ -79,7 +81,7 @@ a {
 .listing-ColRight {
   display: inline-block;
   float: right;
-  width: 39%; }
+  width: 40%; }
 
 .listing-Desc {
   border: #E4F3D9 5px solid;
@@ -97,6 +99,27 @@ a {
   font-family: 'Lato', 'Arial', sans-serif;
   border: #E5F4F7 5px solid;
   border-radius: 3px; }
+
+.listing-preview-card {
+  margin: 6px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: solid 1px #E5F4F7;
+  border-radius: 3px; }
+  .listing-preview-card .preview-img {
+    display: inline; }
+  .listing-preview-card .preview-title {
+    box-sizing: border-box;
+    margin: 3px 0;
+    width: 168px;
+    height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px; }
+  .listing-preview-card .preview-price {
+    color: #78c042;
+    font-size: 12px; }
 
 .listing-subFooter {
   margin-left: 12%;
@@ -135,8 +158,7 @@ a {
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
-  /*display: none;*/
- }
+  display: none; }
 
 .listing-tabContentSelected {
   display: block; }
@@ -150,7 +172,7 @@ a {
   margin-top: 7px; }
   .thumbnails img {
     width: 30px;
-    border-radius: 5px;
+    border-radius: 3px;
     margin: 0 4px; }
 
 /*======================BELOW HERE IS SUB-FOOTER==============================*/
