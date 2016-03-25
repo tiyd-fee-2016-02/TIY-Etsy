@@ -12,10 +12,12 @@
       font-size: 2.8em;
       font-family: serif;
       color: #f56400;
-      font-weight: 500; }
+      font-weight: 500;
+      border: solid thin black; }
     .site-header .site-header-top-wrap .site-header-search-bar-wrapper {
       display: inline-block;
-      width: 25%; }
+      width: 25%;
+      border: solid thin black; }
       .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-bar {
         display: inline-block;
         font-size: 1em;
@@ -38,7 +40,7 @@
       display: inline-block;
       text-align: center;
       vertical-align: center;
-      margin: 2.3% 5% 5% 0%;
+      margin: 2.3% 3% 5% 0%;
       float: left;
       color: #34a8c4; }
       .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap:hover {
@@ -47,7 +49,8 @@
       display: inline-block;
       float: right;
       margin: 1.5% 16% 0 0;
-      width: 28%; }
+      border: solid thin black;
+      width: 29%; }
       .site-header .site-header-top-wrap .site-header-top-nav-wrapper .fa {
         display: block;
         font-size: 1.5em;
@@ -263,6 +266,14 @@
         padding: 1em 0; }
         .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .site-header-wedding-drop-left-link:hover {
           background-color: lightblue; }
+      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1:hover {
+          background-color: white; }
     .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav {
       position: absolute;
       height: 52%;
