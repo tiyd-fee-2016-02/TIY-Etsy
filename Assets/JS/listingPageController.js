@@ -13,17 +13,15 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
       $scope.listing = data.results[0];
       $scope.tags = data.results[0].tags;
       $scope.userID = data.results[0].user_id;
-      // gListing = $scope.listing
 
         //based on previous get, find user information (based on listing)
         $http.get('https://openapi.etsy.com/v2/users/'+ $scope.userID + '/shops?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
           $scope.shopName = data.results[0].shop_name;
           $scope.shopID = data.results[0].shop_id
 
-
-          $http.get('https://openapi.etsy.com/v2/shops/' + $scope.shopID + '/listings/active?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-            $scope.shopListings = data.results
-          })
+            $http.get('https://openapi.etsy.com/v2/shops/' + $scope.shopID + '/listings/active?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+              $scope.shopListings = data.results
+            })
 
         })
 
@@ -31,13 +29,9 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
 
     //acquire all images associated with the listing
     $http.get('https://openapi.etsy.com/v2/listings/'+ listingID +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-      $scope.images = data.results;//just display the first one for now
-      // console.log(data);
-      // gImages = $scope.images
+      $scope.images = data.results;
+      
     })
-
-
-
 
 }]);//end listing controller
 
