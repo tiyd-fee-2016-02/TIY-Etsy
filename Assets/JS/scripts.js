@@ -127,28 +127,90 @@ $(document).ready(function(){
   //show craft dropdown on hover
   $('.site-header-craft-supplies').hover( function(){
     $('.site-header-craft-dropdown').toggleClass('show');
+    $('.craft-middle-nav-2').show();
+    $('.craft-middle-nav-3').hide();
+    $('.craft-middle-nav-4').hide();
+    $('.craft-middle-nav-5').hide();
+    $('.craft-middle-nav-6').hide();
+    $('.craft-middle-nav-7').hide();
+    $('.craft-middle-nav-8').hide();
   });
   //persist craft dropdown
   $('.site-header-craft-dropdown').hover( function(){
     $('.site-header-craft-dropdown').toggleClass('show');
-    $('.craft-middle-nav-1').show();
+    $('.craft-middle-nav-2').show();
+    $('.craft-middle-nav-3').hide();
+    $('.craft-middle-nav-4').hide();
+    $('.craft-middle-nav-5').hide();
+    $('.craft-middle-nav-6').hide();
+    $('.craft-middle-nav-7').hide();
+    $('.craft-middle-nav-8').hide();
     });
     //show the proper middle nav on hover
-    $('.craft-left-link-1').hover(function(){
-    $('.craft-middle-nav-1').show();
-    $('.craft-middle-nav-2').hide();
-    $('.craft-middle-nav-3').hide();
-    });
     $('.craft-left-link-2').hover(function(){
-    $('.craft-middle-nav-2').show();
-    $('.craft-middle-nav-1').hide();
-    $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-2').show();
+      $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-4').hide();
+      $('.craft-middle-nav-5').hide();
+      $('.craft-middle-nav-6').hide();
+      $('.craft-middle-nav-7').hide();
+      $('.craft-middle-nav-8').hide();
     });
     $('.craft-left-link-3').hover(function(){
-    $('.craft-middle-nav-3').show();
-    $('.craft-middle-nav-1').hide();
-    $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-3').show();
+      $('.craft-middle-nav-4').hide();
+      $('.craft-middle-nav-5').hide();
+      $('.craft-middle-nav-6').hide();
+      $('.craft-middle-nav-7').hide();
+      $('.craft-middle-nav-8').hide();
     });
+    $('.craft-left-link-4').hover(function(){
+      $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-4').show();
+      $('.craft-middle-nav-5').hide();
+      $('.craft-middle-nav-6').hide();
+      $('.craft-middle-nav-7').hide();
+      $('.craft-middle-nav-8').hide();
+    });
+    $('.craft-left-link-5').hover(function(){
+      $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-4').hide();
+      $('.craft-middle-nav-5').show();
+      $('.craft-middle-nav-6').hide();
+      $('.craft-middle-nav-7').hide();
+      $('.craft-middle-nav-8').hide();
+    });
+    $('.craft-left-link-6').hover(function(){
+      $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-4').hide();
+      $('.craft-middle-nav-5').hide();
+      $('.craft-middle-nav-6').show();
+      $('.craft-middle-nav-7').hide();
+      $('.craft-middle-nav-8').hide();
+    });
+    $('.craft-left-link-7').hover(function(){
+      $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-4').hide();
+      $('.craft-middle-nav-5').hide();
+      $('.craft-middle-nav-6').hide();
+      $('.craft-middle-nav-7').show();
+      $('.craft-middle-nav-8').hide();
+    });
+    $('.craft-left-link-8').hover(function(){
+      $('.craft-middle-nav-2').hide();
+      $('.craft-middle-nav-3').hide();
+      $('.craft-middle-nav-4').hide();
+      $('.craft-middle-nav-5').hide();
+      $('.craft-middle-nav-6').hide();
+      $('.craft-middle-nav-7').hide();
+      $('.craft-middle-nav-8').show();
+    });
+
 
 
   //show wedding dropdown on hover
