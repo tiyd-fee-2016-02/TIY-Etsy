@@ -1,6 +1,9 @@
 var listingPageApp = angular.module('listingPageApp', ['ngRoute']);
 
     var listingID = 272177332;//this will be passed to us via other pages' routing
+
+    // shop id is 5652817. only here for reference
+
     // var gUserID = 7637157;//hard-coding for now so I can test
     // var gListing;
     // var gImages;
@@ -19,6 +22,10 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
           $scope.shopName = data.results[0].shop_name;
           $scope.shopID = data.results[0].shop_id
 
+            $http.get('https://openapi.etsy.com/v2/shops/5652817?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+              $scope.shopAvatar = data.results[0].icon_url_fullxfull
+            })
+
             $http.get('https://openapi.etsy.com/v2/shops/' + $scope.shopID + '/listings/active?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
 
               $scope.listingCount = data.count;
@@ -27,21 +34,44 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
               $scope.listing2 = data.results[1].listing_id;
               $scope.listing3 = data.results[2].listing_id;
               $scope.listing4 = data.results[3].listing_id;
+              $scope.listing5 = data.results[4].listing_id;
+              $scope.listing6 = data.results[5].listing_id;
+              $scope.listing7 = data.results[6].listing_id;
+              $scope.listing8 = data.results[7].listing_id;
+              $scope.listing9 = data.results[8].listing_id;
+              $scope.listing10 = data.results[9].listing_id;
+
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing1 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-                $scope.image1src = data.results[0].url_75x75
+                $scope.image1src = data.results[0]
               })
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing2 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-                $scope.image2src = data.results[0].url_75x75
+                $scope.image2src = data.results[0]
               })
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing3 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-                $scope.image3src = data.results[0].url_75x75
+                $scope.image3src = data.results[0]
               })
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing4 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-                $scope.image4src = data.results[0].url_75x75
+                $scope.image4src = data.results[0]
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing5 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image5src = data.results[0]
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing6 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image6src = data.results[0]
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing7 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image7src = data.results[0]
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing8 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image8src = data.results[0]
               })
 
             })

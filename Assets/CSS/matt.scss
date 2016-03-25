@@ -13,6 +13,10 @@ a{
   // border: red 1px solid;
   padding-bottom: 30px;
   padding-top: 30px;
+
+  .shop-avatar {
+    display: inline-block;
+  }
 }
 .listing-Proper{
   display: inline-block;
@@ -36,7 +40,7 @@ a{
   display: inline-block;
   // border: green 1px solid;
   float: left;
-  width: 59%;
+  width: 58%;
 }
 .listing-imgCarosel{
   width: 570px;
@@ -115,7 +119,7 @@ a{
   display: inline-block;
   // border: green 1px solid;
   float: right;
-  width: 39%;
+  width: 40%;
 }
 .listing-Desc{
   border: #E4F3D9 5px solid;
@@ -134,6 +138,26 @@ font-family: 'Lato', 'Arial', sans-serif;
 border: #E5F4F7 5px solid;
 border-radius: 3px;
 }
+
+.listing-preview-card {
+  display: inline-block;
+  padding: 6px;
+  box-sizing: border-box;
+  .preview-img {
+    display: inline;
+  }
+  .preview-title {
+    box-sizing: border-box;
+    padding: 3px;
+    width: 170px;
+    height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+  }
+}
+
 .listing-subFooter{
   margin-left: 12%;
   margin-right: 12%;

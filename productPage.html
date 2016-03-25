@@ -27,15 +27,16 @@
 <div class="listing-PageContainer" ng-controller="listingPageController">
 
   <div class="listing-SubHeader">
-this is where the shop, 'favorite this shop' button, 4 more listings in this shop, and link to rest of shop listings goes<br>
+  
+    <img class = "shop-avatar" src = "{{shopAvatar}}" width = "75px"></img>
+    {{shopName}}
+    Favorite Shop
 
-  {{shopName}}<br>
-
-  <img src = "{{image1src}}"></img>
-  <img src = "{{image2src}}"></img>
-  <img src = "{{image3src}}"></img>
-  <img src = "{{image4src}}"></img>
-  {{listingCount}} items
+    <img src = "{{image1src.url_75x75}}"></img>
+    <img src = "{{image2src.url_75x75}}"></img>
+    <img src = "{{image3src.url_75x75}}"></img>
+    <img src = "{{image4src.url_75x75}}"></img>
+    {{listingCount}} items
 
 
   </div><!--end listingsubheader-->
@@ -112,8 +113,78 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
 
 
       </div>
+
       <div class="listing-storeSummary">
-        a few more items from this store in particular
+        <div class = "listing-preview-wrap">
+        {{shopName}}<br>
+        in locations are private<br>
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image1src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[0].title}}</div>
+          <div class = "preview-price">{{shopListings[0].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image2src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[1].title}}</div>
+          <div class = "preview-price">{{shopListings[1].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image3src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[2].title}}</div>
+          <div class = "preview-price">{{shopListings[2].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image4src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[3].title}}</div>
+          <div class = "preview-price">{{shopListings[3].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image5src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[4].title}}</div>
+          <div class = "preview-price">{{shopListings[4].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image6src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[5].title}}</div>
+          <div class = "preview-price">{{shopListings[5].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image7src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[6].title}}</div>
+          <div class = "preview-price">{{shopListings[6].price | currency:"$"}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image8src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[7].title}}</div>
+          <div class = "preview-price">{{shopListings[7].price | currency:"$"}}</div>
+        </div>
+
+
+
+        </div>
       </div>
     </span>
 
