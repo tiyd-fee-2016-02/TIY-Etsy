@@ -133,7 +133,8 @@ a {
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
-  display: none; }
+  /*display: none;*/
+ }
 
 .listing-tabContentSelected {
   display: block; }

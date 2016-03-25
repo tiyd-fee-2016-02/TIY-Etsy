@@ -1,5 +1,6 @@
 <html>
 <head>
+  <meta charset="utf-8">
   <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -9,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
   <script src="Assets/JS/listingPageController.js"></script>
+  <script src="Assets/JS/tabController.js"></script>
   <script src="Assets/JS/app.js"></script>
 </head>
 <body ng-app="listingPageApp">
@@ -41,29 +43,29 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
       </div>
 
 
-      <div class ="listing-tabContainer">
+      <div class ="listing-tabContainer" ng-controller="tabController">
+
         <div class="listing-tabsThemselves">
-          <a href="#"><span class="listing-tab listing-tabSelected">
+          <a href=""><span class="listing-tab" id="itemDetailsTab" ng-click="show1=false; show2=true; show3=true; tabClicker()">
             Item Details
           </span><a/>
-          <a href="#"><span class ="listing-tab">
+          <a href=""><span class ="listing-tab" id="reviewsTab" ng-click="show1=true; show2=false; show3=true; tabClicker()">
             <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (123)
           </span><a/>
-          <a href ="#"><span class="listing-tab">
+          <a href =""><span class="listing-tab" id="shippingPoliciesTab" ng-click="show1=true; show2=true; show3=false; tabClicker()">
             Shipping and Policies<br>
           </span><a/>
         </div><!--tabsthemselves-->
-        <div class="listing-tabContent">
+
+        <div class="listing-tabContent" ng-hide="show2">
         this is the content of the reviews tab.
         </div><!--reviews content-->
-        <div class="listing-tabContent listing-tabContentSelected">
 
-          {{listing.description}} <br>
-
-
-
+        <div class="listing-tabContent" ng-hide="show1">
+        <pre> {{listing.description}} </pre><br>
         </div><!--reviews content-->
-        <div class="listing-tabContent">
+
+        <div class="listing-tabContent" ng-hide="show3">
         this is the content of the policies tab.
         </div><!--reviews content-->
 
