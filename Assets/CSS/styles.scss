@@ -12,6 +12,10 @@ body{
   background-color: $Background;
 }
 
+.trending-hr{
+  border-top: 2px solid #dcdcd9;
+}
+
 .trending-header{
   margin-top: 5%;
   // border-bottom: 3px solid $Grey-border;
@@ -50,7 +54,6 @@ body{
   .trending-grid-column{
     vertical-align: top;
     display: inline-block;
-    border: 1px solid $Orange;
     width: 220px;
   }
 
@@ -65,11 +68,13 @@ body{
 } //end trending-grid-container
 
 .trending-card-container {
+  border: 5px solid white;
+  background-color: white;
+  margin-bottom: 22px;
   width: 220px;
   height: auto;
 
   .trending-card-image{
-    border: 1px solid black;
 
     img{
       width: 100%;
@@ -77,21 +82,38 @@ body{
   }
 
   .trending-card-title{
+    text-decoration: none;
+    font-size: 13px;
     display: block;
-    border: 1px solid blue;
     color: $Dark-grey-type;
   }
 
   .trending-card-seller{
-    border: 1px solid yellow;
+    text-decoration: none;
+    font-size: 13px;
     display: inline;
     color: $Grey-type;
   }
 
   .trending-card-price{
+    font-size: 13px;
     float: right;
-    border: 1px solid pink;
     display: inline;
     color: #78C042;
   }
+
+  a:hover{
+    text-decoration: underline;
+  }
+}
+
+.trending-load-btn{
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px;
+  margin-left: 45%;
+  color: white;
+  background-color: $Blue;
+  border: none;
+  border-radius: 3px;
 }

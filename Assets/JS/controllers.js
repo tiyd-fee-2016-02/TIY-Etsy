@@ -22,9 +22,9 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
    // function counter(){
    // }
    $scope.moreTrending = function(){
-     var max_chars = 25;
+     var max_chars = 32;
      function truncate(title, max_chars){
-       return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
+       return (title.length > max_chars) ? title.substring(0, max_chars) + '...' : title;
      };
     //  SOURCE: http://stackoverflow.com/questions/5074759/how-do-i-limit-the-length-of-an-link
 
@@ -79,6 +79,9 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
      console.log(start);
      console.log(end);
      };//closes moreTrending
+
+     $scope.moreTrending();
+
    }) //closes $http.get
 
  }]); //closes controller

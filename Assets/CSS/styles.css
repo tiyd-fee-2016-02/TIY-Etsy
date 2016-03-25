@@ -1,6 +1,9 @@
 body {
   background-color: #efefeb; }
 
+.trending-hr {
+  border-top: 2px solid #dcdcd9; }
+
 .trending-header {
   margin-top: 5%;
   width: 964px;
@@ -27,7 +30,6 @@ body {
   .trending-grid-container .trending-grid-column {
     vertical-align: top;
     display: inline-block;
-    border: 1px solid #f56400;
     width: 220px; }
   .trending-grid-container .trending-grid-column:nth-child(2n+1) {
     margin-right: 20px; }
@@ -35,24 +37,39 @@ body {
     margin-right: 18px; }
 
 .trending-card-container {
+  border: 5px solid white;
+  background-color: white;
+  margin-bottom: 22px;
   width: 220px;
   height: auto; }
-  .trending-card-container .trending-card-image {
-    border: 1px solid black; }
-    .trending-card-container .trending-card-image img {
-      width: 100%; }
+  .trending-card-container .trending-card-image img {
+    width: 100%; }
   .trending-card-container .trending-card-title {
+    text-decoration: none;
+    font-size: 13px;
     display: block;
-    border: 1px solid blue;
     color: #666666; }
   .trending-card-container .trending-card-seller {
-    border: 1px solid yellow;
+    text-decoration: none;
+    font-size: 13px;
     display: inline;
     color: #aaaaaa; }
   .trending-card-container .trending-card-price {
+    font-size: 13px;
     float: right;
-    border: 1px solid pink;
     display: inline;
     color: #78C042; }
+  .trending-card-container a:hover {
+    text-decoration: underline; }
+
+.trending-load-btn {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px;
+  margin-left: 45%;
+  color: white;
+  background-color: #34a8c4;
+  border: none;
+  border-radius: 3px; }
 
 /*# sourceMappingURL=styles.css.map */
