@@ -240,6 +240,7 @@ Why does this show up sometimes, and not others? ===============================
     <div class="row-5">
        <div class="shop-all" ng-repeat="item in categories[15]" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
          <a href="{{categories[15][$index].listing_link}}" ng-click="assignListingID(categories[15][$index].listingID)"> <img src="{{categories[15][$index].listing_image}}" class="row-3-img"></img></a>
+<!-- I had the NG-show on the .hover-nav , and it was making the p class 'shop-all-description' disappear and appear along with the hover-nav. Why? IDK. It shouldn't have targeted them, they're siblings, not parent/child. So there's that. -->
          <div class = "hover-nav" >
            <i class = "fa fa-heart" ng-show="hoverEdit"></i>
            <div class = "hamburger-nav" ng-show="hoverEdit">
