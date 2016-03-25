@@ -21,15 +21,14 @@ a:hover {
 }
 
 #wrapper {
-  // border: 1px solid red;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 7%;
+  margin-right: 5%;
 }
 
 .page-header {
    font-family: $bitter;
    font-weight: 500;
-   padding-left: 15px; 
+   margin-left: 3.5%;
 }
 
 .center-header {
@@ -40,6 +39,7 @@ a:hover {
 
 .cat-page-path {
   color: $Grey-type;
+  margin-left: 3.5%;
   // font-size: 0.7em;
 }
 
@@ -56,7 +56,8 @@ a:hover {
 }
 
 .row-1 {
-  // border: 1px solid;
+  margin-left: 2%;
+
 
 	.col-1-4 {
 	  border: 1px solid $Grey-border;
@@ -66,8 +67,7 @@ a:hover {
      background-color: #fff;
 	  display: inline-block;
 	  width: 230px;
-	  margin-left: 15px;
-	  margin-right: 10px;
+      margin: 0 10px 0 15px;
      .shop-all-nav {
         width: 80%;
         margin-left: 20px;
@@ -87,6 +87,7 @@ a:hover {
 	  width: 365px;
 	  margin-left: 10px;
 	  margin-right: 10px;
+    //   margin-bottom: 10px;
 	  padding-bottom: 30px;
 	}
 
@@ -98,6 +99,7 @@ a:hover {
 	  list-style: none;
 	  width: 365px;
 	  margin-left: 10px;
+    //   margin-bottom: 10px;
 	  padding-bottom: 30px;
 	}
 
@@ -148,7 +150,7 @@ a:hover {
 // STYLING FOR 2ND ROW
 
 .row-2 {
-  // border: 1px solid;
+  margin-left: 2%;
   a {
      color: black;
  }
@@ -215,6 +217,7 @@ a:hover {
 
 //styling for 3rd row
 .row-3{
+   margin-left: 2%;
    display: flex;
    flex-wrap: wrap;
    .cat-browse {
@@ -278,6 +281,7 @@ a:hover {
 .row-4 {
    display: flex;
    flex-wrap: wrap;
+   margin-left: 2%;
 
    .cat-related {
      border: 1px solid $Grey-border;
@@ -288,8 +292,8 @@ a:hover {
      list-style: none;
      width: 332px;
      margin-top: 20px;
-     margin-left: 10px;
-     margin-right: 10px;
+     margin-left: 4px;
+     margin-right: 4px;
      .related-img-container {
         .main {
            width: 60.5%;
