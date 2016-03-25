@@ -3,21 +3,20 @@
 
 .home-hero-image-1 {
   font-size: 38px;
-  border: 1px solid red;
   width: 100%;
   height: 400px;
   font-family: "Bitter", "Times", serif;
   position: relative; }
 
-.home-hero-image-1-text {
+.home-hero-image-1-text h1 {
   width: 560px;
-  padding-top: 50px;
-  left: 17%;
-  position: absolute; }
+  left: 12%;
+  position: absolute;
+  top: 100px;
+  color: white; }
 
 .home-hero-image-1-banner {
-  border: 1px solid green;
-  width: 100%;
+  width: 107.68%;
   height: 100px;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
@@ -25,26 +24,37 @@
   display: inline-block; }
 
 .home-hero-image-1-banner-userinfo {
-  padding-left: 17%;
+  margin-left: 11.2%;
   line-height: 21px;
   font-size: 14px;
-  width: 40%;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 6px; }
+  margin-top: 6px;
+  color: white; }
 
 #home-userinfo-text-wrap {
   display: inline-block; }
 
 .home-hero-image-1-banner-userinfo-image {
-  height: 60px;
-  width: 60px;
-  border-radius: 1em; }
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 15px; }
+  .home-hero-image-1-banner-userinfo-image img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px; }
 
 .home-name-store-city-country {
-  margin-top: 6px; }
+  margin-top: 25px;
+  margin-left: 70px; }
 
 .home-hero-image-1-banner-products {
+  display: inline-block;
+  margin-left: 112px; }
+
+.home-hero-image-1-banner-products-display-ilBlock li {
+  margin-left: 5px;
   display: inline-block; }
 
 .home-hero-image-1-banner-products-thumbnail {
@@ -53,6 +63,20 @@
   border-radius: 4px;
   border: 4px solid white;
   margin-top: 8.5px; }
+
+#home-items-number-tile {
+  text-align: center;
+  background-color: white;
+  float: right; }
+
+.home-scroll-number {
+  color: #34a8c4;
+  font-size: 24px;
+  margin-top: 20px; }
+
+.home-scroll-items {
+  color: #aaaaaa;
+  font-size: 14px; }
 
 .home-editor-pick-wrapper {
   width: 980px;
