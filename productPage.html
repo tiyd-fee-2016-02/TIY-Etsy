@@ -18,15 +18,15 @@
 
 <div class="listing-PageContainer" ng-controller="listingPageController">
   <div class="listing-SubHeader">
-this is where the shop, 'favorite this shop' button, 4 more listings in this shop, and link to rest of shop listings goes<br>
+    favorite this shop' button<br>
 
-  {{shopName}}<br>
+    {{shopName}}<br>
 
-  <img src = "{{image1src}}"></img>
-  <img src = "{{image2src}}"></img>
-  <img src = "{{image3src}}"></img>
-  <img src = "{{image4src}}"></img>
-  {{listingCount}} items
+    <img src = "{{image1src.url_75x75}}"></img>
+    <img src = "{{image2src.url_75x75}}"></img>
+    <img src = "{{image3src.url_75x75}}"></img>
+    <img src = "{{image4src.url_75x75}}"></img>
+    {{listingCount}} items
 
 
   </div><!--end listingsubheader-->
@@ -91,7 +91,16 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
         the tiny social media managemnet bar
       </div>
       <div class="listing-storeSummary">
-        a few more items from this store in particular
+        {{shopName}}<br>
+        in locations are private<br>
+        <img src = "{{image1src.url_170x135}}"></img>
+        <img src = "{{image2src.url_170x135}}"></img><br>
+        <img src = "{{image3src.url_170x135}}"></img>
+        <img src = "{{image4src.url_170x135}}"></img><br>
+        <img src = "{{image5src.url_170x135}}"></img>
+        <img src = "{{image6src.url_170x135}}"></img><br>
+        <img src = "{{image7src.url_170x135}}"></img>
+        <img src = "{{image8src.url_170x135}}"></img>
       </div>
     </span>
 
