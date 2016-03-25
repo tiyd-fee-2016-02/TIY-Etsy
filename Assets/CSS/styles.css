@@ -88,7 +88,8 @@ body {
     margin-top: 15px;
     line-height: 18px; }
   .final-row #copy {
-    color: #999; }
+    color: #999;
+    font-size: 12px; }
   .final-row a:hover {
     text-decoration: underline; }
   .final-row a:visited {
