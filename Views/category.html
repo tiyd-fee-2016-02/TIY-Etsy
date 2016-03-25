@@ -139,11 +139,11 @@
 <br><br><br>
  <h1 class="center-header">Shop all items</h1>
     <div class="row-5">
-       <div class="shop-all" ng-repeat="item in categories[15]">
+       <div class="shop-all" ng-repeat="item in categories[15]" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
          <a href="{{categories[15][$index].listing_link}}" ng-click="assignListingID(categories[15][$index].listingID)"> <img src="{{categories[15][$index].listing_image}}" class="row-3-img"></img></a>
-         <div class = "hover-nav">
-           <i class = "fa fa-heart"></i>
-           <div class = "hamburger-nav">
+         <div class = "hover-nav" >
+           <i class = "fa fa-heart" ng-show="hoverEdit"></i>
+           <div class = "hamburger-nav" ng-show="hoverEdit">
              <i class = "fa fa-bars"></i>
              <i class = "fa fa-sort-desc"></i>
            </div>
