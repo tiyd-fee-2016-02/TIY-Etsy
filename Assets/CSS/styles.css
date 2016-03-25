@@ -1,7 +1,8 @@
 .site-header {
   font-family: sans-serif; }
   .site-header a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #666; }
   .site-header .site-header-top-wrap {
     border-bottom: solid thin #dcdcd9; }
     .site-header .site-header-top-wrap .site-header-etsy-logo {
@@ -37,13 +38,16 @@
       display: inline-block;
       text-align: center;
       vertical-align: center;
-      margin: 2.3% 0 2% 11%;
-      float: right;
-      position: absolute; }
+      margin: 2.3% 5% 5% 0%;
+      float: left;
+      color: #34a8c4; }
+      .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap:hover {
+        text-decoration: underline; }
     .site-header .site-header-top-wrap .site-header-top-nav-wrapper {
       display: inline-block;
       float: right;
-      margin: 1.5% 16% 0 0; }
+      margin: 1.5% 16% 0 0;
+      width: 28%; }
       .site-header .site-header-top-wrap .site-header-top-nav-wrapper .fa {
         display: block;
         font-size: 1.5em;
@@ -76,7 +80,7 @@
       .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
         display: inline-block;
         padding: .75em 0;
-        margin: 0 3.5% 0 0;
+        margin: 0 2.5% 0 0;
         color: #6c6c63; }
         .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
           border-bottom: solid 3px #f56400; }
