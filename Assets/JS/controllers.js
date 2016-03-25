@@ -5,7 +5,7 @@ var listingID;
 etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http){
  $scope.message = "hello world";
 
- $http.get("https://openapi.etsy.com/v2/listings/trending/?api_key=xkpd25inafnxzw5h0dmyo8ko&includes=MainImage,Shop&limit=100&offset=50").then(function(response){
+ $http.get("https://openapi.etsy.com/v2/listings/trending/?api_key=xkpd25inafnxzw5h0dmyo8ko&includes=MainImage,Shop&limit=300&offset=100").then(function(response){
    $scope.trending = response.data;
 
   //  var card = response.data;
@@ -81,6 +81,30 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
 
 
      $scope.moreTrending();
+
+    var colOneScrollHeight = $("#trending-grid-col-one").prop('scrollHeight');
+    var colTwoScrollHeight = $("#trending-grid-col-two").prop('scrollHeight');
+    var colThreeScrollHeight = $("#trending-grid-col-three").prop('scrollHeight');
+    var colFourScrollHeight = $("#trending-grid-col-four").prop('scrollHeight');
+    var lowestHeight = Math.min(colOneScrollHeight, colTwoScrollHeight, colThreeScrollHeight, colFourScrollHeight);
+    // console.log(colOneScrollHeight);
+    // console.log(colTwoScrollHeight);
+    // console.log(colThreeScrollHeight);
+    // console.log(colFourScrollHeight);
+    // console.log(lowestHeight + " lowest");
+    // function hahaJones() {
+    //   console.log(window.pageYOffset);
+    //   console.log(window.innerHeight - lowestHeight - 350 + "works");
+    // }
+    function addStuff() {
+        $scope.moreTrending();
+        console.log("it works!");
+    }
+
+    window.onscroll = function() {
+      addStuff()
+    };
+
 
    }) //closes $http.get
 
