@@ -23,7 +23,7 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
     <span class="listingProper-ColLeft">
 
       <div class="listing-imgCarosel" ng-controller = "carouselCtrl">
-        <img src = "{{images[2].url_570xN}}"></img>
+        <img src = "{{images[carouselClicker(carouselClick)].url_570xN}}"></img>
           <div class = "carousel-left" ng-click = "carouselClick = carouselClick - 1">
             <div class = "carousel-left-button"><</div>
           </div>
