@@ -178,7 +178,8 @@
   .home-community-tastemakers-header h3 {
     margin-top: 15px;
     font-size: 18px;
-    color: #666; }
+    color: #666;
+    font-family: "Lato", "Arial", sans-serif; }
 
 .home-community-tastemaker-user {
   display: inline-block;
