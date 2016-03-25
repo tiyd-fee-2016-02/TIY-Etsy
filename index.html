@@ -1,101 +1,1599 @@
-<!DOCTYPE html>
-<html lang="en">
+<DOCTYPE! html>
+<html>
 <head>
-    <link href="Assets/CSS/reset.css" rel="stylesheet"/>
-    <meta charset="UTF-8">
-    <link href="Assets/CSS/styles.css" rel="stylesheet" />
-    <title>Etsy</title>
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src='./bower_components/angular/angular.js'></script>
+  <script src='./bower_components/angular-route/angular-route.js'></script>
+  <script src='./bower_components/jquery/dist/jquery.js'></script>
+  <script src='./assets/js/app.js'></script>
+  <script src='./assets/js/scripts.js'></script>
+  <!-- <link href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css' rel='stylesheet'> -->
+  <link href="Assets/CSS/styles.css" rel="stylesheet" />
+  <link href="Assets/CSS/reset.css" rel="stylesheet" />
+  <link href='./bower_components/font-awesome/css/font-awesome.css' rel='stylesheet'>
+  <link href='./assets/css/styles.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body>
+<body ng-app=''>
+  <header class='site-header'>
+    <div class='site-header-top-wrap'>
 
+      <div class='site-header-etsy-logo'>
+        Etsy
+      </div>
 
+      <div class='site-header-search-bar-wrapper'>
+        <input class='site-header-search-bar' placeholder="  Search for items or shops">
+        <a href='#'>
+          <div class='site-header-search-button'>Search</div>
+        </a>
+      </div>
 
-<div id="gnav-footer" class="gnav-footer">
-    <!-- <div class="email-signup-footer">
-        <div class="email-signup-content">
-            <div class="signup-message-footer">
-                <h3 class="signup-title-footer"> Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h3>
-            </div>
-        </div> -->
-    <div class="footer-content">
+      <div class='site-header-top-nav-sell-wrap'
+          <a href="#">Sell on Etsy</a>
+      </div>
 
-            <div class="column-section section-sell-on-etsy"> Sell on Etsy
-                <ul>
-                    <li><a href="#"> Seller handbook</a></li>
-                    <li><a href="#">Etsy credit card reader</a></li>
-                    <li><a href="#">Maufacturing</a></li>
-                </ul>
-            </div>
-             <!-- //closes the first column -->
-            <div class="column-section section-join-the-community"> Join the Community
-                <ul>
-                    <li><a href="#">Teams </a></li>
-                    <li><a href="#">Forums </a> </li>
-                    <li><a href="#">Upcoming events </a></li>
-                    <li><a href="#">Affiliates </a> </li>
-                </ul>
-            </div>
-            <!-- //closes the second column -->
-
-
-            <div class="column-section"> Discover and Shop
-                <ul>
-                    <li><a href="#">Gift cards </a> </li>
-                    <li><a href="#">Blog </a> </li>
-                    <li><a href="#">Tastemakers </a> </li>
-                    <li><a href="#">Mobile apps</a> </li>
-                    <li><a href="#">Gift registries </a> </li>
-                    <li><a href="#">Wholesale </a> </li>
-                    <li><a href="#">Search </a> </li>
-                    <li><a href="#">Editors' picks</a> </li>
-                </ul>
-            </div>
-         <!-- closes middle footer column -->
-
-            <div class="column-section section-get-to-know-us"> Get to Know Us
-                <ul>
-                    <li><a href="#">About </a> </li>
-                    <li><a href="#">Policies </a> </li>
-                    <li><a href="#">Careers </a> </li>
-                    <li><a href="#">Press </a> </li>
-                    <li><a href="#">Developers </a> </li>
-                    <li><a href="#">Investors </a> </li>
-                </ul>
-            </div>
-            <!-- //closes the fourth column -->
-            <div class="column-section section-follow-etsy"> Follow Etsy
-                <ul>
-                    <li><a href="https://www.facebook.com/Etsy"><i class="fa fa-facebook-square"></i>Facebook </a> </li>
-                    <li><a href="https://twitter.com/etsy"><i class="fa fa-twitter"></i>Twitter </a> </li>
-                    <li><a href="https://www.pinterest.com/etsy"><i class="fa fa-pinterest-p"></i>Pinterest</a> </li>
-                    <li><a href="https://www.instagram.com/etsy/"><i class="fa fa-instagram"></i>Instagram </a> </li>
-                </ul>
-            </div>
-             <!-- //closes the fifth column -->
-    </div>
-     <!-- //closes footer content -->
-    <div class="footer-row locale-help subfooter">
-        <ul class="locale-settings">
-            <li><a href="#"><span class="globe-icon"><i class="fa fa-globe"></i>United States</span></a></li>
-            <li><a href="#">English(US)</a></li>
-            <li><a href="#">$ USD</a></li>
-            <li class="help"><a href="#" class="help-link">Help </a></li>
-        </ul>
+      <div class='site-header-top-nav-wrapper'>
+        <div class='site-header-top-nav-home-wrap'>
+          <i class="fa fa-home"></i>
+          <a href='#'>Home</a>
+        </div>
+        <div class='site-header-top-nav-favorites-wrap'>
+          <i class="fa fa-heart"></i>
+          <a href='#'>Favorites</a>
+        </div>
+        <div class='site-header-top-nav-you-wrap'>
+          <i class="fa fa-user"></i>
+          <a href='#'>You</a>
+        </div>
+        <div class='site-header-top-nav-cart-wrap'>
+          <i class="fa fa-shopping-cart"></i>
+          <a href='#'>Cart</a>
+        </div>
+      </div>
     </div>
 
-<div class="final-row">
-<div class="footer-row-final">
-    <ul>
-        <li id="copy"> 2016 Etsy inc.</li>
-        <li> <a href="#" id="legal">Legal</a></li>
-        <li> <a href="#" id="Privacy">Privacy</a></li>
-        <li> <a href="#" id="interest-based-ads">Interest based ads</a></li>
-    </ul>
-</div>
-</div>
-</div>
- <!-- //closes footer -->
+    <div class='site-header-dropdown-nav-wrap'>
+      <div class='site-header-dropdown-nav-links-wrap'>
+        <span class='site-header-clothing-accessories'>
+          <a href='#'>Clothing & Accessories</a>
+        </span>
+        <span class='site-header-jewelry'>
+          <a href='#'>Jewelry</a>
+        </span>
+        <span class='site-header-craft-supplies'>
+          <a href='#'>Craft Supplies</a>
+        </span>
+        <span class='site-header-weddings'>
+          <a href='#'>Weddings</a>
+        </span>
+        <span class='site-header-entertainment'>
+          <a href='#'>Entertainment</a>
+        </span>
+        <span class='site-header-home-living'>
+          <a href='#'>Home & Living</a>
+        </span>
+        <span class='site-header-kids-baby'>
+          <a href='#'>Kids & Baby</a>
+        </span>
+        <span class='site-header-vintage'>
+          <a href='#'>Vintage</a>
+        </span>
+      </div>
+    </div>
+
+    <div class='site-header-clothing-dropdown'>
+      <span class='site-header-clothing-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link clothing-left-link-1'>Accessories<span class='site-header-left-drop-caret'>></span></div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link clothing-left-link-2'>Bags & Purses<span class='site-header-left-drop-caret'>></span></div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link clothing-left-link-3'>Clothing<span class='site-header-left-drop-caret'>></span></div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link clothing-left-link-4'>Shoes<span class='site-header-left-drop-caret'>></span></div>
+        </a>
+      </span>
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-1'>
+        <span class='site-header-clothing-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Belts & Suspenders
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Gloves & Mittens
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Hair Accessories
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Fascinators & Mini Hats
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Headbands
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Ties & Elastics
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Hats & Caps
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Keychains & Lanyards
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Patches & Pins
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Scarves & Wraps
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Suit & Tie Accessories
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Sunglasses & Eyewear
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Umbrella & Rain Accessories
+          </span></a>
+        </span>
+
+        <span class='site-header-clothing-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Accessories
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-2'>
+        <span class='site-header-clothing-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Backpacks
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Diaper Bags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Electronics Cases
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Laptop Bags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Laptop Sleeves
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Phone Cases
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Handbags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Clutches & Evening Bags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Shoulder Bags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Keychains & Lanyards
+          </span></a>
+        </span>
+        <span class='site-header-clothing-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Luggage & Travel
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Briefcases & Attachés
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Duffel Bags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Luggage Tags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Suitcases
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Messenger Bags
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Pouches & Coin Purses
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Totes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Wallets & Money-Clips
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Bags & Purses
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-3'>
+        <span class='site-header-clothing-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Boys' Clothing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pants
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Shirts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sweaters
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Tops
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Girls' Clothing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Dresses
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pants
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Shorts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Skirts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sweaters
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Tops
+          </span></a>
+        </span>
+
+        <span class='site-header-clothing-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Men's Clothing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pants
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Shirts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Shorts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Women's Clothing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Dresses
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Jackets & Coats
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pants & Capris
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Skirts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sweaters
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Swimwear
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Tops & Tees
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Clothing
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-middle-nav clothing-middle-nav-4'>
+        <span class='site-header-clothing-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Boys' Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Booties & Crib Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Boots
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Loafers & Slip-ons
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sandals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Slippers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Girls' Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Booties & Crib Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Boots
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Mary Janes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sandals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Slippers
+          </span></a>
+        </span>
+        <span class='site-header-clothing-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Men's Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Boots
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Costume Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Oxfords & Wingtips
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sandals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Slippers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sneakers & Athletic Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Women's Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Boots
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Oxfords & Tie Shoes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pumps
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sandals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Slippers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Shoes
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-clothing-dropdown-right-nav'>
+        EDITORS PICKS
+      </span>
+
+    </div>
+
+    <div class='site-header-jewelry-dropdown'>
+      <span class='site-header-jewelry-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-1'>
+            All Jewelry
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-2'>
+            Body Jewelry
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-3'>
+            Bracelets
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-4'>
+            Cuff Links & Tie Clips
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-5'>
+            Earrings
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-6'>
+            Necklaces
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link jewelry-left-link-7'>
+            Rings
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-2'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Anklets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Arm Bands
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Barbells
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Belly Chains
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Belly Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Gauge & Plug Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Hair Jewelry
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Lip Rings
+          </span></a>
+        </span>
+        <span class='site-header-jewelry-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Nipple Jewelry
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Nose Rings & Studs
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Pinchers & Spirals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Shoulder Jewelry
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Toe Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Body Jewelry
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-3'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Bangles
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Beaded Bracelets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Chain & Link Bracelets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Charm Bracelets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cuff Bracelets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            ID & Medical Bracelets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Woven & Braided Bracelets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Bracelets
+          </span></a>
+        </span>
+        <span class='site-header-jewelry-dropdown-middle-nav-right'>
+        </span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-4'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left hide'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cuff Links
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Shirt Studs
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Tie Clips & Tacks
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Cuff Links & Tie Clips
+          </span></a>
+        </span>
+        <span class='site-header-jewelry-dropdown-middle-nav-right hide'>
+
+        </span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-5'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Chandelier Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Clip-on Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cluster Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cuff & Wrap Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Dangle & Drop Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Ear Jackets & Climbers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Ear Weights
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Gauge & Plug Earrings
+          </span></a>
+        </span>
+        <span class='site-header-jewelry-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Hoop Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Screw back Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Stud Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Threader Earrings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Cuff Earrings
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-6'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Beaded Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Bib Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cameo Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Chains
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Charm Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Chokers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Crystal Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Lariat & Y Necklaces
+          </span></a>
+        </span>
+        <span class='site-header-jewelry-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Lockets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Monogram & Name Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Multi-Strand Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Pendants
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Tassle Necklaces
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Necklaces
+          </span></a>
+        </span>
+      </span>
+      <span class='site-header-jewelry-dropdown-middle-nav jewelry-middle-nav-7'>
+        <span class='site-header-jewelry-dropdown-middle-nav-left hide'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Bands
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Midi Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Multistone Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Ring Guards & Spacers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Signet Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Solitaire Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Stackable Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Statement Rings
+          </span></a>
+        </span>
+        <span class='site-header-jewelry-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Wedding & Engagement
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Anniversary Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Bridal Sets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Claddagh Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Engagement Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Promise Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Wedding Bands
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Rings
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-jewelry-dropdown-right-nav'>
+      </span>
+
+    </div>
+
+    <div class='site-header-craft-dropdown'>
+      <span class='site-header-craft-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-1'>
+            All Craft Supplies & Tools
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-2'>
+            Fiber & Textile Art
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-3'>
+            Food Craft Supplies
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-4'>
+            General Supplies
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-5'>
+            Jewelry & Beading
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-6'>
+            Patterns & Tutorials
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-7'>
+            Scrapbooking Supplies
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link craft-left-link-8'>
+            Sewing & Needlecraft
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-2'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Batik
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Felting
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Knitting & Crotcheting
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Crochet Knits
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Crochet Patterns
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Knitting Knits
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Knitting Machines & Looms
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Knitting Patterns
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Stitch Markers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Macramé
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Rugmaking
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Spinning
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Spindles
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Spinning Wheels
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Upholstery
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Weaving
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Yarn & Roving
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Fiber & Textile Art
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-3'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Bakeware
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Cake Pans
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Cookie Sheets
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Muffin & Cupcake Tins
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pie Plates
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pizza Stones & Paddles
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Baking & Candy
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Baking & Candy Molds
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Baking Recipes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Cake Toppers & Picks
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Cookie Cutters
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Cupcake Liners
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Decorating
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Canning
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Jars
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Labels
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Lids, Rings & Cups
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pressure Cookers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Spices & Recipes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Fermentation
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Brewing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Dairy & Kombucha
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Winemaking
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Food Craft Supply
+          </span></a>
+        </span>
+      </span>
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-4'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Adhesives
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Washi Tape
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Appliqués
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Button Makers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Clay
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Containers & Funnels
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cutting & Scissors
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Doll Parts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Embellishments
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Feathers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Rhinestones & Studs
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Ribbons & Lace
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Image Transfers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Kraft Paper
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Paint
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Paper
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Stencils
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Stones & Pencils
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            String & Twine
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All General Supplies
+          </span></a>
+        </span>
+      </span>
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-5'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Beads
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Rhinestones
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Seed Beads
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Skull Beads
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Buttons
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Charms
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Findings & Hardware
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Blanks
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Chain
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Clasps
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Jump & Split Rings
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Wire
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Jewelry & Beading Kits
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Jewelry & Beading Tutorials
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Loose Gemstones
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Diamonds
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Opals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Pearls
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sapphires
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Pendants
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Jewelry & Beading
+          </span></a>
+        </span>
+      </span>
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-6'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Architecture & Home Improvement
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Dollhouses & Dollmaking
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Drawing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Fiber Arts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Crochet
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Knitting
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Jewelry & Beading
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Painting
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Papercraft
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Origami
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Scrapbooking
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Sewing & Needlecraft
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Cross Stitch
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Embroidery
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Needlepoint
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Quilting
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Sewing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Woodworking
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Patterns & Tutorials
+          </span></a>
+        </span>
+      </span>
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-7'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Albums
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Embellishments & Die Cuts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Embossing
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Journaling Spots
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Paper Ephemera
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Premade Pages & Templates
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Scrapbooking Clip Art
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Scrapbooking Kits
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Scrapbooking Paper
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Scrapbooking Tutorial
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Stamps & Seals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Seals
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Stamps
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Tools & Adhesives
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Adhesives
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Punches
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Scrapbooking Supplies
+          </span></a>
+        </span>
+      </span>
+      <span class='site-header-craft-dropdown-middle-nav craft-middle-nav-8'>
+        <span class='site-header-craft-dropdown-middle-nav-left'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Appliques
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Buttons & Fasteners
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Snaps
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-indented-middle-link'>
+            Zippers
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cutting & Stitchables
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Cutting Tools
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Embroidery Floss & Threads
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Fabric
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Hoops & Frames
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Needlecraft Patterns
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Needles
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Notions
+          </span></a>
+        </span>
+        <span class='site-header-craft-dropdown-middle-nav-right'>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Pins & Pincushions
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Sewing Labels
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Sewing Machines & Parts
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Sewing Patterns
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Thread & Bobbins
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-standard-middle-link'>
+            Trim & Tapes
+          </span></a>
+          <a href='#'><span class='site-header-dropdown-bold-middle-link'>
+            All Sewing & Needlecraft
+          </span></a>
+        </span>
+      </span>
+
+      <span class='site-header-craft-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-wedding-dropdown'>
+      <span class='site-header-wedding-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link wedding-left-link-1'>
+            All Weddings
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link wedding-left-link-2'>
+            Accessories
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link wedding-left-link-3'>
+            Clothing
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link wedding-left-link-4'>
+            Decorations
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link wedding-left-link-5'>
+            Gifts & Mementos
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link wedding-left-link-6'>
+            Invitations & Paper
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-wedding-drop-left-link wedding-left-link-6'>
+            Jewelry
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+      <span class='site-header-wedding-dropdown-middle-nav wedding-middle-nav-1'>
+        <span class='site-header-wedding-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-wedding-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-wedding-dropdown-middle-nav wedding-middle-nav-2'>
+        <span class='site-header-wedding-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-wedding-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-wedding-dropdown-middle-nav wedding-middle-nav-3'>
+        <span class='site-header-wedding-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-wedding-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-wedding-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-entertainment-dropdown'>
+      <span class='site-header-entertainment-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link entertainment-left-link-1'>
+            Books, Movies & Music
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link entertainment-left-link-2'>
+            Electronics & Accessories
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link entertainment-left-link-3'>
+            Toys & Games
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+      <span class='site-header-entertainment-dropdown-middle-nav entertainment-middle-nav-1'>
+        <span class='site-header-entertainment-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-entertainment-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-entertainment-dropdown-middle-nav entertainment-middle-nav-2'>
+        <span class='site-header-entertainment-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-entertainment-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-entertainment-dropdown-middle-nav entertainment-middle-nav-3'>
+        <span class='site-header-entertainment-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-entertainment-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-entertainment-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-living-dropdown'>
+      <span class='site-header-living-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link living-left-link-1'>
+            Art & Collectibles
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link living-left-link-2'>
+            Bath & Beauty
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link living-left-link-3'>
+            Home & Living
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link living-left-link-4'>
+            Paper & Party Supplies
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link living-left-link-2'>
+            Pet Supplies
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+      <span class='site-header-living-dropdown-middle-nav living-middle-nav-1'>
+        <span class='site-header-living-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-living-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-living-dropdown-middle-nav living-middle-nav-2'>
+        <span class='site-header-living-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-living-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-living-dropdown-middle-nav living-middle-nav-3'>
+        <span class='site-header-living-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-living-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-living-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-kids-dropdown'>
+      <span class='site-header-kids-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-1'>
+            Baby & Child Care
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-2'>
+            Baby & Toddler Toys
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-3'>
+            Baby Accessories
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-4'>
+            Baby Blankets
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-5'>
+            Baby Boys' Clothing
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-6'>
+            Baby Girls' Clothing
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-7'>
+            Baby Headbands
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link kids-left-link-8'>
+            Boys' Clothing
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+      <span class='site-header-kids-dropdown-middle-nav kids-middle-nav-1'>
+        <span class='site-header-kids-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-kids-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-kids-dropdown-middle-nav kids-middle-nav-2'>
+        <span class='site-header-kids-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-kids-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-kids-dropdown-middle-nav kids-middle-nav-3'>
+        <span class='site-header-kids-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-kids-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-kids-dropdown-right-nav'>
+      </span>
+    </div>
+
+    <div class='site-header-vintage-dropdown'>
+      <span class='site-header-vintage-dropdown-left-nav'>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-1'>
+            Accessories
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-2'>
+            Art & Collectibles
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-3'>
+            Bags & Purses
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-4'>
+            Clothing
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-5'>
+            Craft Supplies & Tools
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-6'>
+            Home & Living
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-7'>
+            Jewelry
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+        <a href='#'>
+          <div class='site-header-dropdown-standard-left-link vintage-left-link-8'>
+            Toys & Games
+            <span class='site-header-left-drop-caret'>></span>
+          </div>
+        </a>
+      </span>
+      <span class='site-header-vintage-dropdown-middle-nav vintage-middle-nav-1'>
+        <span class='site-header-vintage-dropdown-middle-nav-left'></span>
+        hi i'm the nav for link 1
+        <span class='site-header-vintage-dropdown-middle-nav-right'></span>
+      </span>
+
+      <span class='site-header-vintage-dropdown-middle-nav vintage-middle-nav-2'>
+        <span class='site-header-vintage-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 2
+        <span class='site-header-vintage-dropdown-middle-nav-right hide'></span>
+      </span>
+
+      <span class='site-header-vintage-dropdown-middle-nav vintage-middle-nav-3'>
+        <span class='site-header-vintage-dropdown-middle-nav-left hide'></span>
+        hi i'm the nav for link 3
+        <span class='site-header-vintage-dropdown-middle-nav-right hide'></span>
+      </span>
+      <span class='site-header-vintage-dropdown-right-nav'>
+      </span>
+    </div>
+
+
+  </header>
+
+  <div id="gnav-footer" class="gnav-footer">
+      <!-- <div class="email-signup-footer">
+          <div class="email-signup-content">
+              <div class="signup-message-footer">
+                  <h3 class="signup-title-footer"> Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h3>
+              </div>
+          </div> -->
+      <div class="footer-content">
+
+              <div class="column-section section-sell-on-etsy"> Sell on Etsy
+                  <ul>
+                      <li><a href="#"> Seller handbook</a></li>
+                      <li><a href="#">Etsy credit card reader</a></li>
+                      <li><a href="#">Maufacturing</a></li>
+                  </ul>
+              </div>
+               <!-- //closes the first column -->
+              <div class="column-section section-join-the-community"> Join the Community
+                  <ul>
+                      <li><a href="#">Teams </a></li>
+                      <li><a href="#">Forums </a> </li>
+                      <li><a href="#">Upcoming events </a></li>
+                      <li><a href="#">Affiliates </a> </li>
+                  </ul>
+              </div>
+              <!-- //closes the second column -->
+
+
+              <div class="column-section"> Discover and Shop
+                  <ul>
+                      <li><a href="#">Gift cards </a> </li>
+                      <li><a href="#">Blog </a> </li>
+                      <li><a href="#">Tastemakers </a> </li>
+                      <li><a href="#">Mobile apps</a> </li>
+                      <li><a href="#">Gift registries </a> </li>
+                      <li><a href="#">Wholesale </a> </li>
+                      <li><a href="#">Search </a> </li>
+                      <li><a href="#">Editors' picks</a> </li>
+                  </ul>
+              </div>
+           <!-- closes middle footer column -->
+
+              <div class="column-section section-get-to-know-us"> Get to Know Us
+                  <ul>
+                      <li><a href="#">About </a> </li>
+                      <li><a href="#">Policies </a> </li>
+                      <li><a href="#">Careers </a> </li>
+                      <li><a href="#">Press </a> </li>
+                      <li><a href="#">Developers </a> </li>
+                      <li><a href="#">Investors </a> </li>
+                  </ul>
+              </div>
+              <!-- //closes the fourth column -->
+              <div class="column-section section-follow-etsy"> Follow Etsy
+                  <ul>
+                      <li><a href="https://www.facebook.com/Etsy"><i class="fa fa-facebook-square"></i>Facebook </a> </li>
+                      <li><a href="https://twitter.com/etsy"><i class="fa fa-twitter"></i>Twitter </a> </li>
+                      <li><a href="https://www.pinterest.com/etsy"><i class="fa fa-pinterest-p"></i>Pinterest</a> </li>
+                      <li><a href="https://www.instagram.com/etsy/"><i class="fa fa-instagram"></i>Instagram </a> </li>
+                  </ul>
+              </div>
+               <!-- //closes the fifth column -->
+      </div>
+       <!-- //closes footer content -->
+      <div class="footer-row locale-help subfooter">
+          <ul class="locale-settings">
+              <li><a href="#"><span class="globe-icon"><i class="fa fa-globe"></i>&nbsp United States</span></a></li>
+              <li><a href="#">English(US) &nbsp</a></li>
+              <li><a href="#">$ USD</a></li>
+              <li class="help"><a href="#" class="help-link">Help </a></li>
+          </ul>
+      </div>
+
+  <div class="final-row">
+  <div class="footer-row-final">
+      <ul>
+          <li id="copy"> 2016 Etsy inc.</li>
+          <li> <a href="#" id="legal">Legal</a></li>
+          <li> <a href="#" id="Privacy">Privacy</a></li>
+          <li> <a href="#" id="interest-based-ads">Interest based ads</a></li>
+      </ul>
+  </div>
+  </div>
+  </div>
+   <!-- //closes footer -->
+
+
 </body>
 </html>
