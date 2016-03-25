@@ -42,6 +42,7 @@ body {
     .trending-card-container .trending-card-image img {
       width: 100%; }
   .trending-card-container .trending-card-title {
+    display: block;
     border: 1px solid blue;
     color: #666666; }
   .trending-card-container .trending-card-seller {
