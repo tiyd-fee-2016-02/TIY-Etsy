@@ -70,10 +70,12 @@ a {
       border-radius: 4px 0 0 4px; }
 
 .carousel-left:hover .carousel-left-button {
-  background-color: #67BED3; }
+  background-color: #67BED3;
+ }
 
 .carousel-right:hover .carousel-right-button {
-  background-color: #67BED3; }
+  background-color: #67BED3;
+}
 
 /*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
 .listing-ColRight {
@@ -111,7 +113,11 @@ a {
   text-align:center;
  }
  .mag{
+   color: #aaaaaa;
    float: right;
+ }
+ .mag:hover{
+  color:  #2f98b1
  }
 
 .listing-tabsThemselves {
