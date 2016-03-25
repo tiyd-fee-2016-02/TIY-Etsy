@@ -1,5 +1,6 @@
 // moreTrending();
 
+var listingID;
 
 etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http){
  $scope.message = "hello world";
@@ -25,14 +26,17 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
      function truncate(title, max_chars){
        return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
      };
+    //  SOURCE: http://stackoverflow.com/questions/5074759/how-do-i-limit-the-length-of-an-link
 
      for(var i = start; i <= end; i+=4){
        var image = $scope.trending.results[i].MainImage.url_570xN;
        var title = truncate($scope.trending.results[i].title, max_chars);
        var shopName = $scope.trending.results[i].Shop.shop_name;
        var price = $scope.trending.results[i].price;
+       var listingID = $scope.trending.results[i].listing_id;
        console.log(image);
        console.log(truncate(title,max_chars));
+       console.log(listingID);
      $("#trending-grid-col-one").append('<div class = "trending-card-container"><div class = "trending-card-image"> <img src="'+image+'"></img></div><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
      }
       for(var i = start+1; i <= end; i+=4){
@@ -40,6 +44,7 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
         var title = truncate($scope.trending.results[i].title, max_chars);
         var shopName = $scope.trending.results[i].Shop.shop_name;
         var price = $scope.trending.results[i].price;
+        var listingID = $scope.trending.results[i].listing_id;
         // var max_chars = 25;
         // function truncate(title, max_chars){
         //   return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
@@ -51,6 +56,7 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
         var title = truncate($scope.trending.results[i].title, max_chars);
         var shopName = $scope.trending.results[i].Shop.shop_name;
         var price = $scope.trending.results[i].price;
+        var listingID = $scope.trending.results[i].listing_id;
         // var max_chars = 25;
         // function truncate(title, max_chars){
         //   return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
@@ -61,6 +67,7 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
         var title = truncate($scope.trending.results[i].title, max_chars);
         var shopName = $scope.trending.results[i].Shop.shop_name;
         var price = $scope.trending.results[i].price;
+        var listingID = $scope.trending.results[i].listing_id;
         // var max_chars = 25;
         // function truncate(title, max_chars){
         //   return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
