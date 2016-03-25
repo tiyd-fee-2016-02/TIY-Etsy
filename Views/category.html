@@ -1,7 +1,7 @@
   {{message}} <!-- test message -->
 <div id="wrapper">
   <span class="cat-page-path">Home ({{categories.length}} items)</span>
-  <h2 class = "page-header">All Categories</h2>
+  <h1 class = "page-header">All Categories</h1>
   <div class="row-1">
     <div class="col-1-4">
       <ul class="cat-nav">
@@ -235,23 +235,25 @@ Why does this show up sometimes, and not others? ===============================
     </div>
  </div>
 
-<!-- =========================== 5th ROW, Shop all Items! Alll the buying ==============={{categories[15][0].listingID}}======== -->
+<!-- =========================== 5th ROW, Shop all Items! Alll the buying ========ng-show="hoverEdit"======={{categories[15][0].listingID}}======== -->
  <h1 class="center-header">Shop all items</h1>
     <div class="row-5">
        <div class="shop-all" ng-repeat="item in categories[15]" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
          <a href="{{categories[15][$index].listing_link}}" ng-click="assignListingID(categories[15][$index].listingID)"> <img src="{{categories[15][$index].listing_image}}" class="row-3-img"></img></a>
-         <div class = "hover-nav" >
+         <div class = "hover-nav">
            <i class = "fa fa-heart" ng-show="hoverEdit"></i>
            <div class = "hamburger-nav" ng-show="hoverEdit">
              <i class = "fa fa-bars"></i>
              <i class = "fa fa-sort-desc"></i>
            </div>
          </div>
-          <p class="shop-all-description"><a href="{{categories[15][$index].listing_link}}" ng-click="assignListingID(categories[15][$index].listingID)">{{categories[15][$index].listing_name}}</a></p>
-          <div class="shop-all-details">
-             <p class="shop-all-seller"><a href="{{categories[15][$index].shop_link}}">{{categories[15][$index].listing_shop}}</a></p>
-             <p class="shop-all-price">{{categories[15][$index].listing_price | currency}}<p>
-          </div>
+         <div class="shop-description">
+             <p class="shop-all-description"><a href="{{categories[15][$index].listing_link}}" ng-click="assignListingID(categories[15][$index].listingID)">{{categories[15][$index].listing_name}}</a></p>
+             <div class="shop-all-details">
+                 <p class="shop-all-seller"><a href="{{categories[15][$index].shop_link}}">{{categories[15][$index].listing_shop}}</a></p>
+                 <p class="shop-all-price">{{categories[15][$index].listing_price | currency}}<p>
+             </div>
+         </div>
        </div>
     </div>
 <!-- end of the content! on to the button!! Woo! -->
