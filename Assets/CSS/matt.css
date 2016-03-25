@@ -90,6 +90,7 @@ a {
   margin-bottom: 20px; }
 
 .listing-socialMedia {
+  position: relative;
   border: 5px #EFEFEB solid;
   border-bottom: #EFEFEB 40px solid;
   border-radius: 3px;
@@ -128,7 +129,13 @@ a {
   padding-top: 30px; }
 
 .listing-thumbZoom {
-  display: inline-block; }
+  display: inline-block;
+  width: 100%;
+  text-align:center;
+ }
+ .mag{
+   float: right;
+ }
 
 .listing-tabsThemselves {
   border-bottom: #DADBD6 1px solid;
@@ -155,16 +162,44 @@ a {
   border-bottom: 1px #fff solid;
   color: #666666; }
 
+pre{
+
+}
+
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
+  color: rbg(102,102,102);
   margin-top: 50px;
-  display: none; }
+  display: inline-block;
+  line-height: 25px;
+  width: 100%;
+  word-wrap: break-word;
+  /*background: red;*/
+  /*display: none;*/
+ }
+
 
 .listing-tabContentSelected {
   display: block; }
 
 .stars {
   color: #FFDC1E; }
+.btn{
+  vertical-align:middle;
+  color: rbg(102,102,102);
+  border-radius: 3px;
+  display: inline-block;
+  width: 100px;
+  border: #D9D9D9 1px solid;
+  padding: 4px;
+  margin:7px;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+.socialBar{
+  position: absolute;
+  top: 50px;
+  display: block-inline;
+}
 
 /*======================BELOW HERE IS THUMBNAILS==============================*/
 .thumbnails {
