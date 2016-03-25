@@ -32,9 +32,8 @@
       <a href="{{categories[1].sub_category_shop_all_link}}" class="all-cat">Shop all Home x Living</a>
     </div>
   </div>
-
 <!-- =========================== 2ND ROW Sub categories! ================================== -->
-
+ <br><br><br>
   <div class="row-2">
     <div class="colB-2-4">
       <img src="{{categories[3].image}}" class="row-2-img">
@@ -93,8 +92,8 @@
       <a href="{{categories[14].card_link}}" class=""><h3 class="cat-header">{{categories[14].category}}</h3></a>
     </div>
   </div>
-
 <!-- =========================== 3RD ROW, Browse more categories ================================== -->
+ <br><br><br>
  <h1 class="center-header">Browse More Categories</h1>
     <div class="row-3">
        <div class="cat-browse" ng-repeat="cat in categories" ng-if="$index < 12">
@@ -104,138 +103,40 @@
           </a>
        </div>
     </div>
-<!-- =========================== 4th ROW, Related Shops
-Why does this show up sometimes, and not others? ================================== -->
+<!-- =========================== 4th ROW, Related Shops ================================== -->
+ <br><br><br>
  <h1 class="center-header">Related Shops</h1>
  <div class = "row-4">
-    <div class = "colD-1-3 cat-related">
-       <div class="related-img-container">
-          <img src="#" class="row-4-img main">
-          <img src="#" class="row-4-img top-right">
-          <img src="#" class="row-4-img bottom-right">
-       </div>
-       <footer class="related-shop-details">
-          <img src="#"class="shop-img"></img>
+    <div class = "cat-related" ng-repeat="shops in categories[16]">
+      <a href="{{categories[16][0].shop_card_link}}" class="shop-card-link">
+        <div class="related-img-container">
+          <img src="{{categories[16][$index].shop_large_image}}" class="row-4-img main">
+          <img src="{{categories[16][$index].shop_small_top_image}}" class="row-4-img top-right">
+          <img src="{{categories[16][$index].shop_small_bottom_image}}" class="row-4-img bottom-right">
+        </div>
+        <div class="related-shop-details">
           <div class="shop-footer-content">
-             <h5>Hello</h5>
-             <i class="fa fa-heart"></i><br>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <p>x reviews</p>
+            <div class="shop-footer-avatar"><img src="{{categories[16][$index].shop_avatar}}"class="shop-img"></img></div>
+            <div class="shop-name-container">
+              <div class="shop-name">
+                {{categories[16][$index].shop_name}} <a href="{{categories[16][$index].shop_favorites_link}}"><i class="fa fa-heart"></i></a>
+              </div>
+              <div class="shop-rating-container">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <p>{{categories[16][$index].shop_total_reviews}} reviews</p>
+              </div>
+            </div>
           </div>
-       </footer>
-    </div>
-    <div class = "colD-2-3 cat-related">
-       <div class="related-img-container">
-          <img src="#" class="row-4-img main">
-          <img src="#" class="row-4-img top-right">
-          <img src="#" class="row-4-img bottom-right">
-       </div>
-       <footer class="related-shop-details">
-          <img src="#"class="shop-img"></img>
-          <div class="shop-footer-content">
-             <h5>Hello</h5>
-             <i class="fa fa-heart"></i><br>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-
-             <p>x reviews</p>
-          </div>
-       </footer>
-    </div>
-    <div class = "colD-3-3 cat-related">
-       <div class="related-img-container">
-          <img src="#" class="row-4-img main">
-          <img src="#" class="row-4-img top-right">
-          <img src="#" class="row-4-img bottom-right">
-       </div>
-       <footer class="related-shop-details">
-          <img src="#"class="shop-img"></img>
-          <div class="shop-footer-content">
-             <h5>Hello</h5>
-             <i class="fa fa-heart"></i><br>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-
-             <p>x reviews</p>
-          </div>
-       </footer>
-    </div>
-    <div class = "colD-1-3 cat-related">
-       <div class="related-img-container">
-          <img src="#" class="row-4-img main">
-          <img src="#" class="row-4-img top-right">
-          <img src="#" class="row-4-img bottom-right">
-       </div>
-       <footer class="related-shop-details">
-          <img src="#"class="shop-img"></img>
-          <div class="shop-footer-content">
-             <h5>Hello</h5>
-             <i class="fa fa-heart"></i><br>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-
-             <p>x reviews</p>
-          </div>
-       </footer>
-    </div>
-    <div class = "colD-2-3 cat-related">
-       <div class="related-img-container">
-          <img src="#" class="row-4-img main">
-          <img src="#" class="row-4-img top-right">
-          <img src="#" class="row-4-img bottom-right">
-       </div>
-       <footer class="related-shop-details">
-          <img src="#"class="shop-img"></img>
-          <div class="shop-footer-content">
-             <h5>Hello</h5>
-             <i class="fa fa-heart"></i><br>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-
-             <p>x reviews</p>
-          </div>
-       </footer>
-    </div>
-    <div class = "colD-3-3 cat-related">
-       <div class="related-img-container">
-          <img src="#" class="row-4-img main">
-          <img src="#" class="row-4-img top-right">
-          <img src="#" class="row-4-img bottom-right">
-       </div>
-       <footer class="related-shop-details">
-          <img src="#"class="shop-img"></img>
-          <div class="shop-footer-content">
-             <h5>Hello</h5>
-             <i class="fa fa-heart"></i><br>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-             <i class="fa fa-star"></i>
-
-             <p>x reviews</p>
-          </div>
-       </footer>
+        </div>
+      </a>
     </div>
  </div>
-
 <!-- =========================== 5th ROW, Shop all Items! Alll the buying ==============={{categories[15][0].listingID}}======== -->
+<br><br><br>
  <h1 class="center-header">Shop all items</h1>
     <div class="row-5">
        <div class="shop-all" ng-repeat="item in categories[15]" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">
