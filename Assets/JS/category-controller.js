@@ -18,4 +18,15 @@ etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http,
 		console.log("assignListingID() => " + listingID);
 	};
 
+// Mouseover function to show the heart and menu on 'shop all items cards.'
+	var hoverEdit = false;
+
+	$scope.hoverIn = function(){
+		this.hoverEdit = true;
+	};
+
+	$scope.hoverOut = function(){
+		this.hoverEdit = false;
+	};
+
 }]);
