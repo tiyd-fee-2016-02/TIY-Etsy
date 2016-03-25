@@ -20,6 +20,9 @@ a:hover {
   font-family: "Bitter", "Times", serif;
   font-weight: 400; }
 
+.cat-page-path {
+  color: #aaaaaa; }
+
 .cat-button {
   margin-left: 45%;
   margin-top: 50px;
