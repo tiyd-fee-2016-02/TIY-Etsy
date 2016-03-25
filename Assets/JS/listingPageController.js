@@ -20,17 +20,38 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
           $scope.shopID = data.results[0].shop_id
 
             $http.get('https://openapi.etsy.com/v2/shops/' + $scope.shopID + '/listings/active?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
-              $scope.shopListings = data.results
+              $scope.shopListings = data.results;
+              $scope.listing1 = data.results[0].listing_id;
+              $scope.listing2 = data.results[1].listing_id;
+              $scope.listing3 = data.results[2].listing_id;
+              $scope.listing4 = data.results[3].listing_id;
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing1 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image1src = data.results[0].url_75x75
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing2 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image2src = data.results[0].url_75x75
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing3 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image3src = data.results[0].url_75x75
+              })
+
+              $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing4 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+                $scope.image4src = data.results[0].url_75x75
+              })
+
             })
 
         })
 
     })
 
-    //acquire all images associated with the listing
+    //acquire all images associated with the main listing for this product page
     $http.get('https://openapi.etsy.com/v2/listings/'+ listingID +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
       $scope.images = data.results;
-      
+
     })
 
 }]);//end listing controller
