@@ -18,7 +18,7 @@
 
 <div class="listing-PageContainer" ng-controller="listingPageController">
   <div class="listing-SubHeader">
-  
+
     <img class = "shop-avatar" src = "{{shopAvatar}}" width = "75px"></img>
     {{shopName}}
     Favorite Shop
@@ -101,7 +101,7 @@
             <img src = "{{image1src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[0].title}}</div>
-          <div class = "preview-price">{{shopListings[0].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[0].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -109,7 +109,7 @@
             <img src = "{{image2src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[1].title}}</div>
-          <div class = "preview-price">{{shopListings[1].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[1].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -117,7 +117,7 @@
             <img src = "{{image3src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[2].title}}</div>
-          <div class = "preview-price">{{shopListings[2].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[2].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -125,7 +125,7 @@
             <img src = "{{image4src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[3].title}}</div>
-          <div class = "preview-price">{{shopListings[3].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[3].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -133,7 +133,7 @@
             <img src = "{{image5src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[4].title}}</div>
-          <div class = "preview-price">{{shopListings[4].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[4].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -141,7 +141,7 @@
             <img src = "{{image6src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[5].title}}</div>
-          <div class = "preview-price">{{shopListings[5].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[5].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -149,7 +149,7 @@
             <img src = "{{image7src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[6].title}}</div>
-          <div class = "preview-price">{{shopListings[6].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[6].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
         <div class = "listing-preview-card">
@@ -157,7 +157,7 @@
             <img src = "{{image8src.url_170x135}}"></img>
           </div>
           <div class = "preview-title">{{shopListings[7].title}}</div>
-          <div class = "preview-price">{{shopListings[7].price | currency:"$"}}</div>
+          <div class = "preview-price">{{shopListings[7].price | currency:"$"}} {{currencyCode}}</div>
         </div>
 
 
@@ -172,7 +172,7 @@
     <div class = "tags" ng-repeat = "tag in tags">
       <div class = "tag-div">{{tag}}</div>
     </div>
-    <div class = "footer-description">"Listed on Mar 24, 2016 14563 views 960 favorites Add item to treasury
+    <div class = "footer-description">"Listed on {{timeStamp | date: fullDate}} x views x favorites Add item to treasury
 Report this item to Etsy"
     </div>
   </div>
