@@ -14,14 +14,14 @@
       font-weight: 500; }
     .site-header .site-header-top-wrap .site-header-search-bar-wrapper {
       display: inline-block;
-      width: 30%; }
+      width: 25%; }
       .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-bar {
         display: inline-block;
         font-size: 1em;
         line-height: 2em;
         border: solid thin #cfcbc8;
         height: 35px;
-        width: 60%;
+        width: 70%;
         border-radius: .3em 0 0 .3em;
         background-color: #fbfbfa;
         margin: -3px 0 0 0; }
@@ -30,14 +30,16 @@
         background-color: #34a8c4;
         color: white;
         font-weight: bold;
-        padding: 7px 30px 9px 30px;
+        padding: 7px 25px 9px 25px;
         margin: -1px 0 0 -5px;
         border-radius: 0 .3em .3em 0; }
     .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap {
       display: inline-block;
       text-align: center;
       vertical-align: center;
-      margin: 0 0 2% 6.5%; }
+      margin: 2.3% 0 2% 11%;
+      float: right;
+      position: absolute; }
     .site-header .site-header-top-wrap .site-header-top-nav-wrapper {
       display: inline-block;
       float: right;
