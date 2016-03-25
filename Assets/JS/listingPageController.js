@@ -39,10 +39,10 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
 
       $scope.carouselClicker = function(carouselClick){
 
-        var tempClick = (carouselClick % 4)
+        var tempClick = (carouselClick % $scope.images.length)
 
         if (tempClick < 0){
-          tempClick = (tempClick + 4)
+          tempClick = (tempClick + $scope.images.length)
         }
         return tempClick;
       }
