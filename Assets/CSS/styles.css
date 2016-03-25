@@ -100,7 +100,8 @@ body {
 .site-header {
   font-family: sans-serif; }
   .site-header a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #666; }
   .site-header .site-header-top-wrap {
     border-bottom: solid thin #dcdcd9; }
     .site-header .site-header-top-wrap .site-header-etsy-logo {
@@ -110,17 +111,19 @@ body {
       font-size: 2.8em;
       font-family: serif;
       color: #f56400;
-      font-weight: 500; }
+      font-weight: 500;
+      border: solid thin black; }
     .site-header .site-header-top-wrap .site-header-search-bar-wrapper {
       display: inline-block;
-      width: 30%; }
+      width: 25%;
+      border: solid thin black; }
       .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-bar {
         display: inline-block;
         font-size: 1em;
         line-height: 2em;
         border: solid thin #cfcbc8;
         height: 35px;
-        width: 60%;
+        width: 70%;
         border-radius: .3em 0 0 .3em;
         background-color: #fbfbfa;
         margin: -3px 0 0 0; }
@@ -129,18 +132,24 @@ body {
         background-color: #34a8c4;
         color: white;
         font-weight: bold;
-        padding: 7px 30px 9px 30px;
+        padding: 7px 25px 9px 25px;
         margin: -1px 0 0 -5px;
         border-radius: 0 .3em .3em 0; }
     .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap {
       display: inline-block;
       text-align: center;
       vertical-align: center;
-      margin: 0 0 2% 6.5%; }
+      margin: 2.3% 3% 5% 0%;
+      float: left;
+      color: #34a8c4; }
+      .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap:hover {
+        text-decoration: underline; }
     .site-header .site-header-top-wrap .site-header-top-nav-wrapper {
       display: inline-block;
       float: right;
-      margin: 1.5% 16% 0 0; }
+      margin: 1.5% 16% 0 0;
+      border: solid thin black;
+      width: 29%; }
       .site-header .site-header-top-wrap .site-header-top-nav-wrapper .fa {
         display: block;
         font-size: 1.5em;
@@ -173,7 +182,7 @@ body {
       .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
         display: inline-block;
         padding: .75em 0;
-        margin: 0 3.5% 0 0;
+        margin: 0 2.5% 0 0;
         color: #6c6c63; }
         .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
           border-bottom: solid 3px #f56400; }
@@ -356,6 +365,14 @@ body {
         padding: 1em 0; }
         .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .site-header-wedding-drop-left-link:hover {
           background-color: lightblue; }
+      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1:hover {
+          background-color: white; }
     .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav {
       position: absolute;
       height: 52%;

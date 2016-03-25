@@ -216,29 +216,76 @@ $(document).ready(function(){
   //show wedding dropdown on hover
   $('.site-header-weddings').hover( function(){
     $('.site-header-wedding-dropdown').toggleClass('show');
+    $('.wedding-middle-nav-2').show();
+    $('.wedding-middle-nav-3').hide();
+    $('.wedding-middle-nav-4').hide();
+    $('.wedding-middle-nav-5').hide();
+    $('.wedding-middle-nav-6').hide();
+    $('.wedding-middle-nav-7').hide();
   });
   //persist wedding dropdown
   $('.site-header-wedding-dropdown').hover( function(){
     $('.site-header-wedding-dropdown').toggleClass('show');
-    $('.wedding-middle-nav-1').show();
+    $('.wedding-middle-nav-2').show();
+    $('.wedding-middle-nav-3').hide();
+    $('.wedding-middle-nav-4').hide();
+    $('.wedding-middle-nav-5').hide();
+    $('.wedding-middle-nav-6').hide();
+    $('.wedding-middle-nav-7').hide();
     });
     //show the proper middle nav on hover
-    $('.wedding-left-link-1').hover(function(){
-    $('.wedding-middle-nav-1').show();
-    $('.wedding-middle-nav-2').hide();
-    $('.wedding-middle-nav-3').hide();
-    });
+
+
     $('.wedding-left-link-2').hover(function(){
-    $('.wedding-middle-nav-2').show();
-    $('.wedding-middle-nav-1').hide();
-    $('.wedding-middle-nav-3').hide();
+      $('.wedding-middle-nav-2').show();
+      $('.wedding-middle-nav-3').hide();
+      $('.wedding-middle-nav-4').hide();
+      $('.wedding-middle-nav-5').hide();
+      $('.wedding-middle-nav-6').hide();
+      $('.wedding-middle-nav-7').hide();
     });
     $('.wedding-left-link-3').hover(function(){
-    $('.wedding-middle-nav-3').show();
-    $('.wedding-middle-nav-1').hide();
-    $('.wedding-middle-nav-2').hide();
+      $('.wedding-middle-nav-2').hide();
+      $('.wedding-middle-nav-3').show();
+      $('.wedding-middle-nav-4').hide();
+      $('.wedding-middle-nav-5').hide();
+      $('.wedding-middle-nav-6').hide();
+      $('.wedding-middle-nav-7').hide();
     });
+    $('.wedding-left-link-4').hover(function(){
+      $('.wedding-middle-nav-2').hide();
+      $('.wedding-middle-nav-3').hide();
+      $('.wedding-middle-nav-4').show();
+      $('.wedding-middle-nav-5').hide();
+      $('.wedding-middle-nav-6').hide();
+      $('.wedding-middle-nav-7').hide();
+      });
+    $('.wedding-left-link-5').hover(function(){
+        $('.wedding-middle-nav-2').hide();
+        $('.wedding-middle-nav-3').hide();
+        $('.wedding-middle-nav-4').hide() ;
+        $('.wedding-middle-nav-5').show() ;
+        $('.wedding-middle-nav-6').hide();
+        $('.wedding-middle-nav-7').hide();
+      });
+    $('.wedding-left-link-6').hover(function(){
+        $('.wedding-middle-nav-2').hide();
+        $('.wedding-middle-nav-3').hide();
+        $('.wedding-middle-nav-4').hide();
+        $('.wedding-middle-nav-5').hide();
+        $('.wedding-middle-nav-6').show()
+        $('.wedding-middle-nav-7').hide();
+    });
+    $('.wedding-left-link-7').hover(function(){
+      $('.wedding-middle-nav-2').hide();
+      $('.wedding-middle-nav-3').hide();
+      $('.wedding-middle-nav-4').hide();
+      $('.wedding-middle-nav-5').hide();
+      $('.wedding-middle-nav-6').hide();
+      $('.wedding-middle-nav-7').show();
+      });
 
+      
 
   //show entertainment dropdown on hover
   $('.site-header-entertainment').hover( function(){
