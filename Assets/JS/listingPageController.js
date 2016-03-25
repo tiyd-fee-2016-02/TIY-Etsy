@@ -20,6 +20,8 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
           $scope.shopID = data.results[0].shop_id
 
             $http.get('https://openapi.etsy.com/v2/shops/' + $scope.shopID + '/listings/active?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+
+              $scope.listingCount = data.count;
               $scope.shopListings = data.results;
               $scope.listing1 = data.results[0].listing_id;
               $scope.listing2 = data.results[1].listing_id;
@@ -51,7 +53,6 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
     //acquire all images associated with the main listing for this product page
     $http.get('https://openapi.etsy.com/v2/listings/'+ listingID +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
       $scope.images = data.results;
-
     })
 
 }]);//end listing controller
