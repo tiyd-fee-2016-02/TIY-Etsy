@@ -144,6 +144,8 @@
   width: 980px;
   margin: 0 auto;
   margin-top: 3000px; }
+  .home-community-tastemakers-wrapper a {
+    text-decoration: none; }
   .home-community-tastemakers-wrapper img {
     width: 75px;
     height: 75px;
@@ -174,14 +176,13 @@
   .home-community-tastemaker-user:hover .home-community-tastemaker-user-header {
     transition-duration: 0.2s;
     margin-top: -10px; }
-    .home-community-tastemaker-user:hover .home-community-tastemaker-user-header p {
+    .home-community-tastemaker-user:hover .home-community-tastemaker-user-header div {
       display: inline-block; }
+  .home-community-tastemaker-user:hover .home-community-tastemaker-user-footer h6 {
+    text-decoration: underline; }
 
 .home-community-tastemaker-user-header {
   position: absolute; }
-  .home-community-tastemaker-user-header a {
-    text-decoration: none;
-    color: #0192b5; }
   .home-community-tastemaker-user-header img {
     border-radius: 50%;
     width: 35px;
@@ -190,7 +191,7 @@
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
     margin-top: -13px;
     margin-left: 10px; }
-  .home-community-tastemaker-user-header p {
+  .home-community-tastemaker-user-header div {
     display: inline-block;
     vertical-align: top;
     font-size: 14px;
@@ -198,6 +199,9 @@
     margin-left: 4px;
     color: #666;
     display: none; }
+  .home-community-tastemaker-user-header h4 {
+    display: inline-block;
+    color: #0192b5; }
 
 .home-community-tastemaker-user-img {
   width: 112px;
@@ -214,7 +218,8 @@
     margin-top: 15px;
     margin-left: 12px;
     font-size: 16px;
-    font-weight: bold; }
+    font-weight: bold;
+    color: black; }
   .home-community-tastemaker-user-footer h5 {
     margin-top: 2px;
     margin-left: 12px;
