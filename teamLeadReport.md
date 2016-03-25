@@ -19,3 +19,12 @@ Updated the trello with new checklists. Written wireframing. Pair programmed our
 -Converted home.html into a partial (Team).
 -Created controllers (Jeremy).
 -Integrated the home partial into index.html with ng-view and angular routing (Team).
+
+##March 25. Team Lead: Jeremy##
+
+-Inserted all valid JSON calls into our partial (team)
+-Styled main hero image and inserted new html for product links (Daniel)
+-Styled secondary hero image (Andrew)
+-Styled Tastemaker section (Andrew)
+-Did initial styling of Editors' picks section (Daniel)
+-Refined styling of previously styled elements (team)
