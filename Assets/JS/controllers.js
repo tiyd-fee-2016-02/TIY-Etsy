@@ -1,6 +1,6 @@
 // moreTrending();
 
-var listingID;
+var listingID = '';
 
 etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http){
  $scope.message = "hello world";
@@ -33,46 +33,50 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
        var title = truncate($scope.trending.results[i].title, max_chars);
        var shopName = $scope.trending.results[i].Shop.shop_name;
        var price = $scope.trending.results[i].price;
-       var listingID = $scope.trending.results[i].listing_id;
+       var listID = $scope.trending.results[i].listing_id;
+       listingID = listID;
        console.log(image);
        console.log(truncate(title,max_chars));
        console.log(listingID);
-     $("#trending-grid-col-one").append('<div class = "trending-card-container"><div class = "trending-card-image"> <img src="'+image+'"></img></div><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
+     $("#trending-grid-col-one").append('<div class = "trending-card-container"><a href = "" class = "trending-card-image"> <img src="'+image+'"></img></a><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
      }
       for(var i = start+1; i <= end; i+=4){
         var image = $scope.trending.results[i].MainImage.url_570xN;
         var title = truncate($scope.trending.results[i].title, max_chars);
         var shopName = $scope.trending.results[i].Shop.shop_name;
         var price = $scope.trending.results[i].price;
-        var listingID = $scope.trending.results[i].listing_id;
+        var listID = $scope.trending.results[i].listing_id;
+        listingID = listID;
         // var max_chars = 25;
         // function truncate(title, max_chars){
         //   return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
         // };
-     $("#trending-grid-col-two").append('<div class = "trending-card-container"><div class = "trending-card-image"> <img src="'+image+'"></img></div><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
+     $("#trending-grid-col-two").append('<div class = "trending-card-container"><a href = "" class = "trending-card-image"> <img src="'+image+'"></img></a><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
      }
       for(var i = start+2; i <= end; i+=4){
         var image = $scope.trending.results[i].MainImage.url_570xN;
         var title = truncate($scope.trending.results[i].title, max_chars);
         var shopName = $scope.trending.results[i].Shop.shop_name;
         var price = $scope.trending.results[i].price;
-        var listingID = $scope.trending.results[i].listing_id;
+        var listID = $scope.trending.results[i].listing_id;
+        listingID = listID;
         // var max_chars = 25;
         // function truncate(title, max_chars){
         //   return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
         // };
-     $("#trending-grid-col-three").append('<div class = "trending-card-container"><div class = "trending-card-image"> <img src="'+image+'"></img></div><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');      }
+     $("#trending-grid-col-three").append('<div class = "trending-card-container"><a href = "" class = "trending-card-image"> <img src="'+image+'"></img></a><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');      }
       for(var i = start+3; i <= end; i+=4){
         var image = $scope.trending.results[i].MainImage.url_570xN;
         var title = truncate($scope.trending.results[i].title, max_chars);
         var shopName = $scope.trending.results[i].Shop.shop_name;
         var price = $scope.trending.results[i].price;
-        var listingID = $scope.trending.results[i].listing_id;
+        var listID = $scope.trending.results[i].listing_id;
+        listingID = listID;
         // var max_chars = 25;
         // function truncate(title, max_chars){
         //   return (title.length > max_chars) ? title.substring(0, max_chars) + '..' : title;
         // };
-     $("#trending-grid-col-four").append('<div class = "trending-card-container"><div class = "trending-card-image"> <img src="'+image+'"></img></div><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
+     $("#trending-grid-col-four").append('<div class = "trending-card-container"><a href = "" class = "trending-card-image"> <img src="'+image+'"></img></a><a href = "" class = "trending-card-title">'+title+'</a><a href = "" class = "trending-card-seller">'+shopName+'</a><div class = "trending-card-price">$'+price+'</div>');
      }
      start = start + 16;
      end = end + 16;
