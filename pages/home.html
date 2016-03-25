@@ -7,7 +7,7 @@
     <div class="home-hero-image-1-banner">
       <div class="home-hero-image-1-banner-userinfo">
         <div class="home-hero-image-1-banner-userinfo-image" id = "home-userinfo-text-wrap">
-          <img src="{{stuff.heroImageScroll[0].storeOwnerImage}}">
+          <img src="{{stuff.heroImageScroll[0].storeOwnerImage}}" class="home">
         </div>
         <div class = "home-name-store-city-country" id = "home-userinfo-text-wrap">
         <div class="home-hero-image-1-banner-userinfo-name-store">
@@ -21,12 +21,22 @@
       </div>
       </div><!-- End hero image 1 user info-->
       <div class="home-hero-image-1-banner-products" >
-        <ul>
+        <ul class="home-hero-image-1-banner-products-display-ilBlock">
           <li class="home-hero-image-1-banner-products-thumbnail" ng-repeat="products in stuff.heroImageScroll[0].products">
             <a href="{{products.productLink}}" title="{{products.productDescription}}">
             <img src="{{products.prodImg}}" alt="{{products.productDescription}}">
             </a>
           </li>
+          <a href="{{stuff.heroImageScroll[0].storeURL}}">
+          <li class="home-hero-image-1-banner-products-thumbnail" id="home-items-number-tile">
+            <div class="home-scroll-number">
+              128
+            </div>
+            <div class="home-scroll-items">
+              items
+            </div>
+          </li>
+          </a>
         </ul>
       </div><!--End hero image 1 products-->
     </div><!--End Hero Image 1 banner-->
