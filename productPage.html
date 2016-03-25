@@ -1,0 +1,101 @@
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/CSS/matt.css">
+  <link rel="stylesheet" href="assets/CSS/reset.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+  <script src="Assets/JS/listingPageController.js"></script>
+  <script src="Assets/JS/app.js"></script>
+</head>
+<body ng-app="listingPageApp">
+
+
+<div class="listing-PageContainer" ng-controller="listingPageController">
+  <div class="listing-SubHeader">
+this is where the shop, 'favorite this shop' button, 4 more listings in this shop, and link to rest of shop listings goes<br>
+
+  </div><!--end listingsubheader-->
+  <div class="listing-Proper">
+    <span class="listingProper-ColLeft">
+
+      <div class="listing-imgCarosel" ng-controller = "carouselCtrl">
+        <img src = "{{images[2].url_570xN}}"></img>
+          <div class = "carousel-left" ng-click = "carouselClick = carouselClick - 1">
+            <div class = "carousel-left-button"><</div>
+          </div>
+
+        <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1">
+          <div class = "carousel-right-button">></div>
+        </div>
+        {{carouselClicker(carouselClick)}}
+      </div>
+
+      <div class="listing-thumbZoom">
+        <div class = "thumbnails" ng-repeat = "image in images">
+          <img src = "{{image.url_75x75}}"></img>
+        </div>
+      </div>
+
+
+      <div class ="listing-tabContainer">
+        <div class="listing-tabsThemselves">
+          <a href="#"><span class="listing-tab listing-tabSelected">
+            Item Details
+          </span><a/>
+          <a href="#"><span class ="listing-tab">
+            <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (123)
+          </span><a/>
+          <a href ="#"><span class="listing-tab">
+            Shipping and Policies<br>
+          </span><a/>
+        </div><!--tabsthemselves-->
+        <div class="listing-tabContent">
+        this is the content of the reviews tab.
+        </div><!--reviews content-->
+        <div class="listing-tabContent listing-tabContentSelected">
+
+          {{listing.description}} <br>
+
+
+
+        </div><!--reviews content-->
+        <div class="listing-tabContent">
+        this is the content of the policies tab.
+        </div><!--reviews content-->
+
+      </div><!--end of tabConainer-->
+    </span><!--end listingColLeft-->
+
+    <span class="listing-ColRight">
+      <div class="listing-Desc">
+        the listing description and buy buttons <br>
+        {{listing.title}} <br>
+        {{listing.quantity}} Available<br>
+      </div>
+      <div class="listing-socialMedia">
+        the tiny social media managemnet bar
+      </div>
+      <div class="listing-storeSummary">
+        a few more items from this store in particular
+      </div>
+    </span>
+
+  </div><!--end listing proper-->
+
+  <div class ="listing-subFooter">
+    <div class = "tags" ng-repeat = "tag in tags">
+      <div class = "tag-div">{{tag}}</div>
+    </div>
+    <div class = "footer-description">"Listed on Mar 24, 2016 14563 views 960 favorites Add item to treasury
+Report this item to Etsy"
+    </div>
+  </div>
+
+</div><!--end listing page container-->
+
+</body>
+</html>
