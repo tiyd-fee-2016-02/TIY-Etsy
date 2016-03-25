@@ -227,7 +227,12 @@ a:hover {
 	  margin-top: 20px;
 	  margin-left: 10px;
 	  margin-right: 10px;
-
+   }
+   .cat-browse:hover > a {
+      text-decoration: none;
+      h3 {
+         text-decoration: underline;
+      }
    }
    .row-3-img {
       width: 100%;
@@ -243,8 +248,10 @@ a:hover {
       font-size: 11px;
       letter-spacing: 2px;
       margin-top: 5px;
-
+      color: $Grey-type;
+      text-decoration: none;
    }
+
    .cat-header {
 		margin-left: 20px;
       margin-bottom: 5px;
@@ -252,6 +259,8 @@ a:hover {
       font-family: $bitter;
       font-weight: 400;
       font-size: 16px;
+      color: black;
+      text-decoration: none;
 	}
    img {
 		width: 100%;
@@ -348,7 +357,7 @@ a:hover {
    }
 } //end of related shop details styling!
 
-//styling for shop all items!
+//styling for row 5 shop all items! Shop all Items!
 .row-5 {
    @extend .row-3;
 
@@ -365,7 +374,6 @@ a:hover {
 	  margin-left: 10px;
 	  margin-right: 10px;
      font-family: $lato;
-
    }
    .row-3-img {
       width: 100%;
@@ -418,14 +426,22 @@ a:hover {
       margin: 4px;
       margin-top: 170px;
       font-size: 12px;
+      a {
+      color: black;
+      }
+      a:hover {
+         text-decoration: none;
+      }
    }
    .shop-all-details {
       display: flex;
       justify-content: space-between;
       .shop-all-seller {
          margin: 0 0 0 4px;
-         color: $Grey-type;
          font-size: 12px;
+         a{
+            color: $Grey-type;
+         }
       }
       .shop-all-price {
          margin: 0 0 0 107px;
