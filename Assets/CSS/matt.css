@@ -92,6 +92,7 @@ a {
   margin-bottom: 20px; }
 
 .listing-storeSummary {
+  font-family: 'Lato', 'Arial', sans-serif;
   border: #E5F4F7 5px solid;
   border-radius: 3px; }
 
@@ -130,6 +131,7 @@ a {
   color: #666666; }
 
 .listing-tabContent {
+  font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
   display: none; }
 
@@ -149,7 +151,10 @@ a {
     margin: 0 4px; }
 
 /*======================BELOW HERE IS SUB-FOOTER==============================*/
-.tags div {
+.listing-subFooter {
+  font-family: 'Lato', 'Arial', sans-serif; }
+
+.tags .tag-div {
   float: left;
   background-color: white;
   color: #34a8c4;
@@ -157,5 +162,8 @@ a {
   border: solid 1px #e2e2e2;
   padding: 6px;
   border-radius: 4px; }
+
+.footer-description {
+  display: block; }
 
 /*# sourceMappingURL=matt.css.map */

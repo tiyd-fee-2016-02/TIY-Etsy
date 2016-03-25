@@ -16,8 +16,8 @@
 
 <div class="listing-PageContainer" ng-controller="listingPageController">
   <div class="listing-SubHeader">
-this is where the shop, 'favorite this shop' button, 4 more listings in this shop, and link to rest of shop listings goes
-<br>
+this is where the shop, 'favorite this shop' button, 4 more listings in this shop, and link to rest of shop listings goes<br>
+
   </div><!--end listingsubheader-->
   <div class="listing-Proper">
     <span class="listingProper-ColLeft">
@@ -88,10 +88,11 @@ this is where the shop, 'favorite this shop' button, 4 more listings in this sho
 
   <div class ="listing-subFooter">
     <div class = "tags" ng-repeat = "tag in tags">
-      <div>{{tag}}</div>
+      <div class = "tag-div">{{tag}}</div>
     </div>
-    "Listed on Mar 24, 2016 14563 views 960 favorites Add item to treasury
+    <div class = "footer-description">"Listed on Mar 24, 2016 14563 views 960 favorites Add item to treasury
 Report this item to Etsy"
+    </div>
   </div>
 
 </div><!--end listing page container-->

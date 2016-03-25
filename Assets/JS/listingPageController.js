@@ -1,6 +1,7 @@
 var listingPageApp = angular.module('listingPageApp', ['ngRoute']);
 
     var listingID = 272177332;
+    var userID
     var gListing;
     var gImages;
 
@@ -12,10 +13,17 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
       // console.log(data);
       $scope.listing = data.results[0];//just display the first one for now
       $scope.tags = data.results[0].tags
+      // $scope.userID = data.results[0].user_id
       gListing = $scope.listing
-
     })
 
+    //based on previous get, find user information (based on listing)
+    // $http.get('https://openapi.etsy.com/v2/users/'+ userID + '/shops?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+    //   $scope.shopName = data.results[0].shop_name
+    //
+    // })
+
+    //acquire all images associated with the listing
     $http.get('https://openapi.etsy.com/v2/listings/'+ listingID +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
       $scope.images = data.results;//just display the first one for now
       // console.log(data);
@@ -30,20 +38,12 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
       console.log("carousel ctroller is up")
 
       $scope.carouselClicker = function(carouselClick){
-        var tempClick = carouselClick;
 
-        if (tempClick > 3){
+        var tempClick = (carouselClick % 4)
 
-          tempClick = 0;
+        if (tempClick < 0){
+          tempClick = (tempClick + 4)
         }
-        else if (tempClick < 0){
-          tempClick = 3;
-        }
-        else {
-          //do nothing
-        }
-        console.log(tempClick);
-
         return tempClick;
       }
     });

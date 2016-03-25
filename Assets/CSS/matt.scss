@@ -128,6 +128,7 @@ a{
  margin-bottom: 20px;
 }
 .listing-storeSummary{
+font-family: 'Lato', 'Arial', sans-serif;
 border: #E5F4F7 5px solid;
 border-radius: 3px;
 }
@@ -167,6 +168,7 @@ border-radius: 3px;
   color: #666666; // and this line are ONLY for selected tabs...
 }
 .listing-tabContent{
+  font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
   display: none;
 }
@@ -191,8 +193,12 @@ border-radius: 3px;
 
 /*======================BELOW HERE IS SUB-FOOTER==============================*/
 
+.listing-subFooter {
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
 .tags {
-  div {
+  .tag-div {
     float: left;
     background-color: white;
     color: #34a8c4;
@@ -201,4 +207,8 @@ border-radius: 3px;
     padding: 6px;
     border-radius: 4px;
   }
+}
+
+.footer-description {
+  display: block;
 }
