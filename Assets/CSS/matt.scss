@@ -133,27 +133,34 @@ a{
  border-radius: 3px;
  margin-bottom: 20px;
 }
+
 .listing-storeSummary{
-font-family: 'Lato', 'Arial', sans-serif;
-border: #E5F4F7 5px solid;
-border-radius: 3px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  border: #E5F4F7 5px solid;
+  border-radius: 3px;
 }
 
 .listing-preview-card {
+  margin: 6px;
   display: inline-block;
-  padding: 6px;
   box-sizing: border-box;
+  border: solid 1px #E5F4F7;
+  border-radius: 3px;
   .preview-img {
     display: inline;
   }
   .preview-title {
     box-sizing: border-box;
-    padding: 3px;
-    width: 170px;
+    margin: 3px 0;
+    width: 168px;
     height: 16px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 12px;
+  }
+  .preview-price {
+    color: #78c042;
     font-size: 12px;
   }
 }
@@ -212,7 +219,7 @@ border-radius: 3px;
   margin-top: 7px;
   img {
     width: 30px;
-    border-radius: 5px;
+    border-radius: 3px;
     margin: 0 4px;
   }
 }

@@ -16,6 +16,8 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
       $scope.listing = data.results[0];
       $scope.tags = data.results[0].tags;
       $scope.userID = data.results[0].user_id;
+      $scope.timeStamp = data.results[0].creation_tsz;
+      $scope.currencyCode = data.results[0].currency_code
 
         //based on previous get, find user information (based on listing)
         $http.get('https://openapi.etsy.com/v2/users/'+ $scope.userID + '/shops?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
