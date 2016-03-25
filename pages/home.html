@@ -22,7 +22,10 @@
       </div><!-- End hero image 1 user info-->
       <div class="home-hero-image-1-banner-products" >
         <ul>
-          <li class="home-hero-image-1-banner-products-thumbnail">  <!--ADD NG-REPEAT-->
+          <li class="home-hero-image-1-banner-products-thumbnail" ng-repeat="products in stuff.heroImageScroll[0].products">
+            <a href="{{products.productLink}}" title="{{products.productDescription}}">
+            <img src="{{products.prodImg}}" alt="{{products.productDescription}}">
+            </a>
           </li>
         </ul>
       </div><!--End hero image 1 products-->
@@ -80,57 +83,57 @@
             <p>></p>
           </div>
         </div>
-      </a><!--END TASTEMAKER 1--> <!-- also end valid json calls! -->
-      <a href="{{tastemaker[1].url}}" class="home-community-tastemaker-user-two-link">
+      </a><!--END TASTEMAKER 1-->
+      <a href="{{stuff.commTastemakers[1].tastemakerURL}}" class="home-community-tastemaker-user-two-link">
         <div class="home-community-tastemaker-user-two">
           <div class="home-community-tastemaker-user-two-header">
-            <img src="{{tastemaker[1].img}}">
-            <p><a href="{{tastemaker[1].url}}">{{tastemaker[1].name}}'s</a> Favorites</p>
+            <img src="{{stuff.commTastemakers[1].tastemakerImage}}">
+            <p><a href="{{stuff.commTastemakers[1].tastemakerURL}}">{{stuff.commTastemakers[1].tastemakerName}}'s</a> Favorites</p>
           </div>
           <ul class="home-community-tastemaker-user-two-img-container">
-            <li class="home-community-tastemaker-user-two-img"> <!--ADD NG-REPEAT-->
-              <img src="{{tastemaker[$index].imgurl}}">
+            <li class="home-community-tastemaker-user-two-img" ng-repeat="pics in stuff.commTastemakers[1].tastemakerProductImgs"> <!--ADD NG-REPEAT-->
+              <img src="{{pics}}">
             </li>
           </ul>
           <div class="home-community-tastemaker-user-two-footer">
-            <h6>{{tastemaker[1].name}}'s</a> Favorites</h6>
-            <h5>{{tastemaker[1].itemnumber}} items</h5>
+            <h6>{{stuff.commTastemakers[1].tastemakerName}}'s</a> Favorites</h6>
+            <h5>{{stuff.commTastemakers[1].tastemakerNumItems}} items</h5>
             <p>></p>
           </div>
         </div>
       </a><!--END TASTEMAKER 2-->
-      <a href="{{tastemaker[2].url}}" class="home-community-tastemaker-user-three-link">
+      <a href="{{stuff.commTastemakers[2].tastemakerURL}}" class="home-community-tastemaker-user-three-link">
         <div class="home-community-tastemaker-user-three">
           <div class="home-community-tastemaker-user-three-header">
-            <img src="{{tastemaker[2].img}}">
-            <p><a href="{{tastemaker[2].url}}">{{tastemaker[2].name}}'s</a> Favorites</p>
+            <img src="{{stuff.commTastemakers[2].tastemakerImage}}">
+            <p><a href="{{stuff.commTastemakers[2].tastemakerURL}}">{{stuff.commTastemakers[2].tastemakerName}}'s</a> Favorites</p>
           </div>
           <ul class="home-community-tastemaker-user-three-img-container">
-            <li class="home-community-tastemaker-user-three-img"> <!--ADD NG-REPEAT-->
-              <img src="{{tastemaker[$index].imgurl}}">
+            <li class="home-community-tastemaker-user-three-img" ng-repeat="pics in stuff.commTastemakers[2].tastemakerProductImgs">
+              <img src="{{pics}}">
             </li>
           </ul>
           <div class="home-community-tastemaker-user-three-footer">
-            <h6>{{tastemaker[2].name}}'s</a> Favorites</h6>
-            <h5>{{tastemaker[2].itemnumber}} items</h5>
+            <h6>{{stuff.commTastemakers[2].tastemakerName}}'s</a> Favorites</h6>
+            <h5>{{stuff.commTastemakers[2].tastemakerNumItems}} items</h5>
             <p>></p>
           </div>
         </div>
       </a><!--END TASTEMAKER 3-->
-      <a href="{{tastemaker[3].url}}" class="home-community-tastemaker-user-four-link">
+      <a href="{{stuff.commTastemakers[3].tastemakerURL}}" class="home-community-tastemaker-user-four-link">
         <div class="home-community-tastemaker-user-four">
           <div class="home-community-tastemaker-user-four-header">
-            <img src="{{tastemaker[3].img}}">
-            <p><a href="{{tastemaker[3].url}}">{{tastemaker[3].name}}'s</a> Favorites</p>
+            <img src="{{stuff.commTastemakers[3].tastemakerImage}}">
+            <p><a href="{{stuff.commTastemakers[3].tastemakerURL}}">{{stuff.commTastemakers[3].tastemakerName}}'s</a> Favorites</p>
           </div>
           <ul class="home-community-tastemaker-user-four-img-container">
-            <li class="home-community-tastemaker-user-four-img"> <!--ADD NG-REPEAT-->
-              <img src="{{tastemaker[$index].imgurl}}">
+            <li class="home-community-tastemaker-user-four-img" ng-repeat="pics in stuff.commTastemakers[3].tastemakerProductImgs">
+              <img src="{{pics}}">
             </li>
           </ul>
           <div class="home-community-tastemaker-user-four-footer">
-            <h6>{{tastemaker[3].name}}'s</a> Favorites</h6>
-            <h5>{{tastemaker[3].itemnumber}} items</h5>
+            <h6>{{stuff.commTastemakers[3].tastemakerName}}'s</a> Favorites</h6>
+            <h5>{{stuff.commTastemakers[3].tastemakerNumItems}} items</h5>
             <p>></p>
           </div>
         </div>
@@ -144,13 +147,13 @@
     </div><!--END Community Tastemakers browse container-->
   </div><!--End Community Tastemakers wrapper-->
   <div class="home-hero-image-2">
-    <img src="{{hero image 2}}">
+    <img src="{{stuff.heroImage2[0].heroImgURL}}">
     <div class="home-hero-image-2-user-image">
-      <img class="{{hero user image}}">
+      <img src="{{stuff.heroImage2[0].featuredUserImg}}">
     </div>
     <div class="home-hero-image-2-user-info">
-      <h1>{{Quote}}</h1>
-      <h3>Meet <a href="{{user store link}}">{{hero user name}} of {{hero user store}}</a></h3>
+      <h1>{{stuff.heroImage2[0].featuredUserQuote}}</h1>
+      <h3>Meet <a href="{{stuff.heroImage2[0].featuredUserLink}}">{{stuff.heroImage2[0].featuredUserName}} of {{stuff.heroImage2[0].featuredUserStoreName}}</a> in {{stuff.heroImage2[0].storeCity}}, {{stuff.heroImage2[0].storeCountry}}</h3>
     </div>
   </div><!--End Hero Image 2-->
   <div class="home-subscribe-aboutEtsy-container">
