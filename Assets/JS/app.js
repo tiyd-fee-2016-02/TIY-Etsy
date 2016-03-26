@@ -7,7 +7,7 @@ app.config(function($routeProvider) {
       // controller: 'homepageController'
     })
     // .when('/product', {
-    //   templateUrl: 'product.html'
+    //   templateUrl: 'productPage.html'
     // })
     .otherwise({
       redirectTo: '/home'
