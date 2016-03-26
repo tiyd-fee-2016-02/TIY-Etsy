@@ -406,6 +406,8 @@ $(document).ready(function(){
   //persist vintage dropdown
   $('.site-header-vintage-dropdown').hover(function(){
     $('.site-header-vintage-dropdown').toggleClass('show');
+    $('.site-header-vintage').addClass('.top-nav-link-hover');
+    $('.vintage-left-link-1').addClass('.left-link-hover');
     $('.vintage-middle-nav-1').show();
     $('.vintage-middle-nav-2').hide();
     $('.vintage-middle-nav-3').hide();

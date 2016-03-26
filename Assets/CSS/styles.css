@@ -117,7 +117,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -157,7 +159,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -207,7 +211,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -253,7 +259,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -303,7 +311,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -345,7 +355,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -387,7 +399,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -428,7 +442,9 @@
     margin: 0 14%;
     height: 53%;
     border: solid thin #dcdcd9;
-    display: none; }
+    border-top: none;
+    display: none;
+    background-color: white; }
     .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav {
       position: absolute;
       height: 52%;
@@ -470,5 +486,9 @@
     display: block; }
   .site-header .hide {
     display: none; }
+  .site-header .top-nav-link-hover {
+    border-bottom: solid 3px #f56400; }
+  .site-header .left-link-hover {
+    background-color: lightblue; }
 
 /*# sourceMappingURL=styles.css.map */
