@@ -97,9 +97,9 @@
  <h1 class="center-header">Browse More Categories</h1>
     <div class="row-3">
        <div class="cat-browse" ng-repeat="cat in categories" ng-if="$index < 12">
-          <a href="{{categories[0].sub_categories[0].sub_category_link}}"><img src="{{categories[0].sub_categories[0].sub_category_image}}" class="row-3-img"></img>
-            <h5 class="browse-cat">{{categories[0].category}}</h5>
-            <h3 class="cat-header">{{categories[0].sub_categories[0].sub_category}}</h3>
+          <a href="{{cat.sub_categories[0].sub_category_link}}"><img src="{{cat.sub_categories[0].sub_category_image}}" class="row-3-img"></img>
+            <h5 class="browse-cat">{{cat.category}}</h5>
+            <h3 class="cat-header">{{cat.sub_categories[0].sub_category}}</h3>
           </a>
        </div>
     </div>

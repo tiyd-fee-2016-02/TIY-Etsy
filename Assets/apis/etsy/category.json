@@ -21,7 +21,8 @@
         "sub_category_id" : "1",
         "sub_category" : "Earrings",
         "sub_category_link" : "https://www.etsy.com/c/jewelry/earrings?ref=catcard-l-1203-199696564",
-        "sub_category_path" : "Earrings (1,715,549 items)"
+        "sub_category_path" : "Earrings (1,715,549 items)",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
@@ -52,25 +53,29 @@
         "sub_category_id" : "0",
         "sub_category" : "Home Décor",
         "sub_category_link" : "https://www.etsy.com/c/home-and-living/home-decor?ref=catcard-l-1002-252038162",
-        "sub_category_path" : "Home Décor (2,682,676 items)"
+        "sub_category_path" : "Home Décor (2,682,676 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/042/1/7843314/il_340x270.594074995_mz7o.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "Kitchen & Dining",
         "sub_category_link" : "https://www.etsy.com/c/home-and-living/kitchen-and-dining?ref=catcard-l-1031-252038162",
-        "sub_category_path" : "Kitchen & Dining (1,515,980 items)"
+        "sub_category_path" : "Kitchen & Dining (1,515,980 items)",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "Bedding",
         "sub_category_link" : "https://www.etsy.com/c/home-and-living/bedding?ref=catcard-l-911-252038162",
-        "sub_category_path" : "Bedding (319,929 items)"
+        "sub_category_path" : "Bedding (319,929 items)",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "Storage & Organization",
         "sub_category_link" : "https://www.etsy.com/c/home-and-living/storage-and-organization?ref=catcard-l-1165-252038162",
-        "sub_category_path" : "Storage & Organization (182,633 items)"
+        "sub_category_path" : "Storage & Organization (182,633 items)",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -87,27 +92,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Sewing Suplies",
+        "sub_category_link" : "https://www.etsy.com/c/craft-supplies-and-tools/sewing-and-needlecraft-supplies?ref=catcard-742-229862879",
+        "sub_category_path" : "Sewing & Needlecraft Supplies (1,421,763 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/067/1/7952851/il_340x270.759721085_nwy7.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -124,27 +133,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Prints",
+        "sub_category_link" : "https://www.etsy.com/c/art-and-collectibles/prints?ref=catcard-119-229671178",
+        "sub_category_path" : "Prints (1,612,770 items)",
+        "sub_category_image" : "https://img0.etsystatic.com/101/0/9530843/il_340x270.911265040_b60k.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -161,27 +174,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Women's Clothing",
+        "sub_category_link" : "https://www.etsy.com/c/clothing/womens-clothing?ref=catcard-500-261892316",
+        "sub_category_path" : "Women's Clothing (2,145,775 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/138/1/8512710/il_340x270.894274395_s5ud.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -198,27 +215,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Rings",
+        "sub_category_link" : "https://www.etsy.com/c/jewelry/rings?ref=catcard-1231-287193525",
+        "sub_category_path" : "Rings (860,475 items)",
+        "sub_category_image" : "https://img0.etsystatic.com/109/0/10110825/il_340x270.946276256_skji.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -235,27 +256,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Party Supplies",
+        "sub_category_link" : "https://www.etsy.com/c/paper-and-party-supplies/party-supplies?ref=catcard-1330-272116616",
+        "sub_category_path" : "Party Supplies (835,873 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/110/0/11707818/il_340x270.985712019_bhp3.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -272,27 +297,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Bar Soaps",
+        "sub_category_link" : "https://www.etsy.com/c/bath-and-beauty/soaps/bar-soaps?ref=catcard-309-79752290",
+        "sub_category_path" : "Bar Soaps (67,465 items)",
+        "sub_category_image" : "https://img0.etsystatic.com/000/0/5909552/il_340x270.335640722.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -309,27 +338,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Evening Bags",
+        "sub_category_link" : "https://www.etsy.com/c/bags-and-purses/handbags/clutches-and-evening-bags?ref=catcard-157-177896618",
+        "sub_category_path" : "Clutches & Evening Bags (71,475 items)",
+        "sub_category_image" : "https://img0.etsystatic.com/111/0/7218619/il_340x270.945923220_bjpf.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -346,27 +379,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Cake Toppers",
+        "sub_category_link" : "https://www.etsy.com/c/weddings/decorations/cake-toppers?ref=catcard-1660-239910784",
+        "sub_category_path" : "Cake Toppers (55,773 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/067/0/10638656/il_340x270.799250573_gldo.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -383,27 +420,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Video Games",
+        "sub_category_link" : "https://www.etsy.com/c/toys-and-games/games-and-puzzles/video-games?ref=catcard-1753-241467805",
+        "sub_category_path" : "Video Games (11,007 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/073/1/6040044/il_340x270.806243833_sxus.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -420,27 +461,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Literature & Fiction",
+        "sub_category_link" : "https://www.etsy.com/c/books-movies-and-music/books/literature-and-fiction?ref=catcard-347-245780944",
+        "sub_category_path" : " Literature & Fiction (35,820 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/072/0/8165712/il_340x270.823788967_i0pp.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -457,27 +502,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Phone Cases",
+        "sub_category_link" : "https://www.etsy.com/c/electronics-and-accessories/electronics-cases/phone-cases?ref=catcard-873-268192834",
+        "sub_category_path" : "Phone Cases (191,480 items)",
+        "sub_category_image" : "https://img0.etsystatic.com/120/1/7398751/il_340x270.946737478_gwf8.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -494,27 +543,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Cat Toys",
+        "sub_category_link" : "https://www.etsy.com/c/pet-supplies/pet-toys/cat-toys?ref=catcard-1418-244487201",
+        "sub_category_path" : "Pet Supplies (298,189 items)",
+        "sub_category_image" : "https://img0.etsystatic.com/137/0/11189675/il_340x270.906793432_eoh8.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
   },
@@ -531,27 +584,31 @@
     [
       {
         "sub_category_id" : "0",
-        "sub_category" : "",
-        "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category" : "Booties",
+        "sub_category_link" : "https://www.etsy.com/c/shoes/boys-shoes/booties-and-crib-shoes?ref=catcard-1431-220663699",
+        "sub_category_path" : "Booties & Crib Shoes (37,527 items)",
+        "sub_category_image" : "https://img1.etsystatic.com/136/0/7292566/il_340x270.987476631_rwqm.jpg"
       },
       {
         "sub_category_id" : "1",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "2",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       },
       {
         "sub_category_id" : "3",
         "sub_category" : "",
         "sub_category_link" : "",
-        "sub_category_path" : ""
+        "sub_category_path" : "",
+        "sub_category_image" : ""
       }
     ]
 },
