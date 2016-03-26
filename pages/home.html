@@ -5,21 +5,23 @@
       <h1>Shop directly from people around the world</h1>
     </div>
     <div class="home-hero-image-1-banner">
-      <div class="home-hero-image-1-banner-userinfo">
-        <div class="home-hero-image-1-banner-userinfo-image" id = "home-userinfo-text-wrap">
-          <img src="{{stuff.heroImageScroll[0].storeOwnerImage}}" class="home">
-        </div>
-        <div class = "home-name-store-city-country" id = "home-userinfo-text-wrap">
-        <div class="home-hero-image-1-banner-userinfo-name-store">
-          <div class="home-usesr-info-top-margin">
-            {{stuff.heroImageScroll[0].storeOwnerName}} of {{stuff.heroImageScroll[0].storeName}}
-          </div>
-        </div>
-        <div class="home-hero-image-1-banner-userinfo-city-country">
-          {{stuff.heroImageScroll[0].storeCity}}, {{stuff.heroImageScroll[0].storeCountry}}
-        </div>
-      </div>
-      </div><!-- End hero image 1 user info-->
+      <a class="home-hero-image-1-banner-userinfo-link" href="{{stuff.heroImageScroll[0].storeURL}}">
+        <div class="home-hero-image-1-banner-userinfo">
+            <div class="home-hero-image-1-banner-userinfo-image" id = "home-userinfo-text-wrap">
+              <img src="{{stuff.heroImageScroll[0].storeOwnerImage}}" class="home">
+            </div>
+            <div class = "home-name-store-city-country" id = "home-userinfo-text-wrap">
+              <div class="home-hero-image-1-banner-userinfo-name-store">
+                <div class="home-user-info-top-margin">
+                  {{stuff.heroImageScroll[0].storeOwnerName}} of <span class="home-user-info-top-margin-storeName">{{stuff.heroImageScroll[0].storeName}}</span>
+                </div>
+              </div>
+              <div class="home-hero-image-1-banner-userinfo-city-country">
+                {{stuff.heroImageScroll[0].storeCity}}, {{stuff.heroImageScroll[0].storeCountry}}
+              </div>
+            </div>
+        </div><!-- End hero image 1 user info-->
+      </a>
       <div class="home-hero-image-1-banner-products" >
         <ul class="home-hero-image-1-banner-products-display-ilBlock">
           <li class="home-hero-image-1-banner-products-thumbnail" ng-repeat="products in stuff.heroImageScroll[0].products" ng-click="giveProdID(products.listingID)">

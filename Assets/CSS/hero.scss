@@ -32,6 +32,10 @@
 
 }
 
+.home-hero-image-1-banner-userinfo-link {
+  text-decoration: none;
+}
+
 .home-hero-image-1-banner-userinfo {
   margin-left: 11.2%;
   line-height: 21px;
@@ -41,6 +45,9 @@
   vertical-align: top;
   margin-top: 6px;
   color: white;
+  &:hover .home-user-info-top-margin-storeName {
+    text-decoration: underline;
+  }
 }
 
 #home-userinfo-text-wrap {
