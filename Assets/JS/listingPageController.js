@@ -24,7 +24,7 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
           $scope.shopName = data.results[0].shop_name;
           $scope.shopID = data.results[0].shop_id
 
-            $http.get('https://openapi.etsy.com/v2/shops/5652817?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+            $http.get('https://openapi.etsy.com/v2/shops/'+ $scope.shopID +'?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
               $scope.shopAvatar = data.results[0].icon_url_fullxfull
             })
 
@@ -40,8 +40,7 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
               $scope.listing6 = data.results[5].listing_id;
               $scope.listing7 = data.results[6].listing_id;
               $scope.listing8 = data.results[7].listing_id;
-              $scope.listing9 = data.results[8].listing_id;
-              $scope.listing10 = data.results[9].listing_id;
+
 
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing1 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
