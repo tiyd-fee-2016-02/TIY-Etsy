@@ -12,8 +12,8 @@
         <div class = "home-name-store-city-country" id = "home-userinfo-text-wrap">
         <div class="home-hero-image-1-banner-userinfo-name-store">
           <div class="home-usesr-info-top-margin">
-          {{stuff.heroImageScroll[0].storeOwnerName}} of {{stuff.heroImageScroll[0].storeName}}
-        </div>
+            {{stuff.heroImageScroll[0].storeOwnerName}} of {{stuff.heroImageScroll[0].storeName}}
+          </div>
         </div>
         <div class="home-hero-image-1-banner-userinfo-city-country">
           {{stuff.heroImageScroll[0].storeCity}}, {{stuff.heroImageScroll[0].storeCountry}}
@@ -24,7 +24,7 @@
         <ul class="home-hero-image-1-banner-products-display-ilBlock">
           <li class="home-hero-image-1-banner-products-thumbnail" ng-repeat="products in stuff.heroImageScroll[0].products" ng-click="giveProdID(products.listingID)">
             <a href="#/product" title="{{products.productDescription}}">
-            <img src="{{products.prodImg}}" alt="{{products.productDescription}}">
+              <img src="{{products.prodImg}}" alt="{{products.productDescription}}">
             </a>
           </li>
           <a href="{{stuff.heroImageScroll[0].storeURL}}">
