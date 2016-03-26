@@ -55,7 +55,7 @@
             </div>
             <div class="home-editor-pick-card-wrapper-top-2-text">
               <div>EDITORS' PICKS</div>
-              <div>{{picks.epcategory}}</div>
+              <div class="home-editor-pick-card-wrapper-top-2-text-category">{{picks.epcategory}}</div>
             </div>
           </div>
         </div><!--End top 2-->
@@ -65,7 +65,7 @@
           </div>
           <div class="home-editor-pick-card-wrapper-bottom-4-text">
             <div>EDITORS' PICKS</div>
-            <div>{{picks.epcategory}}</div>
+            <div class="home-editor-pick-card-wrapper-bottom-4-text-category">{{picks.epcategory}}</div>
           </div>
         </div><!--End bottom 4-->
       </div><!-- End editor pick card wrapper-->
@@ -165,7 +165,8 @@
   <div class="home-hero-image-2">
     <img src="{{stuff.heroImage2[0].heroImgURL}}">
     <div class="home-hero-image-2-user-image">
-      <img src="{{stuff.heroImage2[0].featuredUserImg}}">
+      <a href="{{stuff.heroImage2[0].featuredUserLink}}"><img src="{{stuff.heroImage2[0].featuredUserImg}}">
+      </a>
     </div>
     <div class="home-hero-image-2-user-info">
       <h1>{{stuff.heroImage2[0].featuredUserQuote}}</h1>

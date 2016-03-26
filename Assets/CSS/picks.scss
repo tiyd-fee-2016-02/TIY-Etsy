@@ -29,7 +29,6 @@
   display: inline-block;
   margin-bottom: 20px;
   vertical-align: top;
-  // border: 1px solid purple;
   padding: 5px;
   font-family: $Lato;
   &:hover{
@@ -46,7 +45,6 @@
     .home-editor-pick-card-inner-wrapper-top-2 {
       width: 100%;
       height: 190px;
-      // border: 1px solid yellow;
       color: $Grey-type;
       background: white;
       border-radius: 3px;
@@ -61,7 +59,7 @@
 .home-editor-pick-card-wrapper-top-2-text{
   display: inline-block;
   vertical-align:top;
-  width: 150px;
+  width: 160px;
   margin-top: 60px;
   margin-left: 20px;
   font-size: 12px;
@@ -75,6 +73,10 @@
       font-weight: bold;
     }
   }
+}
+
+.home-editor-pick-card-wrapper-top-2-text-category {
+  font-family: $Bitter;
 }
 
 .home-editor-pick-card-wrapper-top-2-image{
@@ -91,11 +93,11 @@
       }
     }
   }
+  font-family: $Lato;
   width: 230px;
   display: inline-block;
   margin-right: 10px;
   margin-left: 5px;
-  // border: 1px solid red;
   border-radius: 3px;
   background: white;
   &:last-child{
@@ -115,7 +117,7 @@
   margin-top: 18px;
   margin-left: 5px;
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 12px;
   color: #777;
   div{
     display: block;
@@ -128,7 +130,12 @@
   }
 }
 
+.home-editor-pick-card-wrapper-bottom-4-text-category {
+  font-family: $Bitter;
+}
+
 .home-editor-pick-more-btn{
+  font-family: $Lato;
   font-size: 18px;
   background: white;
   border-radius: 3px;
