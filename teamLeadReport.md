@@ -28,3 +28,11 @@ Updated the trello with new checklists. Written wireframing. Pair programmed our
 -Styled Tastemaker section (Andrew)
 -Did initial styling of Editors' picks section (Daniel)
 -Refined styling of previously styled elements (team)
+
+##March 26. Team Lead: Daniel##
+
+-Finished top two editors picks (Andrew).
+-Styled the bottom four editors picks.Linked editors picks (Andrew).
+-Finagled User info elements to underline on hover and provided link (Jeremy).
+-Selected appropriate font styles for picks and tastemakers( Jeremy).
+-Image opacity on hover (team).
