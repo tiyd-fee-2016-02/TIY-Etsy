@@ -51,24 +51,28 @@
       </div>
       <div class="home-editor-pick-card-wrapper">
         <div class="home-editor-pick-card-wrapper-top-2" ng-repeat="picks in stuff.editorsPicksTop2">
-          <div class="home-editor-pick-card-inner-wrapper-top-2">
-            <div class="home-editor-pick-card-wrapper-top-2-image">
-              <img src="{{picks.picksPic}}">
+          <a href="{{picks.picksLink}}">
+            <div class="home-editor-pick-card-inner-wrapper-top-2">
+              <div class="home-editor-pick-card-wrapper-top-2-image">
+                <img src="{{picks.picksPic}}">
+              </div>
+              <div class="home-editor-pick-card-wrapper-top-2-text">
+                <div>EDITORS' PICKS</div>
+                <div class="home-editor-pick-card-wrapper-top-2-text-category">{{picks.epcategory}}</div>
+              </div>
             </div>
-            <div class="home-editor-pick-card-wrapper-top-2-text">
-              <div>EDITORS' PICKS</div>
-              <div class="home-editor-pick-card-wrapper-top-2-text-category">{{picks.epcategory}}</div>
-            </div>
-          </div>
+          </a>
         </div><!--End top 2-->
         <div class="home-editor-pick-card-wrapper-bottom-4" ng-repeat="picks in stuff.editorsPicksBottom4">
-          <div class="home-editor-pick-card-wrapper-bottom-4-image">
-            <img src="{{picks.picksPic}}">
-          </div>
-          <div class="home-editor-pick-card-wrapper-bottom-4-text">
-            <div>EDITORS' PICKS</div>
-            <div class="home-editor-pick-card-wrapper-bottom-4-text-category">{{picks.epcategory}}</div>
-          </div>
+          <a href="{{picks.picksLink}}">
+            <div class="home-editor-pick-card-wrapper-bottom-4-image">
+              <img src="{{picks.picksPic}}">
+            </div>
+            <div class="home-editor-pick-card-wrapper-bottom-4-text">
+              <div>EDITORS' PICKS</div>
+              <div class="home-editor-pick-card-wrapper-bottom-4-text-category">{{picks.epcategory}}</div>
+            </div>
+          </a>
         </div><!--End bottom 4-->
       </div><!-- End editor pick card wrapper-->
       <a href="https://www.etsy.com/featured?ref=soph">
