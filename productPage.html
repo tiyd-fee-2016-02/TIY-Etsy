@@ -43,22 +43,26 @@
   <div class="listing-Proper">
     <span class="listingProper-ColLeft">
 
-      <div class="listing-imgCarosel" ng-controller = "carouselCtrl">
-        <img src = "{{images[carouselClicker(carouselClick)].url_570xN}}"></img>
+      <div ng-controller = "carouselCtrl">
+        <div class="listing-imgCarosel">
+          <img src = "{{images[carouselClicker(carouselClick)].url_570xN}}"></img>
           <div class = "carousel-left" ng-click = "carouselClick = carouselClick - 1">
             <div class = "carousel-left-button"><</div>
           </div>
 
-        <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1; ">
-          <div class = "carousel-right-button">></div>
+          <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1">
+            <div class = "carousel-right-button">></div>
+          </div>
         </div>
-      </div>
 
-      <div class="listing-thumbZoom">
-        <div class = "thumbnails" ng-repeat = "image in images">
-          <img src = "{{image.url_75x75}}"></img>
+        <div class="listing-thumbZoom">
+          <div class = "thumbnails" ng-repeat = "image in images">
+            <div ng-click = "$parent.carouselClick = images.indexOf(image)">
+              <img src = "{{image.url_75x75}}"></img>
+            </div>
+          </div>
+          <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
         </div>
-        <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
       </div>
 
 
