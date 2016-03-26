@@ -77,14 +77,15 @@
   .site-header .site-header-dropdown-nav-wrap {
     border-bottom: solid thin #dcdcd9; }
     .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap {
-      margin: 0 16% 1px 16%; }
+      margin: 0 16% 3px  16%; }
       .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
         display: inline-block;
         padding: .75em 0;
         margin: 0 2.5% 0 0;
         color: #6c6c63; }
         .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
-          border-bottom: solid 3px #f56400; }
+          border-bottom: solid 3px #f56400;
+          margin-bottom: -3px; }
   .site-header .site-header-dropdown-standard-left-link {
     padding: 1em .5em; }
     .site-header .site-header-dropdown-standard-left-link:hover {
@@ -112,6 +113,22 @@
     font-weight: bold;
     font-size: 1.1em; }
     .site-header .site-header-dropdown-bold-middle-link:hover {
+      text-decoration: underline; }
+  .site-header .site-header-right-nav-img {
+    width: 90%;
+    height: 50%;
+    margin: 0 5%; }
+  .site-header .site-header-right-nav-txt {
+    display: block;
+    margin: 6% 5% 3% 5%;
+    color: #aaa; }
+  .site-header .site-header-right-nav-desc-txt {
+    display: block;
+    margin: 3% 5%;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold; }
+    .site-header .site-header-right-nav-desc-txt:hover {
       text-decoration: underline; }
   .site-header .site-header-clothing-dropdown {
     margin: 0 14%;
@@ -154,10 +171,10 @@
     .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-jewelry-dropdown {
     margin: 0 14%;
@@ -210,10 +227,10 @@
     .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-craft-dropdown {
     margin: 0 14%;
@@ -262,10 +279,10 @@
     .site-header .site-header-craft-dropdown .site-header-craft-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-wedding-dropdown {
     margin: 0 14%;
@@ -318,10 +335,10 @@
     .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-entertainment-dropdown {
     margin: 0 14%;
@@ -366,10 +383,10 @@
     .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-living-dropdown {
     margin: 0 14%;
@@ -414,10 +431,10 @@
     .site-header .site-header-living-dropdown .site-header-living-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-kids-dropdown {
     margin: 0 14%;
@@ -461,10 +478,10 @@
     .site-header .site-header-kids-dropdown .site-header-kids-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .site-header-vintage-dropdown {
     margin: 0 14%;
@@ -509,10 +526,10 @@
     .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-right-nav {
       position: absolute;
       height: 95%;
-      width: 20%;
+      width: 24%;
       margin: 1% 0  0 52%;
       display: inline-block;
-      border: solid thin pink;
+      border-left: solid thin #dcdcd9;
       float: right; }
   .site-header .show {
     display: block; }
