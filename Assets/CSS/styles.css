@@ -81,48 +81,111 @@
   color: #aaaaaa;
   font-size: 14px; }
 
+.home-editor-pick-bg {
+  background: #eee;
+  padding-bottom: 40px;
+  border: 1px solid #eee; }
+  .home-editor-pick-bg a {
+    text-decoration: none;
+    color: black; }
+
 .home-editor-pick-wrapper {
   width: 980px;
-  height: 784px;
-  margin: 0 auto;
-  border: 1px solid orange; }
+  margin: 0 auto; }
 
 .home-editor-pick-header {
   font-family: "Bitter", "Times", serif;
   font-size: 32px;
   font-weight: 500;
   text-align: center;
-  margin-top: 75px; }
+  margin-top: 75px;
+  margin-bottom: 40px; }
 
 .home-editor-pick-card-wrapper-top-2 {
   width: 48.75%;
-  height: 210px;
+  height: 190px;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   vertical-align: top;
-  border: 1px solid purple;
   padding: 5px;
-  font-family: 'Lato', 'Arial', sans-serif; }
+  font-family: "Lato", "Arial", sans-serif; }
+  .home-editor-pick-card-wrapper-top-2:hover div div div:last-child {
+    text-decoration: underline; }
   .home-editor-pick-card-wrapper-top-2 .home-editor-pick-card-inner-wrapper-top-2 {
     width: 100%;
-    height: 212px;
-    border: 1px solid yellow;
-    color: #aaaaaa; }
+    height: 190px;
+    color: #aaaaaa;
+    background: white;
+    border-radius: 3px; }
   .home-editor-pick-card-wrapper-top-2 .home-editor-pick-card-wrapper-top-2-image img {
+    border-radius: 2px 0px 0px 2px;
     width: 239px;
-    height: 210px; }
-  .home-editor-pick-card-wrapper-top-2 #home-picks-top-2-img-text-ILB {
-    display: inline-block; }
-  .home-editor-pick-card-wrapper-top-2 .home-editor-pick-card-wrapper-top-2-text div {
-    width: 170px;
-    margin-left: 30px;
-    border: 1px solid yellow;
-    margin-bottom: 40px; }
-  .home-editor-pick-card-wrapper-top-2 .home-epccategory-font-size {
-    margin-top: 5px;
-    font-weight: 500;
-    font-size: 24px;
-    color: black; }
+    height: 192px; }
+
+.home-editor-pick-card-wrapper-top-2-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin-top: 60px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #777; }
+  .home-editor-pick-card-wrapper-top-2-text div {
+    display: block;
+    padding: 4px 0; }
+    .home-editor-pick-card-wrapper-top-2-text div:last-child {
+      color: black;
+      font-size: 20px;
+      font-weight: bold; }
+
+.home-editor-pick-card-wrapper-top-2-image {
+  display: inline-block; }
+
+.home-editor-pick-card-wrapper-bottom-4 {
+  width: 230px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 5px;
+  border-radius: 3px;
+  background: white; }
+  .home-editor-pick-card-wrapper-bottom-4:hover div div:last-child {
+    text-decoration: underline; }
+  .home-editor-pick-card-wrapper-bottom-4:last-child {
+    margin-right: 0px;
+    padding-right: 0px; }
+  .home-editor-pick-card-wrapper-bottom-4 img {
+    width: 100%;
+    border-radius: 3px 3px 0 0; }
+
+.home-editor-pick-card-wrapper-bottom-4-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  margin-top: 18px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #777; }
+  .home-editor-pick-card-wrapper-bottom-4-text div {
+    display: block;
+    padding: 4px 0; }
+    .home-editor-pick-card-wrapper-bottom-4-text div:last-child {
+      color: black;
+      font-size: 20px;
+      font-weight: bold; }
+
+.home-editor-pick-more-btn {
+  font-size: 18px;
+  background: white;
+  border-radius: 3px;
+  width: 170px;
+  padding: 14px 14px;
+  margin: 30px auto;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+  .home-editor-pick-more-btn:hover {
+    background: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .home-hero-image-2 img {
   width: 100%; }
@@ -161,8 +224,7 @@
 
 .home-community-tastemakers-wrapper {
   width: 980px;
-  margin: 0 auto;
-  margin-top: 3000px; }
+  margin: 0 auto; }
   .home-community-tastemakers-wrapper a {
     text-decoration: none; }
   .home-community-tastemakers-wrapper img {

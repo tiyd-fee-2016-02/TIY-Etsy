@@ -42,34 +42,38 @@
     </div><!--End Hero Image 1 banner-->
   </div><!--End Hero Image 1-->
 
-  <div class="home-editor-pick-wrapper">
-    <div class="home-editor-pick-header">
-      <h1>Discover items you can't find anywhere else</h1>
-    </div>
-    <div class="home-editor-pick-card-wrapper">
-      <div class="home-editor-pick-card-wrapper-top-2" ng-repeat="picks in stuff.editorsPicksTop2">
-        <div class="home-editor-pick-card-inner-wrapper-top-2">
-        <div class="home-editor-pick-card-wrapper-top-2-image" id="home-picks-top-2-img-text-ILB">
-          <img src="{{picks.picksPic}}">
-        </div>
-        <div class="home-editor-pick-card-wrapper-top-2-text" id="home-picks-top-2-img-text-ILB">
-          <div>EDITORS' PICKS</div>
-          <div class= "home-epccategory-font-size">{{picks.epcategory}}</div>
-        </div>
-        </div>
-      </div><!--End top 2-->
-      <div class="home-editor-pick-card-wrapper-bottom-4" ng-repeat="picks in stuff.editorsPicksBottom4">
-        <div class="home-editor-pick-card-wrapper-bottom-4-image">
-          <img src="{{picks.picksPic}}">
-        </div>
-        <div class="home-editor-pick-card-wrapper-bottom-4-text">
-          <div>EDITORS' PICKS</div>
-          <div>{{picks.epcategory}}</div>
-        </div>
-      </div><!--End bottom 4-->
-    </div><!-- End editor pick card wrapper-->
-    <div class="home-editor-pick-more-btn">More Editors' Picks ></div>
-  </div><!--End editor pick wrapper-->
+  <div class="home-editor-pick-bg">
+    <div class="home-editor-pick-wrapper">
+      <div class="home-editor-pick-header">
+        <h1>Discover items you can't find anywhere else</h1>
+      </div>
+      <div class="home-editor-pick-card-wrapper">
+        <div class="home-editor-pick-card-wrapper-top-2" ng-repeat="picks in stuff.editorsPicksTop2">
+          <div class="home-editor-pick-card-inner-wrapper-top-2">
+            <div class="home-editor-pick-card-wrapper-top-2-image">
+              <img src="{{picks.picksPic}}">
+            </div>
+            <div class="home-editor-pick-card-wrapper-top-2-text">
+              <div>EDITORS' PICKS</div>
+              <div>{{picks.epcategory}}</div>
+            </div>
+          </div>
+        </div><!--End top 2-->
+        <div class="home-editor-pick-card-wrapper-bottom-4" ng-repeat="picks in stuff.editorsPicksBottom4">
+          <div class="home-editor-pick-card-wrapper-bottom-4-image">
+            <img src="{{picks.picksPic}}">
+          </div>
+          <div class="home-editor-pick-card-wrapper-bottom-4-text">
+            <div>EDITORS' PICKS</div>
+            <div>{{picks.epcategory}}</div>
+          </div>
+        </div><!--End bottom 4-->
+      </div><!-- End editor pick card wrapper-->
+      <a href="https://www.etsy.com/featured?ref=soph">
+        <div class="home-editor-pick-more-btn">More Editors' Picks ></div>
+      </a>
+    </div><!--End editor pick wrapper-->
+  </div>
   <div class="home-community-tastemakers-wrapper">
     <div class="home-community-tastemakers-header">
       <h1>Community Tastemakers</h1>
