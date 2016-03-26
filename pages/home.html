@@ -22,8 +22,8 @@
       </div><!-- End hero image 1 user info-->
       <div class="home-hero-image-1-banner-products" >
         <ul class="home-hero-image-1-banner-products-display-ilBlock">
-          <li class="home-hero-image-1-banner-products-thumbnail" ng-repeat="products in stuff.heroImageScroll[0].products">
-            <a href="{{products.productLink}}" title="{{products.productDescription}}">
+          <li class="home-hero-image-1-banner-products-thumbnail" ng-repeat="products in stuff.heroImageScroll[0].products" ng-click="giveProdID(products.listingID)">
+            <a href="#/product" title="{{products.productDescription}}">
             <img src="{{products.prodImg}}" alt="{{products.productDescription}}">
             </a>
           </li>
@@ -87,7 +87,7 @@
             <div><h4>{{stuff.commTastemakers[0].tastemakerName}}'s</h4> Favorites</div>
           </div>
           <ul class="home-community-tastemaker-user-img-container">
-            <li class="home-community-tastemaker-user-img" ng-repeat="pics in stuff.commTastemakers[0].tastemakerProductImgs"> <!--ADD NG-REPEAT-->
+            <li class="home-community-tastemaker-user-img" ng-repeat="pics in stuff.commTastemakers[0].tastemakerProductImgs">
               <img src="{{pics}}">
             </li>
           </ul>
@@ -105,7 +105,7 @@
             <div><h4>{{stuff.commTastemakers[1].tastemakerName}}'s</h4> Favorites</div>
           </div>
           <ul class="home-community-tastemaker-user-img-container">
-            <li class="home-community-tastemaker-user-img" ng-repeat="pics in stuff.commTastemakers[1].tastemakerProductImgs"> <!--ADD NG-REPEAT-->
+            <li class="home-community-tastemaker-user-img" ng-repeat="pics in stuff.commTastemakers[1].tastemakerProductImgs">
               <img src="{{pics}}">
             </li>
           </ul>
