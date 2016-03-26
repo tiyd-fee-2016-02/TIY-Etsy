@@ -1,0 +1,247 @@
+a{
+  color: #000;
+}
+.listing-PageContainer{
+  background: #efefeb;
+}
+.off{
+  display:none;
+}
+.listing-SubHeader{
+  margin-left: 12%;
+  margin-right: 12%;
+  // border: red 1px solid;
+  padding-bottom: 30px;
+  padding-top: 30px;
+
+  .shop-avatar {
+    display: inline-block;
+  }
+}
+.listing-Proper{
+  display: inline-block;
+  width: 76%;
+  background: #fff;
+  border:  #e4f3d9 1px solid;
+  border-radius: 3px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+  // border: red 1px solid;
+  // height: 70%;
+}
+
+/*=========================BELOW THIS IS THE LEFT COLUMN============================*/
+
+.listingProper-ColLeft{
+  display: inline-block;
+  // border: green 1px solid;
+  float: left;
+  width: 58%;
+}
+.listing-imgCarosel{
+  width: 570px;
+  height:700px;
+  background: #f5f5f1;
+  position: relative;
+    .carousel-left {
+      width: 285px;
+      height: 700px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .carousel-left-button {
+        width: 40px;
+        height: 80px;
+        background-color: #cfcdc9;
+        opacity: 0.8;
+        color: white;
+        position: absolute;
+        top: 285;
+        border-radius: 0 4px 4px 0;
+      }
+    }
+    .carousel-right {
+      width: 285px;
+      height: 700px;
+      position: absolute;
+      top: 0;
+      left: 285;
+      .carousel-right-button {
+        width: 40px;
+        height: 80px;
+        background-color: #cfcdc9;
+        opacity: 0.8;
+        color: white;
+        position: absolute;
+        top: 285;
+        left: 245;
+        border-radius: 4px 0 0 4px;
+      }
+    }
+
+}
+
+.carousel-left:hover {
+  .carousel-left-button {
+    background-color: #67BED3;
+  }
+}
+
+.carousel-right:hover {
+  .carousel-right-button {
+    background-color: #67BED3;
+  }
+}
+
+.listing-thumbZoom{
+
+}
+.listing-tabContainer{
+
+}
+.listing-itemDetails{
+
+}
+.listing-userReviews{
+
+}
+.listing-shippingPolicies{
+
+}
+
+/*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
+
+.listing-ColRight{
+  display: inline-block;
+  // border: green 1px solid;
+  float: right;
+  width: 40%;
+}
+.listing-Desc{
+  border: #E4F3D9 5px solid;
+  border-bottom: #E4F3D9 40px solid;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.listing-socialMedia{
+ border: 5px #EFEFEB solid;
+ border-bottom: #EFEFEB 40px solid;
+ border-radius: 3px;
+ margin-bottom: 20px;
+}
+
+.listing-storeSummary{
+  font-family: 'Lato', 'Arial', sans-serif;
+  border: #E5F4F7 5px solid;
+  border-radius: 3px;
+}
+
+.listing-preview-card {
+  margin: 6px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: solid 1px #E5F4F7;
+  border-radius: 3px;
+  .preview-img {
+    display: inline;
+  }
+  .preview-title {
+    box-sizing: border-box;
+    margin: 3px 0;
+    width: 168px;
+    height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+  }
+  .preview-price {
+    color: #78c042;
+    font-size: 12px;
+  }
+}
+
+.listing-subFooter{
+  margin-left: 12%;
+  margin-right: 12%;
+  // border: red 1px solid;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.listing-thumbZoom{
+  display: inline-block;
+}
+.listing-tabsThemselves{
+  border-bottom: #DADBD6 1px solid;
+  text-align: center;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+.listing-tab{
+  background: #F5F6F1;
+  box-sizing: border-box;
+  display: inline-block;
+  border: #DADBD6 1px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:-2px;
+  margin-right:-2px;
+  margin-bottom: -2px;
+  margin-top: 10px;
+  color:#0192B5;
+}
+.listing-tabSelected{
+  background: #Fff;
+  border-bottom: 1px #fff solid;//this line...
+  color: #666666; // and this line are ONLY for selected tabs...
+}
+.listing-tabContent{
+  font-family: 'Lato', 'Arial', sans-serif;
+  margin-top: 50px;
+  display: none;
+}
+.listing-tabContentSelected{
+  display: block;
+}
+.stars{
+  color: #FFDC1E;
+}
+
+/*======================BELOW HERE IS THUMBNAILS==============================*/
+
+.thumbnails {
+  display: inline-block;
+  margin-top: 7px;
+  img {
+    width: 30px;
+    border-radius: 3px;
+    margin: 0 4px;
+  }
+}
+
+/*======================BELOW HERE IS SUB-FOOTER==============================*/
+
+.listing-subFooter {
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
+.tags {
+  .tag-div {
+    float: left;
+    background-color: white;
+    color: #34a8c4;
+    margin: 0 10px 10px 0;
+    border: solid 1px #e2e2e2;
+    padding: 6px;
+    border-radius: 4px;
+  }
+}
+
+.footer-description {
+  display: block;
+}

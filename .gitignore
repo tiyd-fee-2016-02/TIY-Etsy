@@ -1,4 +1,5 @@
 bower_components
 ./assets/sass/styles.scss
+./assets/css/matt.scss
 ./assets/.sass-cache/
 ./assets/css/styles.css.map

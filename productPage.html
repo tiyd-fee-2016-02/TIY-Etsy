@@ -1,0 +1,204 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/CSS/matt.css">
+  <link rel="stylesheet" href="assets/CSS/reset.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+  <script src="Assets/JS/listingPageController.js"></script>
+  <script src="Assets/JS/tabController.js"></script>
+  <script src="Assets/JS/app.js"></script>
+</head>
+<body ng-app="listingPageApp">
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="listing-PageContainer" ng-controller="listingPageController">
+
+  <div class="listing-SubHeader">
+
+    <img class = "shop-avatar" src = "{{shopAvatar}}" width = "75px"></img>
+    {{shopName}}
+    Favorite Shop
+
+    <img src = "{{image1src.url_75x75}}"></img>
+    <img src = "{{image2src.url_75x75}}"></img>
+    <img src = "{{image3src.url_75x75}}"></img>
+    <img src = "{{image4src.url_75x75}}"></img>
+    {{listingCount}} items
+
+
+  </div><!--end listingsubheader-->
+  <div class="listing-Proper">
+    <span class="listingProper-ColLeft">
+
+      <div class="listing-imgCarosel" ng-controller = "carouselCtrl">
+        <img src = "{{images[carouselClicker(carouselClick)].url_570xN}}"></img>
+          <div class = "carousel-left" ng-click = "carouselClick = carouselClick - 1">
+            <div class = "carousel-left-button"><</div>
+          </div>
+
+        <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1; ">
+          <div class = "carousel-right-button">></div>
+        </div>
+      </div>
+
+      <div class="listing-thumbZoom">
+        <div class = "thumbnails" ng-repeat = "image in images">
+          <img src = "{{image.url_75x75}}"></img>
+        </div>
+        <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
+      </div>
+
+
+      <div class ="listing-tabContainer" ng-controller="tabController">
+
+        <div class="listing-tabsThemselves">
+          <a href=""><span class="listing-tab" id="itemDetailsTab" ng-click="show1=false; show2=true; show3=true; tabClicker()">
+            Item Details
+          </span><a/>
+          <a href=""><span class ="listing-tab" id="reviewsTab" ng-click="show1=true; show2=false; show3=true; tabClicker()">
+            <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (123)
+          </span><a/>
+          <a href =""><span class="listing-tab" id="shippingPoliciesTab" ng-click="show1=true; show2=true; show3=false; tabClicker()">
+            Shipping and Policies<br>
+          </span><a/>
+        </div><!--tabsthemselves-->
+
+        <div class="listing-tabContent" ng-hide="show2">
+        this is the content of the reviews tab.
+        </div><!--reviews content-->
+
+        <div class="listing-tabContent" ng-hide="show1">
+        {{listing.description}} <br>
+        </div><!--reviews content-->
+
+
+        <div class="listing-tabContent" ng-hide="show3">
+        this is the content of the policies tab.
+        </div><!--reviews content-->
+
+      </div><!--end of tabConainer-->
+    </span><!--end listingColLeft-->
+
+    <span class="listing-ColRight">
+      <div class="listing-Desc">
+        the listing description and buy buttons <br>
+        {{listing.title}} <br>
+        {{listing.quantity}} Available<br>
+      </div>
+      <div class="listing-socialMedia">
+
+        <span class='btn'><i class="fa fa-heart" style="color:#D9D9D9;"></i> Favorite</span>
+        <span class='btn'><i class="fa fa-bars" style="color:#D9D9D9;"></i>  Add to &nbsp;&nbsp;<i class="fa fa-caret-down"  style="color:#D9D9D9;"></i></span>
+        <div class = "socialBar">
+          <img src="Assets/images/tweettweetfool.png" style="margin-left: 5px; margin-right:5px;"></img>
+          <img src="Assets/images/pin-it.png" style="margin-left: 5px; margin-right:5px;"></img>
+          <img src="Assets/images/tumblr-like.png" style="margin-left: 5px; margin-right:5px;"></img>
+          <img src="Assets/images/fb-like.png" style="margin-left: 5px; margin-right:5px;"></img>
+        </div>
+
+
+
+      </div>
+
+      <div class="listing-storeSummary">
+        <div class = "listing-preview-wrap">
+        {{shopName}}<br>
+        in locations are private<br>
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image1src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[0].title}}</div>
+          <div class = "preview-price">{{shopListings[0].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image2src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[1].title}}</div>
+          <div class = "preview-price">{{shopListings[1].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image3src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[2].title}}</div>
+          <div class = "preview-price">{{shopListings[2].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image4src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[3].title}}</div>
+          <div class = "preview-price">{{shopListings[3].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image5src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[4].title}}</div>
+          <div class = "preview-price">{{shopListings[4].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image6src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[5].title}}</div>
+          <div class = "preview-price">{{shopListings[5].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image7src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[6].title}}</div>
+          <div class = "preview-price">{{shopListings[6].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+        <div class = "listing-preview-card">
+          <div class = "preview-img">
+            <img src = "{{image8src.url_170x135}}"></img>
+          </div>
+          <div class = "preview-title">{{shopListings[7].title}}</div>
+          <div class = "preview-price">{{shopListings[7].price | currency:"$"}} {{currencyCode}}</div>
+        </div>
+
+
+
+        </div>
+      </div>
+    </span>
+
+  </div><!--end listing proper-->
+
+  <div class ="listing-subFooter">
+    <div class = "tags" ng-repeat = "tag in tags">
+      <div class = "tag-div">{{tag}}</div>
+    </div>
+    <div class = "footer-description">"Listed on {{timeStamp | date: fullDate}} x views x favorites Add item to treasury
+Report this item to Etsy"
+    </div>
+  </div>
+
+</div><!--end listing page container-->
+
+</body>
+</html>
