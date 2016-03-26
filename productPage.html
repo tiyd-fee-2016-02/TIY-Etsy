@@ -49,17 +49,16 @@
             <div class = "carousel-left-button"><</div>
           </div>
 
-        <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1">
+        <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1; ">
           <div class = "carousel-right-button">></div>
         </div>
-        {{carouselClicker(carouselClick)}}
       </div>
 
       <div class="listing-thumbZoom">
         <div class = "thumbnails" ng-repeat = "image in images">
           <img src = "{{image.url_75x75}}"></img>
         </div>
-        <div class="mag"><i class="fa fa-search-plus fa-2x"></i></div>
+        <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
       </div>
 
 
