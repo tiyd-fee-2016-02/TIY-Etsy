@@ -161,9 +161,11 @@
   .home-editor-pick-card-wrapper-bottom-4:last-child {
     margin-right: 0px;
     padding-right: 0px; }
+  .home-editor-pick-card-wrapper-bottom-4 .home-editor-pick-card-wrapper-bottom-4-image:hover img {
+    opacity: .95; }
   .home-editor-pick-card-wrapper-bottom-4 img {
     width: 100%;
-    border-radius: 3px 3px 0 0; }
+    border-radius: 3px; }
 
 .home-editor-pick-card-wrapper-bottom-4-text {
   display: inline-block;
