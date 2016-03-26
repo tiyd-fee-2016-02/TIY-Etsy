@@ -1,5 +1,5 @@
 .site-header {
-  font-family: sans-serif; }
+  font-family: 'lato', sans-serif; }
   .site-header a {
     text-decoration: none;
     color: #666; }
@@ -32,7 +32,7 @@
         background-color: #34a8c4;
         color: white;
         font-weight: bold;
-        padding: 7px 25px 9px 25px;
+        padding: 9px 25px 11px 25px;
         margin: -1px 0 0 -5px;
         border-radius: 0 .3em .3em 0; }
     .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap {
@@ -127,7 +127,8 @@
     margin: 3% 5%;
     color: black;
     font-size: 1.5em;
-    font-weight: bold; }
+    font-weight: 700;
+    font-family: 'bitter', serif; }
     .site-header .site-header-right-nav-desc-txt:hover {
       text-decoration: underline; }
   .site-header .site-header-clothing-dropdown {
