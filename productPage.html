@@ -56,14 +56,14 @@
           </div>
         </div>
 
-        <div class="listing-thumbZoom">
+        <div class="listing-thumbnails">
           <div class = "thumbnails" ng-repeat = "image in images">
             <div ng-click = "$parent.carouselClick = images.indexOf(image)">
               <img src = "{{image.url_75x75}}"></img>
             </div>
           </div>
-          <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
         </div>
+        <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
       </div>
 
 
@@ -110,9 +110,7 @@
         <div class = "quantity-select" ng-hide = "listing.quantity == 1">
           Quantity<br>
           <select>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
+            <option ng-repeat = "quantity in [1, 2, 3] track by $index">{{quantity}}</option>
           </select>
         </div>
 

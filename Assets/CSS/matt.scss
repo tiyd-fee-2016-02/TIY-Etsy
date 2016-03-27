@@ -196,9 +196,14 @@ a{
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.listing-thumbZoom{
+.listing-thumbnails{
   display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
+
+
 .listing-tabsThemselves{
   border-bottom: #DADBD6 1px solid;
   text-align: center;
@@ -241,6 +246,7 @@ a{
 .thumbnails {
   display: inline-block;
   margin-top: 7px;
+
   img {
     width: 30px;
     border-radius: 3px;
