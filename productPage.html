@@ -31,13 +31,13 @@
 
     <img class = "shop-avatar" src = "{{shopAvatar}}" width = "75px"></img>
     {{shopName}}
-    Favorite Shop
+    <button class = "favorite-shop">Favorite Shop</button>
 
-    <img src = "{{image1src.url_75x75}}"></img>
-    <img src = "{{image2src.url_75x75}}"></img>
-    <img src = "{{image3src.url_75x75}}"></img>
-    <img src = "{{image4src.url_75x75}}"></img>
-    {{listingCount}} items
+      <img class = "further-products" src = "{{image1src.url_75x75}}"></img>
+      <img class = "further-products" src = "{{image2src.url_75x75}}"></img>
+      <img class = "further-products" src = "{{image3src.url_75x75}}"></img>
+      <img class = "further-products" src = "{{image4src.url_75x75}}"></img>
+      <div class = "further-products" class = "total-shop-items">{{listingCount}} items</div>
 
 
   </div><!--end listingsubheader-->
@@ -104,7 +104,7 @@
         <button>Ask a question</button><br>
         {{listing.quantity}} Available<br>
         favorited by: {{listing.num_favorers}} people<br>
-
+        <button class = "add-to-cart">Add to cart</button>
       </div>
       <div class="listing-socialMedia">
 

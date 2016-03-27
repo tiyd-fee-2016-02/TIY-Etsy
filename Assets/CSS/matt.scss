@@ -18,6 +18,22 @@ a{
     display: inline-block;
     border-radius: 3px;
   }
+
+  .favorite-shop {
+    background-color: white;
+    border: none;
+  }
+
+  .further-products {
+    margin-left: 14px;
+  }
+
+  .total-shop-items {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: solid 1px black;
+  }
 }
 .listing-Proper{
   display: inline-block;
@@ -124,9 +140,16 @@ a{
 }
 .listing-Desc{
   border: #E4F3D9 5px solid;
-  border-bottom: #E4F3D9 40px solid;
   border-radius: 3px;
   margin-bottom: 20px;
+  .add-to-cart {
+    background-color: #7ac142;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+  }
 }
 .listing-socialMedia{
  border: 5px #EFEFEB solid;
