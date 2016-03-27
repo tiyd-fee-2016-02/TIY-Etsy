@@ -102,7 +102,21 @@
         {{listing.title}} <br>
         {{listing.price | currency:"$"}} {{currencyCode}}
         <button>Ask a question</button><br>
-        {{listing.quantity}} Available<br>
+
+        <div class = "one-available" ng-hide = "listing.quantity > 1">
+          Only 1 available
+        </div>
+
+        <div class = "quantity-select" ng-hide = "listing.quantity == 1">
+          Quantity<br>
+          <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+        </div>
+
+        <br>
         favorited by: {{listing.num_favorers}} people<br>
         <button class = "add-to-cart">Add to cart</button>
       </div>

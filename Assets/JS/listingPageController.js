@@ -78,6 +78,15 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
 
         })
 
+        var quantityArray = [];
+
+        for (var i = 1; i <= $scope.listing.quantity; i++){
+          quantityArray.push(i);
+        }
+
+        console.log(quantityArray);
+        console.log($scope.listing.quantity);
+
     })
 
     //acquire all images associated with the main listing for this product page
