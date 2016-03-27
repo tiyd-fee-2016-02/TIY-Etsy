@@ -15,16 +15,46 @@ a {
   .listing-SubHeader .shop-avatar {
     display: inline-block;
     border-radius: 3px; }
+  .listing-SubHeader .name-and-button {
+    display: inline-block;
+    margin-left: 10px; }
+  .listing-SubHeader .shop-name {
+    font-family: "Bitter", serif;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 15px; }
   .listing-SubHeader .favorite-shop {
     background-color: white;
-    border: none; }
+    border: solid 1px #dcdcd9;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 4px;
+    font-family: "Lato", sans-serif; }
+  .listing-SubHeader .fa-heart {
+    color: #f2665d; }
   .listing-SubHeader .further-products {
-    margin-left: 14px; }
+    margin-left: 14px;
+    display: inline-block;
+    width: 70px;
+    height: 70px; }
+  .listing-SubHeader .header-store-preview {
+    float: right; }
   .listing-SubHeader .total-shop-items {
     display: inline-block;
     width: 75px;
-    height: 75px;
-    border: solid 1px black; }
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: relative;
+    bottom: 20;
+    margin-left: 14px;
+    background-color: white;
+    font-family: "Lato", "Arial", sans-serif;
+    text-align: center; }
+    .listing-SubHeader .total-shop-items .blue {
+      color: #0192b5;
+      font-size: 20px; }
+    .listing-SubHeader .total-shop-items .gray {
+      color: #dcdcd9; }
 
 .listing-Proper {
   display: inline-block;
@@ -225,32 +255,7 @@ a {
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
-<<<<<<< HEAD
-  display: inline-block;
-  line-height: 25px;
-  width: 100%;
-  word-wrap: break-word;
-  /*background: red;*/
-  /*display: none;*/
- }
- .listing-pol{
-   border-bottom: #666666 1px solid;
- }
- .listing-polLeft{
-   display: inline-block;
-   color: #666666;
-   width:40%;
-   vertical-align:top;
- }
- .listing-polRight{
-   display: inline-block;
-   color: #666666;
-   width: 59%
- }
-
-=======
   display: none; }
->>>>>>> 7afdac8c321e6906bf08ec67f1059daa81a88b8a
 
 .listing-tabContentSelected {
   display: block; }
@@ -281,9 +286,6 @@ a {
   border-radius: 4px; }
 
 .footer-description {
-  display: block;
-  font-size: .75em;
-  color: #999999;
-}
+  display: block; }
 
 /*# sourceMappingURL=matt.css.map */

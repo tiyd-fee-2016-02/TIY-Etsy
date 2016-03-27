@@ -19,20 +19,58 @@ a{
     border-radius: 3px;
   }
 
+  .name-and-button {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .shop-name {
+    font-family: "Bitter", serif;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 15px;
+  }
+
   .favorite-shop {
     background-color: white;
-    border: none;
+    border: solid 1px #dcdcd9;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 4px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .fa-heart {
+    color: #f2665d;
   }
 
   .further-products {
     margin-left: 14px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+  }
+
+  .header-store-preview {
+    float: right;
   }
 
   .total-shop-items {
     display: inline-block;
     width: 75px;
-    height: 75px;
-    border: solid 1px black;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: relative;
+    bottom: 20;
+    margin-left: 14px;
+    background-color: white;
+    font-family: "Lato", "Arial", sans-serif;
+    text-align: center;
+    .blue {
+      color: #0192b5;
+      font-size: 20px;
+    }
+    .gray {color: #dcdcd9;}
   }
 }
 .listing-Proper{
