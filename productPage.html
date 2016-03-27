@@ -2,6 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="shortcut icon" type="image/ico" href="Assets/images/favicon.ico" />
+  <title>FAKE ETSY</title>
   <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -22,14 +23,20 @@
   <div class="listing-SubHeader">
 
     <img class = "shop-avatar" src = "{{shopAvatar}}" width = "75px"></img>
-    {{shopName}}
-    <button class = "favorite-shop">Favorite Shop</button>
+    <div class = "name-and-button">
+      <span class = "shop-name">{{shopName}}</span>
+      <button class = "favorite-shop"><i class="fa fa-heart"></i>  Favorite Shop</button>
+    </div>
 
+    <div class = "header-store-preview">
       <img class = "further-products" src = "{{image1src.url_75x75}}"></img>
       <img class = "further-products" src = "{{image2src.url_75x75}}"></img>
       <img class = "further-products" src = "{{image3src.url_75x75}}"></img>
       <img class = "further-products" src = "{{image4src.url_75x75}}"></img>
-      <div class = "further-products" class = "total-shop-items">{{listingCount}} items</div>
+      <div class = "total-shop-items">
+        <span class = "blue">{{listingCount}}</span> <span class = "gray">items</span>
+      </div>
+    </div>
 
 
   </div><!--end listingsubheader-->
