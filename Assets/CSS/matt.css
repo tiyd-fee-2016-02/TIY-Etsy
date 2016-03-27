@@ -127,14 +127,21 @@ a {
 .listing-Desc {
   border: #E4F3D9 5px solid;
   border-radius: 3px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 14px; }
   .listing-Desc .listing-title {
     font-family: "Bitter", serif;
-    font-size: 20px; }
-  .listing-Desc .blue {
-    color: #0192b5; }
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .listing-Desc .currency-code {
+    color: #0192b5;
+    font-family: "Lato", "Arial", sans-serif; }
   .listing-Desc .ask-question {
-    float: right; }
+    float: right;
+    font-weight: bold;
+    font-size: 12px; }
+  .listing-Desc .overview {
+    font-family: "Lato", "Arial", sans-serif; }
   .listing-Desc .add-to-cart {
     background-color: #7ac142;
     color: white;
@@ -142,6 +149,12 @@ a {
     width: 100%;
     padding: 8px;
     text-align: center; }
+  .listing-Desc .listing-price {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato", "Arial", sans-serif; }
+  .listing-Desc .one-available {
+    font-family: "Lato", "Arial", sans-serif; }
 
 .listing-socialMedia {
   border: 5px #EFEFEB solid;
@@ -173,7 +186,8 @@ a {
     font-size: 12px; }
   .listing-preview-card .preview-price {
     color: #78c042;
-    font-size: 12px; }
+    font-size: 12px;
+    font-family: "Lato", "Arial", sans-serif; }
 
 .listing-subFooter {
   margin-left: 12%;
@@ -183,49 +197,9 @@ a {
 
 .listing-thumbnails {
   display: inline-block;
-  width: 100%;
-  text-align:center;
- }
- .mag{
-   color: #aaaaaa;
-   float: right;
- }
- .mag:hover{
-  color:  #2f98b1
- }
- .oneReview{
-   border-bottom: #666666 1px solid;
-   font-size: .75em;
-   color: #666666;
-   padding: 30px;
-   display:block;
- }
- .listing-Reviewerpic{
-   display: inline-block;
-   width: 40px;
-   height:40px;
-   border-radius: 20px;
-   background: #2f98b1;
-   margin-left: 20px;
-
- }
- .listing-ReviewLeft{
-   display:inline-block;
-   text-align: left;
-   width: 20%;
-   color: #666666;
-   border: 1px green solid;
-
-   /*margin-left: 20px;*/
- }
- .listing-ReviewRight{
-   position: relative;
-   display: inline-block;
-   float: right;
-   width:78%;
-   color: #666666;
-   border: red 1px solid;
- }
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%; }
 
 .listing-tabsThemselves {
   border-bottom: #DADBD6 1px solid;

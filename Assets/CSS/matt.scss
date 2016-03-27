@@ -180,16 +180,26 @@ a{
   border: #E4F3D9 5px solid;
   border-radius: 3px;
   margin-bottom: 20px;
+  padding: 14px;
   .listing-title {
     font-family: "Bitter", serif;
     font-size: 20px;
+    margin-bottom: 20px;
   }
-  .blue {
+  .currency-code {
     color: #0192b5;
+    font-family: "Lato", "Arial", sans-serif;
   }
   .ask-question {
     float: right;
+    font-weight: bold;
+    font-size: 12px;
   }
+
+  .overview {
+    font-family: "Lato", "Arial", sans-serif;
+  }
+
   .add-to-cart {
     background-color: #7ac142;
     color: white;
@@ -197,6 +207,16 @@ a{
     width: 100%;
     padding: 8px;
     text-align: center;
+  }
+
+  .listing-price {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato", "Arial", sans-serif;
+  }
+
+  .one-available {
+    font-family: "Lato", "Arial", sans-serif;
   }
 }
 .listing-socialMedia{
@@ -234,6 +254,7 @@ a{
   .preview-price {
     color: #78c042;
     font-size: 12px;
+    font-family: "Lato", "Arial", sans-serif;
   }
 }
 

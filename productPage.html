@@ -156,8 +156,8 @@
 
     <span class="listing-ColRight">
       <div class="listing-Desc">
-        <span class = "listing-title">{{listing.title}}</span><br>
-        {{listing.price | currency:"$"}} <span class = "blue">{{currencyCode}}</span>
+        <div class = "listing-title">{{listing.title}}</div><br>
+        <span class = "listing-price">{{listing.price | currency:"$"}}</span> <span class = "currency-code">{{currencyCode}}</span>
         <button class = "ask-question">Ask a question</button><br>
 
         <div class = "one-available" ng-hide = "listing.quantity > 1">
@@ -171,7 +171,7 @@
           </select>
         </div>
 
-        <br>
+        <div class = "overview">Overview</div>
         Favorited by: <span class = "blue">{{listing.num_favorers}} people</span><br>
         <button class = "add-to-cart">Add to cart</button>
       </div>
