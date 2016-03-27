@@ -22,7 +22,7 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
         //based on previous get, find user information (based on listing)
         $http.get('https://openapi.etsy.com/v2/users/'+ $scope.userID + '/shops?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
           $scope.shopName = data.results[0].shop_name;
-          $scope.shopID = data.results[0].shop_id
+          $scope.shopID = data.results[0].shop_id;
 
             $http.get('https://openapi.etsy.com/v2/shops/'+ $scope.shopID +'?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
               $scope.shopAvatar = data.results[0].icon_url_fullxfull
