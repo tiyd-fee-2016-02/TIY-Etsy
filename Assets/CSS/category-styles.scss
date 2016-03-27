@@ -10,7 +10,11 @@ $lato: 'Lato', 'Arial', sans-serif;
 
 body {
     background-color: $Background;
+<<<<<<< HEAD:Assets/CSS/styles.scss
     margin: 0;
+=======
+    width: 1210px;
+>>>>>>> ba0991208008a8e3c45cc0f93d72d78ad34b4454:Assets/CSS/category-styles.scss
 }
 
 a {
@@ -41,7 +45,12 @@ a:hover {
 .cat-page-path {
   color: $Grey-type;
   margin-left: 3.5%;
-  // font-size: 0.7em;
+  font-size: 0.8em;
+  font-family: $lato;
+}
+
+.cat-button-link {
+  text-decoration: none;
 }
 
 .cat-button {
@@ -90,6 +99,7 @@ a:hover {
 	  margin-right: 10px;
     //   margin-bottom: 10px;
 	  padding-bottom: 30px;
+    // margin-top: 10px;
 	}
 
 	.col-3-4 {
@@ -489,4 +499,161 @@ a:hover {
    img:hover{
       opacity: 1;
    }
+}
+
+// angular modal CSS
+
+.ng-modal-overlay {
+  /* A dark translucent div that covers the whole screen */
+  // position: absolute;
+  position: fixed;
+  z-index:9999;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#ccc;
+  opacity: 0.65;
+  // prevent click event on greyed out background around modal div
+  pointer-events: none;
+}
+
+.ng-modal-dialog {
+  // div above the overlay
+  z-index:10000;
+  // position: absolute;  forces modal to top of page, even if user was scrolled to bottom of page => line 512 fixes this issue
+  position: fixed;
+  width: 50%;  /* Default */
+  /* Center the dialog */
+  top: 10%;
+  left: 22%;
+  // transform: translate(-20%, -20%);
+  // -webkit-transform: translate(-25%, -25%);
+  // -moz-transform: translate(-25%, -25%);
+  background-color: #fff;
+  font-family: $lato;
+  // box-shadow: 4px 4px 15px #000;
+  border-radius: 5px;
+}
+
+.ng-modal-dialog-content {
+  padding: 20px 10px 10px 60px;
+  // margin-left: 40px;
+  text-align: left;
+}
+
+.ng-modal-close {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12;
+  color: #eee;
+  display: inline-block;
+  font-family: $lato;
+}
+
+.cat-mod-continer {
+  h1 {
+    font-family: $bitter;
+    font-weight: lighter;
+    margin: 30px 0 5px 0;
+
+  }
+  p {
+    margin: 10px 0 20px 0;
+    color: $Dark-grey-type;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+  }
+}
+
+[class*="cat-mod-btn-"] {
+  width: 235px;
+  height: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 8px 18px 13px 18px;
+  margin-bottom: 10px;
+  background: #666; // default - overidden below
+  border: 1px solid grey; // default - overidden below
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .fa-facebook-square {
+    font-size: 22px !important;
+  }
+  .fa-google-plus-square {
+    font-size: 22px !important;
+  }
+}
+
+.cat-mod-btn-facebook {
+  background: rgb(133, 153, 204);
+  border: 1px solid rgb(125, 144, 192);
+  margin-top: 5px;
+}
+
+.cat-mod-btn-google {
+  background: rgb(209, 56, 50);
+  border: 1px solid rgb(170, 47, 43);
+}
+
+.cat-mod-btn-continue {
+  background: rgb(45, 152, 183);
+  border: 1px solid rgb(41, 134, 61);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cat-mod-permission-text {
+    font-size: 13px !important;
+    color: #888 !important;
+}
+
+.cat-mod-email {
+  width: 268px;
+  height: 30px;
+  margin: 7px 0 17px 0;
+  font-size: 15px;
+}
+
+.cat-mod-email-label {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+.cat-mod-sign-in {
+  letter-spacing: 0.1em;
+}
+
+.cat-mod-sign-in-link {
+  text-decoration: none !important;
+  color: rgb(20, 128, 164) !important;
+  letter-spacing: 0.1 em;
+}
+
+.cat-mod-sign-in-link:hover {
+  text-decoration: underline !important;
+}
+
+.the-OR-container {
+  height: 1px;
+  background: #dadbd6;
+  position: relative;
+  margin: 18px -10px 24px -60px;
+  letter-spacing: 0.1em;
+}
+
+.the-actual-OR {
+  position: absolute;
+  padding: 0 15px;
+  left: 47px;
+  top: -9px;
+  font-size: 14px;
+  font-weight: bolder;
+  background: #fff;
 }
