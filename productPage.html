@@ -84,22 +84,24 @@
           <div class="reviewsContainer">
 
             <div class="oneReview" ng-repeat="feed in feedback">
-              <span class="listing-ReviewLeft">
+              <div class="listing-ReviewLeft">
                 <span class="listing-Reviewerpic"></span>
-                <br>
+
                 Reviewed by
-                <br>
+
                 <a href="" style="color: #34a8c4;">Reviewer names<br> are private</a>
-                <br>
-              </span><!--end listing reviewLeft-->
+
+              </div><!--end listing reviewLeft-->
 
               <span class="listing-ReviewRight">
-                <div><span class="stars" style="float:left;"><i class="fa fa-star"></i>
+                <span class="listing-starsAndTime" style="position:absolute;">
+                <span class="stars" style="float:left;"><i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i></span>
-                <span style="float: right;">{{feed.creation_tsz * 1000 | date:'fullDate'}}</span></div>
+                <span style="float: right;">{{feed.creation_tsz * 1000 | date:'fullDate'}}</span>
+              </span>
                 <br>
                 <div class="listing-ReviewMessage">
                   {{feed.message}}

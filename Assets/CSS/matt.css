@@ -177,17 +177,24 @@ a {
    border-radius: 20px;
    background: #2f98b1;
    margin-left: 20px;
+
  }
  .listing-ReviewLeft{
+   display:inline-block;
+   text-align: left;
    width: 20%;
    color: #666666;
+   border: 1px green solid;
 
    /*margin-left: 20px;*/
  }
  .listing-ReviewRight{
+   position: relative;
    display: inline-block;
+   float: right;
    width:78%;
    color: #666666;
+   border: red 1px solid;
  }
 
 .listing-tabsThemselves {
