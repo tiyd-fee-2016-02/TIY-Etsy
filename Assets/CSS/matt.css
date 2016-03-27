@@ -154,6 +154,10 @@ a {
   border: #E5F4F7 5px solid;
   border-radius: 3px; }
 
+  .listing-storeSummaryHeader{
+    text-align: center;
+  }
+
 .listing-preview-card {
   margin: 6px;
   display: inline-block;
@@ -214,7 +218,7 @@ a {
    text-align: left;
    width: 20%;
    color: #666666;
-   border: 1px green solid;
+   /*border: 1px green solid;*/
 
    /*margin-left: 20px;*/
  }
@@ -224,7 +228,7 @@ a {
    float: right;
    width:78%;
    color: #666666;
-   border: red 1px solid;
+   /*border: red 1px solid;*/
  }
 
 .listing-tabsThemselves {
@@ -255,11 +259,29 @@ a {
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
-  display: none; }
+ }
 
 .listing-tabContentSelected {
   display: block; }
 
+.listing-pol{
+  border-bottom: 1px #666666 solid;
+  padding-bottom: 20px;
+  color: #666666;
+}
+.listing-polSection{
+  display: inline-block;
+}
+.listing-polLeft{
+  float:left;
+  width: 30%;
+  display: inline-block;
+}
+.listing-polRight{
+  float: right;
+  width: 68%;
+  display: inline-block;
+}
 .stars {
   color: #FFDC1E; }
 
