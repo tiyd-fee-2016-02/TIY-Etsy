@@ -98,9 +98,12 @@
 
     <span class="listing-ColRight">
       <div class="listing-Desc">
-        the listing description and buy buttons <br>
         {{listing.title}} <br>
+        {{listing.price | currency:"$"}} {{currencyCode}}
+        <button>Ask a question</button><br>
         {{listing.quantity}} Available<br>
+        favorited by: {{listing.num_favorers}} people<br>
+        
       </div>
       <div class="listing-socialMedia">
 
@@ -119,8 +122,9 @@
 
       <div class="listing-storeSummary">
         <div class = "listing-preview-wrap">
-        {{shopName}}<br>
-        in locations are private<br>
+          <img class = "shop-avatar" src = "{{shopAvatar}}" width = "50px"></img>
+          {{shopName}}<br>
+          in locations are private<br>
         <div class = "listing-preview-card">
           <div class = "preview-img">
             <img src = "{{image1src.url_170x135}}"></img>
