@@ -2,6 +2,9 @@ var listingPageApp = angular.module('listingPageApp', ['ngRoute']);
 
     var listingID = 272177332;//this will be passed to us via other pages' routing
 
+    // listing id to test with : 272177332 - ring
+    // another listing id to test with : 272810386 - gun
+    // another one: 175112598 - cat armor
     // shop id is 5652817. only here for reference
 
     // var gUserID = 7637157;//hard-coding for now so I can test
@@ -40,6 +43,7 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
               $scope.listing6 = data.results[5].listing_id;
               $scope.listing7 = data.results[6].listing_id;
               $scope.listing8 = data.results[7].listing_id;
+
 
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing1 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
@@ -100,9 +104,5 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
           tempClick = (tempClick + $scope.images.length);
         }
         return tempClick;
-      }
-
-      $scope.thumbClickTest = function(){
-        console.log("clicked a thumbnail")
       }
     });
