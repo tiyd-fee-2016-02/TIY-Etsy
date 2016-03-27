@@ -42,7 +42,6 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
               $scope.listing8 = data.results[7].listing_id;
 
 
-
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing1 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
                 $scope.image1src = data.results[0]
               })
@@ -101,5 +100,9 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
           tempClick = (tempClick + $scope.images.length);
         }
         return tempClick;
+      }
+
+      $scope.thumbClickTest = function(){
+        console.log("clicked a thumbnail")
       }
     });
