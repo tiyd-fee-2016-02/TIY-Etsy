@@ -1,6 +1,6 @@
 var listingPageApp = angular.module('listingPageApp', ['ngRoute']);
 
-    var listingID = 272177332;//this will be passed to us via other pages' routing
+    var listingID = 285689523;//this will be passed to us via other pages' routing
 
     // listing id to test with : 272177332 - ring
     // another listing id to test with : 272810386 - gun
@@ -81,6 +81,15 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
             })
 
         })
+
+        var quantityArray = [];
+
+        for (var i = 1; i <= $scope.listing.quantity; i++){
+          quantityArray.push(i);
+        }
+
+        console.log(quantityArray);
+        console.log($scope.listing.quantity);
 
     })
 

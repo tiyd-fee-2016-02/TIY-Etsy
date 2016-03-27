@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/ico" href="Assets/images/favicon.ico" />
   <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -22,13 +23,13 @@
 
     <img class = "shop-avatar" src = "{{shopAvatar}}" width = "75px"></img>
     {{shopName}}
-    Favorite Shop
+    <button class = "favorite-shop">Favorite Shop</button>
 
-    <img src = "{{image1src.url_75x75}}"></img>
-    <img src = "{{image2src.url_75x75}}"></img>
-    <img src = "{{image3src.url_75x75}}"></img>
-    <img src = "{{image4src.url_75x75}}"></img>
-    {{listingCount}} items
+      <img class = "further-products" src = "{{image1src.url_75x75}}"></img>
+      <img class = "further-products" src = "{{image2src.url_75x75}}"></img>
+      <img class = "further-products" src = "{{image3src.url_75x75}}"></img>
+      <img class = "further-products" src = "{{image4src.url_75x75}}"></img>
+      <div class = "further-products" class = "total-shop-items">{{listingCount}} items</div>
 
 
   </div><!--end listingsubheader-->
@@ -47,14 +48,14 @@
           </div>
         </div>
 
-        <div class="listing-thumbZoom">
+        <div class="listing-thumbnails">
           <div class = "thumbnails" ng-repeat = "image in images">
             <div ng-click = "$parent.carouselClick = images.indexOf(image)">
               <img src = "{{image.url_75x75}}"></img>
             </div>
           </div>
-          <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
         </div>
+        <a href=""><div class="mag"><i class="fa fa-search-plus"></i>&nbsp;Zoom</div></a>
       </div>
 
 
@@ -146,9 +147,24 @@
 
     <span class="listing-ColRight">
       <div class="listing-Desc">
-        the listing description and buy buttons <br>
-        {{listing.title}} <br>
-        {{listing.quantity}} Available<br>
+        <span class = "listing-title">{{listing.title}}</span><br>
+        {{listing.price | currency:"$"}} <span class = "blue">{{currencyCode}}</span>
+        <button class = "ask-question">Ask a question</button><br>
+
+        <div class = "one-available" ng-hide = "listing.quantity > 1">
+          Only 1 available
+        </div>
+
+        <div class = "quantity-select" ng-hide = "listing.quantity == 1">
+          Quantity<br>
+          <select>
+            <option ng-repeat = "quantity in [1, 2, 3] track by $index">{{quantity}}</option>
+          </select>
+        </div>
+
+        <br>
+        Favorited by: <span class = "blue">{{listing.num_favorers}} people</span><br>
+        <button class = "add-to-cart">Add to cart</button>
       </div>
       <div class="listing-socialMedia">
 
@@ -167,8 +183,9 @@
 
       <div class="listing-storeSummary">
         <div class = "listing-preview-wrap">
-        {{shopName}}<br>
-        in locations are private<br>
+          <img class = "shop-avatar" src = "{{shopAvatar}}" width = "50px"></img>
+          {{shopName}}<br>
+          in locations are private<br>
         <div class = "listing-preview-card">
           <div class = "preview-img">
             <img src = "{{image1src.url_170x135}}"></img>
@@ -245,6 +262,7 @@
     <div class = "tags" ng-repeat = "tag in tags">
       <div class = "tag-div">{{tag}}</div>
     </div>
+
     <br><br><br>
     <br><br><br>
     <br><br>
@@ -253,6 +271,7 @@
       <a href=""><span style="margin-left: 20px; color: #0192B5;">{{listing.num_favorers}} favorites</span></a>
       <a href=""><span style="margin-left:20px; color: #0192B5;">Add item to treasury</span></a>
       <a href=""><span style="float:right;">Report this item to Etsy</span></a>
+
     </div>
   </div>
 
