@@ -142,6 +142,16 @@ a{
   border: #E4F3D9 5px solid;
   border-radius: 3px;
   margin-bottom: 20px;
+  .listing-title {
+    font-family: "Bitter", serif;
+    font-size: 20px;
+  }
+  .blue {
+    color: #0192b5;
+  }
+  .ask-question {
+    float: right;
+  }
   .add-to-cart {
     background-color: #7ac142;
     color: white;

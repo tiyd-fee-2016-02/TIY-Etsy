@@ -99,9 +99,9 @@
 
     <span class="listing-ColRight">
       <div class="listing-Desc">
-        {{listing.title}} <br>
-        {{listing.price | currency:"$"}} {{currencyCode}}
-        <button>Ask a question</button><br>
+        <span class = "listing-title">{{listing.title}}</span><br>
+        {{listing.price | currency:"$"}} <span class = "blue">{{currencyCode}}</span>
+        <button class = "ask-question">Ask a question</button><br>
 
         <div class = "one-available" ng-hide = "listing.quantity > 1">
           Only 1 available
@@ -115,7 +115,7 @@
         </div>
 
         <br>
-        favorited by: {{listing.num_favorers}} people<br>
+        Favorited by: <span class = "blue">{{listing.num_favorers}} people</span><br>
         <button class = "add-to-cart">Add to cart</button>
       </div>
       <div class="listing-socialMedia">
@@ -214,7 +214,7 @@
     <div class = "tags" ng-repeat = "tag in tags">
       <div class = "tag-div">{{tag}}</div>
     </div>
-    <div class = "footer-description">"Listed on {{timeStamp | date: fullDate}} x views x favorites Add item to treasury
+    <div class = "footer-description">"Listed on {{timeStamp*1000 | date: fullDate}} x views x favorites Add item to treasury
 Report this item to Etsy"
     </div>
   </div>

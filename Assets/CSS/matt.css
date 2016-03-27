@@ -13,7 +13,18 @@ a {
   padding-bottom: 30px;
   padding-top: 30px; }
   .listing-SubHeader .shop-avatar {
-    display: inline-block; }
+    display: inline-block;
+    border-radius: 3px; }
+  .listing-SubHeader .favorite-shop {
+    background-color: white;
+    border: none; }
+  .listing-SubHeader .further-products {
+    margin-left: 14px; }
+  .listing-SubHeader .total-shop-items {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: solid 1px black; }
 
 .listing-Proper {
   display: inline-block;
@@ -72,12 +83,10 @@ a {
       border-radius: 4px 0 0 4px; }
 
 .carousel-left:hover .carousel-left-button {
-  background-color: #67BED3;
- }
+  background-color: #67BED3; }
 
 .carousel-right:hover .carousel-right-button {
-  background-color: #67BED3;
-}
+  background-color: #67BED3; }
 
 /*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
 .listing-ColRight {
@@ -87,12 +96,24 @@ a {
 
 .listing-Desc {
   border: #E4F3D9 5px solid;
-  border-bottom: #E4F3D9 40px solid;
   border-radius: 3px;
   margin-bottom: 20px; }
+  .listing-Desc .listing-title {
+    font-family: "Bitter", serif;
+    font-size: 20px; }
+  .listing-Desc .blue {
+    color: #0192b5; }
+  .listing-Desc .ask-question {
+    float: right; }
+  .listing-Desc .add-to-cart {
+    background-color: #7ac142;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    text-align: center; }
 
 .listing-socialMedia {
-  position: relative;
   border: 5px #EFEFEB solid;
   border-bottom: #EFEFEB 40px solid;
   border-radius: 3px;
@@ -130,18 +151,11 @@ a {
   padding-bottom: 30px;
   padding-top: 30px; }
 
-.listing-thumbZoom {
+.listing-thumbnails {
   display: inline-block;
-  width: 100%;
-  text-align:center;
- }
- .mag{
-   color: #aaaaaa;
-   float: right;
- }
- .mag:hover{
-  color:  #2f98b1
- }
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%; }
 
 .listing-tabsThemselves {
   border-bottom: #DADBD6 1px solid;
@@ -168,44 +182,16 @@ a {
   border-bottom: 1px #fff solid;
   color: #666666; }
 
-pre{
-
-}
-
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
-  color: rbg(102,102,102);
   margin-top: 50px;
-  display: inline-block;
-  line-height: 25px;
-  width: 100%;
-  word-wrap: break-word;
-  /*background: red;*/
-  /*display: none;*/
- }
-
+  display: none; }
 
 .listing-tabContentSelected {
   display: block; }
 
 .stars {
   color: #FFDC1E; }
-.btn{
-  vertical-align:middle;
-  color: rbg(102,102,102);
-  border-radius: 3px;
-  display: inline-block;
-  width: 100px;
-  border: #D9D9D9 1px solid;
-  padding: 4px;
-  margin:7px;
-  font-family: 'Lato', 'Arial', sans-serif;
-}
-.socialBar{
-  position: absolute;
-  top: 50px;
-  display: block-inline;
-}
 
 /*======================BELOW HERE IS THUMBNAILS==============================*/
 .thumbnails {
