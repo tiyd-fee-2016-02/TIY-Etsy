@@ -1,6 +1,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/ico" href="Assets/images/favicon.ico" />
   <link href='https://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -15,14 +16,14 @@
 </head>
 <body ng-app="listingPageApp">
 
-  <div id="fb-root"></div>
+  <!-- <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));</script> -->
 
 <div class="listing-PageContainer" ng-controller="listingPageController">
 
@@ -103,7 +104,7 @@
         <button>Ask a question</button><br>
         {{listing.quantity}} Available<br>
         favorited by: {{listing.num_favorers}} people<br>
-        
+
       </div>
       <div class="listing-socialMedia">
 
