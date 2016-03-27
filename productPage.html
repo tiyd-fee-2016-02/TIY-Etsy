@@ -9,20 +9,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-sanitize.min.js"></script>
   <script src="Assets/JS/listingPageController.js"></script>
   <script src="Assets/JS/tabController.js"></script>
   <script src="Assets/JS/app.js"></script>
 </head>
 <body ng-app="listingPageApp">
-
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="listing-PageContainer" ng-controller="listingPageController">
 
@@ -68,17 +60,54 @@
           <a href=""><span class="listing-tab" id="itemDetailsTab" ng-click="show1=false; show2=true; show3=true; tabClicker()">
             Item Details
           </span><a/>
+
           <a href=""><span class ="listing-tab" id="reviewsTab" ng-click="show1=true; show2=false; show3=true; tabClicker()">
-            <span class="stars"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span> (123)
-          </span><a/>
+            <span class="listing-tab-OverallStars"></span>
+          <span class="stars"  <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i></span>
+            <span style="float:right;">({{revNum}})</span><a/>
+
           <a href =""><span class="listing-tab" id="shippingPoliciesTab" ng-click="show1=true; show2=true; show3=false; tabClicker()">
             Shipping and Policies<br>
           </span><a/>
         </div><!--tabsthemselves-->
 
         <div class="listing-tabContent" ng-hide="show2">
-        this is the content of the reviews tab.
-        </div><!--reviews content-->
+          <div class="reviewsContainer">
+
+            <div class="oneReview" ng-repeat="feed in feedback">
+              <span class="listing-ReviewLeft">
+                <span class="listing-Reviewerpic"></span>
+                <br>
+                Reviewed by
+                <br>
+                <a href="" style="color: #34a8c4;">Reviewer names<br> are private</a>
+                <br>
+              </span><!--end listing reviewLeft-->
+
+              <span class="listing-ReviewRight">
+                <div><span class="stars" style="float:left;"><i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i></span>
+                <span style="float: right;">{{feed.creation_tsz * 1000 | date:'fullDate'}}</span></div>
+                <br>
+                <div class="listing-ReviewMessage">
+                  {{feed.message}}
+                </div>
+              </span><!--end review Right-->
+
+            </div><!--end one review-->
+
+              <br><br>
+            <a href="">Read more Reviews...</a>
+          </div><!--end reviews container-->
+
+        </div><!--end reviews tab content-->
 
         <div class="listing-tabContent" ng-hide="show1">
         {{listing.description}} <br>
@@ -86,8 +115,27 @@
 
 
         <div class="listing-tabContent" ng-hide="show3">
-        this is the content of the policies tab.
-        </div><!--reviews content-->
+          Payment Methods
+          <br>
+          <img src="Assets/images/paymentMethods.png"></img>
+          <br>
+          Ready to ship in {{listing.processing_min}}-{{listing.processing_max}} business days
+          <br><br>
+          <div class="listing-pol"> Policies</div>
+          <br>
+          <span class="listing-polLeft">Payment</span>
+          <span class="listing-polRight">{{policyPayment}}</span>
+          <br><br>
+          <span class="listing-polLeft">Shipping</span>
+          <span class="listing-polRight">{{policyShipping}}</span>
+          <br><br>
+          <span class="listing-polLeft">Refunds & Exchanges</span>
+          <span class="listing-polRight">{{policyRefunds}}</span>
+          <br><br>
+          <span class="listing-polLeft">Additional Policies & FAQs</span>
+          <span class="listing-polRight">{{policyAdditional}}</span>
+
+        </div><!--policies content-->
 
       </div><!--end of tabConainer-->
     </span><!--end listingColLeft-->
@@ -193,8 +241,14 @@
     <div class = "tags" ng-repeat = "tag in tags">
       <div class = "tag-div">{{tag}}</div>
     </div>
-    <div class = "footer-description">"Listed on {{timeStamp | date: fullDate}} x views x favorites Add item to treasury
-Report this item to Etsy"
+    <br><br><br>
+    <br><br><br>
+    <br><br>
+    <div class = "footer-description">Listed on {{timeStamp * 1000 | date: fullDate}}
+      <span style="margin-left: 20px;">{{listing.views}} views</span>
+      <a href=""><span style="margin-left: 20px; color: #0192B5;">{{listing.num_favorers}} favorites</span></a>
+      <a href=""><span style="margin-left:20px; color: #0192B5;">Add item to treasury</span></a>
+      <a href=""><span style="float:right;">Report this item to Etsy</span></a>
     </div>
   </div>
 

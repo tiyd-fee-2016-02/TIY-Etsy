@@ -142,6 +142,33 @@ a {
  .mag:hover{
   color:  #2f98b1
  }
+ .oneReview{
+   border-bottom: #666666 1px solid;
+   font-size: .75em;
+   color: #666666;
+   padding: 30px;
+   display:block;
+ }
+ .listing-Reviewerpic{
+   display: inline-block;
+   width: 40px;
+   height:40px;
+   border-radius: 20px;
+   background: #2f98b1;
+   margin-left: 20px;
+ }
+ .listing-ReviewLeft{
+   width: 20%;
+   color: #666666;
+
+   /*margin-left: 20px;*/
+ }
+ .listing-ReviewRight{
+   display: inline-block;
+   width:78%;
+   color: #666666;
+ }
+
 
 .listing-tabsThemselves {
   border-bottom: #DADBD6 1px solid;
@@ -182,6 +209,20 @@ pre{
   word-wrap: break-word;
   /*background: red;*/
   /*display: none;*/
+ }
+ .listing-pol{
+   border-bottom: #666666 1px solid;
+ }
+ .listing-polLeft{
+   display: inline-block;
+   color: #666666;
+   width:40%;
+   vertical-align:top;
+ }
+ .listing-polRight{
+   display: inline-block;
+   color: #666666;
+   width: 59%
  }
 
 
@@ -230,6 +271,9 @@ pre{
   border-radius: 4px; }
 
 .footer-description {
-  display: block; }
+  display: block;
+  font-size: .75em;
+  color: #999999;
+}
 
 /*# sourceMappingURL=matt.css.map */
