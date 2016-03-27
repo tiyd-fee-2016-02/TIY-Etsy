@@ -167,6 +167,10 @@ a {
   border: #E5F4F7 5px solid;
   border-radius: 3px; }
 
+  .listing-storeSummaryHeader{
+    text-align: center;
+  }
+
 .listing-preview-card {
   margin: 6px;
   display: inline-block;
@@ -197,9 +201,50 @@ a {
 
 .listing-thumbnails {
   display: inline-block;
-  width: 40%;
-  margin-left: 30%;
-  margin-right: 30%; }
+  width: 100%;
+  text-align:center;
+ }
+ .mag{
+   color: #aaaaaa;
+   float: right;
+ }
+ .mag:hover{
+  color:  #2f98b1
+ }
+ .oneReview{
+   border-bottom: #666666 1px solid;
+   font-size: .75em;
+   color: #666666;
+   padding: 30px;
+   display:block;
+ }
+ .listing-Reviewerpic{
+   display: inline-block;
+   width: 40px;
+   height:40px;
+   border-radius: 20px;
+   background: #2f98b1;
+   margin-left: 20px;
+
+ }
+ .listing-ReviewLeft{
+   display:inline-block;
+   text-align: left;
+   width: 20%;
+   color: #666666;
+   /*border: 1px green solid;*/
+
+   /*margin-left: 20px;*/
+ }
+ .listing-ReviewRight{
+   position: relative;
+   display: inline-block;
+   float: right;
+   width:78%;
+   color: #666666;
+   /*border: red 1px solid;*/
+ }
+
 
 .listing-tabsThemselves {
   border-bottom: #DADBD6 1px solid;
@@ -229,11 +274,29 @@ a {
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
   margin-top: 50px;
-  display: none; }
+ }
 
 .listing-tabContentSelected {
   display: block; }
 
+.listing-pol{
+  border-bottom: 1px #666666 solid;
+  padding-bottom: 20px;
+  color: #666666;
+}
+.listing-polSection{
+  display: inline-block;
+}
+.listing-polLeft{
+  float:left;
+  width: 30%;
+  display: inline-block;
+}
+.listing-polRight{
+  float: right;
+  width: 68%;
+  display: inline-block;
+}
 .stars {
   color: #FFDC1E; }
 

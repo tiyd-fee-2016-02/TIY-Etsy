@@ -109,7 +109,7 @@
                   <i class="fa fa-star"></i></span>
                 <span style="float: right;">{{feed.creation_tsz * 1000 | date:'fullDate'}}</span>
               </span>
-                <br>
+                <br><br>
                 <div class="listing-ReviewMessage">
                   {{feed.message}}
                 </div>
@@ -137,17 +137,25 @@
           <br><br>
           <div class="listing-pol"> Policies</div>
           <br>
-          <span class="listing-polLeft">Payment</span>
-          <span class="listing-polRight">{{policyPayment}}</span>
+          <div class="listing-polSection">
+            <span class="listing-polLeft">Payment</span>
+            <span class="listing-polRight">{{policyPayment}}</span>
+          </div>
           <br><br>
-          <span class="listing-polLeft">Shipping</span>
-          <span class="listing-polRight">{{policyShipping}}</span>
+          <div class="listing-polSection">
+            <span class="listing-polLeft">Shipping</span>
+            <span class="listing-polRight">{{policyShipping}}</span>
+          </div>
           <br><br>
-          <span class="listing-polLeft">Refunds & Exchanges</span>
-          <span class="listing-polRight">{{policyRefunds}}</span>
+          <div class="listing-polSection">
+            <span class="listing-polLeft">Refunds & Exchanges</span>
+            <span class="listing-polRight">{{policyRefunds}}</span>
+          </div>
           <br><br>
-          <span class="listing-polLeft">Additional Policies & FAQs</span>
-          <span class="listing-polRight">{{policyAdditional}}</span>
+          <div class="listing-polSection">
+            <span class="listing-polLeft">Additional Policies & FAQs</span>
+            <span class="listing-polRight">{{policyAdditional}}</span>
+          </div>
 
         </div><!--policies content-->
 
@@ -192,9 +200,11 @@
 
       <div class="listing-storeSummary">
         <div class = "listing-preview-wrap">
-          <img class = "shop-avatar" src = "{{shopAvatar}}" width = "50px"></img>
-          {{shopName}}<br>
-          in locations are private<br>
+          <div class ="listing-storeSummaryHeader">
+            <img class = "shop-avatar" src = "{{shopAvatar}}" width = "50px"></img><br>
+            {{shopName}}<br>
+            in locations are private<br>
+          </div><!--end store summary header-->
         <div class = "listing-preview-card">
           <div class = "preview-img">
             <img src = "{{image1src.url_170x135}}"></img>
