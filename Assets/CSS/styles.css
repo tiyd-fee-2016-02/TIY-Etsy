@@ -76,7 +76,8 @@
         text-align: center;
         color: #6c6c63; }
   .site-header .site-header-dropdown-nav-wrap {
-    border-bottom: solid thin #dcdcd9; }
+    border-bottom: solid thin #dcdcd9;
+    background-color: white; }
     .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap {
       margin: 0 16% 3px  16%; }
       .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
@@ -86,7 +87,8 @@
         color: #6c6c63; }
         .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
           border-bottom: solid 3px #f56400;
-          margin-bottom: -3px; }
+          margin-bottom: -3px;
+          text-decoration: none; }
   .site-header .site-header-dropdown-standard-left-link {
     padding: 1em .5em; }
     .site-header .site-header-dropdown-standard-left-link:hover {
@@ -542,7 +544,49 @@
   .site-header .left-link-hover {
     background-color: lightblue; }
 
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    color: \": expected expression (e.g. 1px, bold), was \"##e2e2e2;\"\A         on line 27 of Assets/CSS/styles.scss\A \A 22:     text-decoration: underline;\A 23:     color: #0192b5;\A 24: }\A 25: \A 26: .footer-content {\A 27:     color: ##e2e2e2;\A 28:     border-bottom: 1px solid #e2e2e2;\A 29:     width: 980px;\A 30:     height: 250px;\A 31:     text-align: left;\A 32:     display: flex;"; }
+body {
+  background-color: #efefeb; }
+
+.gnav-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #e2e2e2;
+  background-color: #f5f5f1;
+  font-size: 13px;
+  display: block;
+  line-height: 25px;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  font-family: 'Lato', 'Arial', sans-serif; }
+
+.fa {
+  padding-right: 5px; }
+
+a {
+  text-decoration: none;
+  color: #0192b5; }
+
+a:hover {
+  text-decoration: underline;
+  color: #0192b5; }
+
+.footer-content {
+  color: #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  width: 980px;
+  height: 250px;
+  text-align: left;
+  display: flex;
+  justify-content: baseline;
+  margin-left: 12%;
+  margin-right: 12%;
+  padding-top: 30px;
+  padding-bottom: 15px; }
+
+.column-section {
+  float: left;
+  width: 50%;
+  margin-right: 30px; }
+
+/*# sourceMappingURL=styles.css.map */
