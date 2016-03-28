@@ -5,13 +5,13 @@
 
 ##Colors
 
-* Orange: #f56400
-* Blue: #34a8c4
-* Background: ##efefeb
-* Grey-border: #dcdcd9
-* Blue-border: #2f98b1
-* Grey-type: #aaaaaa
-* Dark-grey-type: #666666
+* $Orange: #f56400
+* $Blue: #34a8c4
+* $Background: ##efefeb
+* $Grey-border: #dcdcd9
+* $Blue-border: #2f98b1
+* $Grey-type: #aaaaaa
+* $Dark-grey-type: #666666
 
 ##Typefaces:
 
@@ -38,7 +38,7 @@ To prevent overlapping classifications on the git merge, consider page-specific 
 
 Divide your class names into two parts separated by a hyphen.
 ######Ex: class="page-yourclassname"
-Where 'trending' is the page your group is working on, and 'yourclassname' is your class name. Avoiding common names like 'container', 'section', and 'header' will make sure your stylesheets won't accidently apply to someone else's page after the merge.
+Where 'page' is the page your group is working on, and 'yourclassname' is your class name. Avoiding common names like 'container', 'section', and 'header' will make sure your stylesheets won't accidently apply to someone else's page after the merge.
 
 ##Etsy SVG:
 Cut and paste all of this into your html. You will need to resize accordingly.

@@ -1,9 +1,2 @@
-<<<<<<< HEAD
-.sass-cache/
+.gitignore
 bower_components
-./assets/css/styles.scss
-=======
-bower_components
-./assets/css/styles.scss
-./assets/.sass-cache/
->>>>>>> origin/byron

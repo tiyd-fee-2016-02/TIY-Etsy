@@ -1,8 +1,575 @@
+.site-header {
+  font-family: 'lato', sans-serif; }
+  .site-header a {
+    text-decoration: none;
+    color: #666; }
+  .site-header .site-header-top-wrap {
+    border-bottom: solid thin #dcdcd9;
+    background-color: white;
+    height: 95px; }
+    .site-header .site-header-top-wrap .site-header-etsy-logo {
+      display: inline-block;
+      margin: 0 0 0 16%;
+      padding: .3em .5em .5em 0;
+      font-size: 2.8em;
+      font-family: serif;
+      color: #f56400;
+      font-weight: 500; }
+    .site-header .site-header-top-wrap .site-header-search-bar-wrapper {
+      display: inline-block;
+      width: 25%; }
+      .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-bar {
+        display: inline-block;
+        font-size: 1em;
+        line-height: 2em;
+        border: solid thin #cfcbc8;
+        height: 35px;
+        width: 70%;
+        border-radius: .3em 0 0 .3em;
+        background-color: #fbfbfa;
+        margin: -3px 0 0 0; }
+      .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-button {
+        display: inline-block;
+        background-color: #34a8c4;
+        color: white;
+        font-weight: bold;
+        padding: 9px 25px 11px 25px;
+        margin: -1px 0 0 -5px;
+        border-radius: 0 .3em .3em 0; }
+    .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap {
+      display: inline-block;
+      text-align: center;
+      vertical-align: center;
+      margin: 2.3% 3% 5% 0%;
+      float: left;
+      color: #34a8c4; }
+      .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap:hover {
+        text-decoration: underline; }
+    .site-header .site-header-top-wrap .site-header-top-nav-wrapper {
+      display: inline-block;
+      float: right;
+      margin: 1.5% 16% 0 0;
+      width: 29%; }
+      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .fa {
+        display: block;
+        font-size: 1.5em;
+        padding: .1em 1em; }
+      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-home-wrap {
+        display: inline-block;
+        text-align: center;
+        border-right: solid thin #dcdcd9;
+        border-left: solid thin #dcdcd9;
+        color: #6c6c63; }
+      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-favorites-wrap {
+        display: inline-block;
+        text-align: center;
+        border-right: solid thin #dcdcd9;
+        padding: 0 .2em;
+        color: #6c6c63; }
+      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-you-wrap {
+        display: inline-block;
+        text-align: center;
+        border-right: solid thin #dcdcd9;
+        color: #6c6c63; }
+      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-cart-wrap {
+        display: inline-block;
+        text-align: center;
+        color: #6c6c63; }
+  .site-header .site-header-dropdown-nav-wrap {
+    border-bottom: solid thin #dcdcd9;
+    background-color: white; }
+    .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap {
+      margin: 0 16% 3px  16%; }
+      .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
+        display: inline-block;
+        padding: .75em 0;
+        margin: 0 2.5% 0 0;
+        color: #6c6c63; }
+        .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
+          border-bottom: solid 3px #f56400;
+          margin-bottom: -3px;
+          text-decoration: none; }
+  .site-header .site-header-dropdown-standard-left-link {
+    padding: 1em .5em; }
+    .site-header .site-header-dropdown-standard-left-link:hover {
+      background-color: lightblue; }
+    .site-header .site-header-dropdown-standard-left-link .site-header-left-drop-caret {
+      display: inline-block;
+      float: right;
+      margin: 0 7%; }
+  .site-header .site-header-dropdown-standard-middle-link {
+    display: block;
+    padding: .4em 1em;
+    color: black; }
+    .site-header .site-header-dropdown-standard-middle-link:hover {
+      text-decoration: underline; }
+  .site-header .site-header-dropdown-indented-middle-link {
+    display: block;
+    padding: .4em 2em;
+    color: #aaa; }
+    .site-header .site-header-dropdown-indented-middle-link:hover {
+      text-decoration: underline; }
+  .site-header .site-header-dropdown-bold-middle-link {
+    display: block;
+    padding: .4em .4em;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em; }
+    .site-header .site-header-dropdown-bold-middle-link:hover {
+      text-decoration: underline; }
+  .site-header .site-header-right-nav-img {
+    width: 90%;
+    height: 50%;
+    margin: 0 5%; }
+  .site-header .site-header-right-nav-txt {
+    display: block;
+    margin: 6% 5% 3% 5%;
+    color: #aaa; }
+  .site-header .site-header-right-nav-desc-txt {
+    display: block;
+    margin: 3% 5%;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'bitter', serif; }
+    .site-header .site-header-right-nav-desc-txt:hover {
+      text-decoration: underline; }
+  .site-header .site-header-clothing-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav .clothing-left-link-1 {
+        margin: 5% 0 0 0; }
+    .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav .site-header-clothing-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav .site-header-clothing-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-jewelry-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .site-header-jewelry-drop-left-link {
+        padding: 1em 0; }
+        .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .site-header-jewelry-drop-left-link:hover {
+          background-color: lightblue; }
+      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .jewelry-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .jewelry-left-link-1:hover {
+          background-color: white; }
+    .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav .site-header-jewelry-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav .site-header-jewelry-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-craft-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .craft-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .craft-left-link-1:hover {
+          background-color: white; }
+    .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav .site-header-craft-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav .site-header-craft-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-craft-dropdown .site-header-craft-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-wedding-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .site-header-wedding-drop-left-link {
+        padding: 1em 0; }
+        .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .site-header-wedding-drop-left-link:hover {
+          background-color: lightblue; }
+      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1 {
+        text-align: center;
+        margin: 0 6%;
+        border-bottom: solid thin #dcdcd9;
+        color: black;
+        font-weight: bold; }
+        .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1:hover {
+          background-color: white; }
+    .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav .site-header-wedding-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav .site-header-wedding-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-entertainment-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav .site-header-entertainment-drop-left-link {
+        padding: 1em 0; }
+        .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav .site-header-entertainment-drop-left-link:hover {
+          background-color: lightblue; }
+    .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-middle-nav .site-header-entertainment-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-middle-nav .site-header-entertainment-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-living-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav .site-header-living-drop-left-link {
+        padding: 1em 0; }
+        .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav .site-header-living-drop-left-link:hover {
+          background-color: lightblue; }
+    .site-header .site-header-living-dropdown .site-header-living-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-living-dropdown .site-header-living-dropdown-middle-nav .site-header-living-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-living-dropdown .site-header-living-dropdown-middle-nav .site-header-living-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-living-dropdown .site-header-living-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-kids-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      display: inline-block; }
+      .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav .site-header-kids-drop-left-link {
+        padding: 1em 0; }
+        .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav .site-header-kids-drop-left-link:hover {
+          background-color: lightblue; }
+    .site-header .site-header-kids-dropdown .site-header-kids-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-kids-dropdown .site-header-kids-dropdown-middle-nav .site-header-kids-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-kids-dropdown .site-header-kids-dropdown-middle-nav .site-header-kids-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-kids-dropdown .site-header-kids-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .site-header-vintage-dropdown {
+    margin: 0 14%;
+    height: 53%;
+    width: 70%;
+    border: solid thin #dcdcd9;
+    border-top: none;
+    display: none;
+    background-color: white;
+    position: absolute;
+    z-index: 100; }
+    .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav {
+      position: relative;
+      height: 100%;
+      width: 24%;
+      border-right: solid thin #dcdcd9;
+      display: inline-block; }
+      .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav .site-header-vintage-drop-left-link {
+        padding: 1em 0; }
+        .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav .site-header-vintage-drop-left-link:hover {
+          background-color: lightblue; }
+    .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-middle-nav {
+      position: relative;
+      height: 99%;
+      width: 50%;
+      margin: 0 25% 0 0;
+      display: block;
+      display: none;
+      float: right; }
+      .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-middle-nav .site-header-vintage-dropdown-middle-nav-left {
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        position: relative;
+        margin: 2% 0 0 0; }
+      .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-middle-nav .site-header-vintage-dropdown-middle-nav-right {
+        position: absolute;
+        display: inline-block;
+        height: 98%;
+        width: 49%;
+        margin: 2% 0 0 0; }
+    .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-right-nav {
+      position: absolute;
+      height: 95%;
+      width: 24%;
+      margin: 1% 0  0 52%;
+      display: inline-block;
+      border-left: solid thin #dcdcd9;
+      float: right; }
+  .site-header .show {
+    display: block; }
+  .site-header .hide {
+    display: none; }
+  .site-header .top-nav-link-hover {
+    border-bottom: solid 3px #f56400; }
+  .site-header .left-link-hover {
+    background-color: lightblue; }
+
+body {
+  background-color: #efefeb; }
+
 .gnav-footer {
   border-top: 1px solid #e2e2e2;
   background-color: #f5f5f1;
   font-size: 13px;
   display: block;
+  line-height: 25px;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  font-family: 'Lato', 'Arial', sans-serif; }
+
+.fa {
+  padding-right: 5px; }
+
+a {
+  text-decoration: none;
+  color: #0192b5; }
+
+a:hover {
+  text-decoration: underline;
+  color: #0192b5; }
+
+.footer-content {
+  color: #e2e2e2;
   line-height: 26px;
   margin-top: 250px;
   margin-bottom: 5px;
@@ -33,20 +600,17 @@
   width: 50%;
   margin-right: 30px; }
 
-.column-section ul li a {
+.column-section .column-section ul li a {
   text-decoration: none;
   color: #0192b5; }
-  .column-section ul li a:hover {
+  .column-section .column-section ul li a:hover {
     text-decoration: underline;
     color: #0192b5; }
-
-.subfooter {
+.column-section .subfooter {
   text-align: center; }
-  .subfooter ul li {
-    display: inline-block;
-    margin: -2px;
-}
-  .subfooter a {
+  .column-section .subfooter ul li {
+    display: inline-block; }
+  .column-section .subfooter a {
     display: inline-block;
     border: 1px solid #e2e2e2;
     text-decoration: none;
@@ -55,9 +619,9 @@
     padding: 8px 15px;
     color: #666;
     font-size: 12px; }
-  .subfooter a:hover {
+  .column-section .subfooter a:hover {
     background-color: #cce9f1; }
-  .subfooter .help-link {
+  .column-section .subfooter .help-link {
     border: 1px solid #e2e2e2;
     text-decoration: none;
     float: left;
@@ -71,504 +635,26 @@
     font-weight: bold;
     font-size: 16px;
     border-radius: 2px; }
-  .subfooter .help-link:hover {
+  .column-section .subfooter .help-link:hover {
     background-color: #f5f5f1;
     border: 1px solid #999; }
-
-.final-row {
+.column-section .final-row {
   text-align: center;
   margin-top: 15px; }
-  .final-row ul li {
+  .column-section .final-row ul li {
     display: inline-block; }
-  .final-row a {
+  .column-section .final-row a {
     text-decoration: none;
     padding: 8px;
     font-size: 12px;
     margin-top: 15px;
     line-height: 18px; }
-  .final-row #copy {
+  .column-section .final-row #copy {
     color: #999;
     font-size: 12px; }
-.final-row a{
-    color: #666;
-}
-  .final-row a:hover {
+  .column-section .final-row a:hover {
     text-decoration: underline; }
-  .final-row a:visited {
+  .column-section .final-row a:visited {
     color: #666; }
 
-.site-header {
-  font-family: sans-serif; }
-  .site-header a {
-    text-decoration: none;
-    color: #666; }
-  .site-header .site-header-top-wrap {
-    border-bottom: solid thin #dcdcd9; }
-    .site-header .site-header-top-wrap .site-header-etsy-logo {
-      display: inline-block;
-      margin: 0 0 0 16%;
-      padding: .3em .5em .5em 0;
-      font-size: 2.8em;
-      font-family: serif;
-      color: #f56400;
-      font-weight: 500;
-      border: solid thin black; }
-    .site-header .site-header-top-wrap .site-header-search-bar-wrapper {
-      display: inline-block;
-      width: 25%;
-      border: solid thin black; }
-      .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-bar {
-        display: inline-block;
-        font-size: 1em;
-        line-height: 2em;
-        border: solid thin #cfcbc8;
-        height: 35px;
-        width: 70%;
-        border-radius: .3em 0 0 .3em;
-        background-color: #fbfbfa;
-        margin: -3px 0 0 0; }
-      .site-header .site-header-top-wrap .site-header-search-bar-wrapper .site-header-search-button {
-        display: inline-block;
-        background-color: #34a8c4;
-        color: white;
-        font-weight: bold;
-        padding: 7px 25px 9px 25px;
-        margin: -1px 0 0 -5px;
-        border-radius: 0 .3em .3em 0; }
-    .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap {
-      display: inline-block;
-      text-align: center;
-      vertical-align: center;
-      margin: 2.3% 3% 5% 0%;
-      float: left;
-      color: #34a8c4; }
-      .site-header .site-header-top-wrap .site-header-top-nav-sell-wrap:hover {
-        text-decoration: underline; }
-    .site-header .site-header-top-wrap .site-header-top-nav-wrapper {
-      display: inline-block;
-      float: right;
-      margin: 1.5% 16% 0 0;
-      border: solid thin black;
-      width: 29%; }
-      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .fa {
-        display: block;
-        font-size: 1.5em;
-        padding: .1em 1em; }
-      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-home-wrap {
-        display: inline-block;
-        text-align: center;
-        border-right: solid thin #dcdcd9;
-        border-left: solid thin #dcdcd9;
-        color: #6c6c63; }
-      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-favorites-wrap {
-        display: inline-block;
-        text-align: center;
-        border-right: solid thin #dcdcd9;
-        padding: 0 .2em;
-        color: #6c6c63; }
-      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-you-wrap {
-        display: inline-block;
-        text-align: center;
-        border-right: solid thin #dcdcd9;
-        color: #6c6c63; }
-      .site-header .site-header-top-wrap .site-header-top-nav-wrapper .site-header-top-nav-cart-wrap {
-        display: inline-block;
-        text-align: center;
-        color: #6c6c63; }
-  .site-header .site-header-dropdown-nav-wrap {
-    border-bottom: solid thin #dcdcd9; }
-    .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap {
-      margin: 0 16% 1px 16%; }
-      .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a {
-        display: inline-block;
-        padding: .75em 0;
-        margin: 0 2.5% 0 0;
-        color: #6c6c63; }
-        .site-header .site-header-dropdown-nav-wrap .site-header-dropdown-nav-links-wrap a:hover {
-          border-bottom: solid 3px #f56400; }
-  .site-header .site-header-dropdown-standard-left-link {
-    padding: 1em .5em; }
-    .site-header .site-header-dropdown-standard-left-link:hover {
-      background-color: lightblue; }
-    .site-header .site-header-dropdown-standard-left-link .site-header-left-drop-caret {
-      display: inline-block;
-      float: right;
-      margin: 0 7%; }
-  .site-header .site-header-dropdown-standard-middle-link {
-    display: block;
-    padding: .4em 1em;
-    color: black; }
-    .site-header .site-header-dropdown-standard-middle-link:hover {
-      text-decoration: underline; }
-  .site-header .site-header-dropdown-indented-middle-link {
-    display: block;
-    padding: .4em 2em;
-    color: #aaa; }
-    .site-header .site-header-dropdown-indented-middle-link:hover {
-      text-decoration: underline; }
-  .site-header .site-header-dropdown-bold-middle-link {
-    display: block;
-    padding: .4em .4em;
-    color: black;
-    font-weight: bold;
-    font-size: 1.1em; }
-    .site-header .site-header-dropdown-bold-middle-link:hover {
-      text-decoration: underline; }
-  .site-header .site-header-clothing-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-left-nav .clothing-left-link-1 {
-        margin: 5% 0 0 0; }
-    .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav .site-header-clothing-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-middle-nav .site-header-clothing-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-clothing-dropdown .site-header-clothing-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-jewelry-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .site-header-jewelry-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .site-header-jewelry-drop-left-link:hover {
-          background-color: lightblue; }
-      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .jewelry-left-link-1 {
-        text-align: center;
-        margin: 0 6%;
-        border-bottom: solid thin #dcdcd9;
-        color: black;
-        font-weight: bold; }
-        .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-left-nav .jewelry-left-link-1:hover {
-          background-color: white; }
-    .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav .site-header-jewelry-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-middle-nav .site-header-jewelry-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-jewelry-dropdown .site-header-jewelry-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-craft-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .craft-left-link-1 {
-        text-align: center;
-        margin: 0 6%;
-        border-bottom: solid thin #dcdcd9;
-        color: black;
-        font-weight: bold; }
-        .site-header .site-header-craft-dropdown .site-header-craft-dropdown-left-nav .craft-left-link-1:hover {
-          background-color: white; }
-    .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav .site-header-craft-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-craft-dropdown .site-header-craft-dropdown-middle-nav .site-header-craft-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-craft-dropdown .site-header-craft-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-wedding-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .site-header-wedding-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .site-header-wedding-drop-left-link:hover {
-          background-color: lightblue; }
-      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1 {
-        text-align: center;
-        margin: 0 6%;
-        border-bottom: solid thin #dcdcd9;
-        color: black;
-        font-weight: bold; }
-        .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-left-nav .wedding-left-link-1:hover {
-          background-color: white; }
-    .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav .site-header-wedding-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-middle-nav .site-header-wedding-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-wedding-dropdown .site-header-wedding-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-entertainment-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav .site-header-entertainment-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-left-nav .site-header-entertainment-drop-left-link:hover {
-          background-color: lightblue; }
-    .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-middle-nav .site-header-entertainment-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-middle-nav .site-header-entertainment-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-entertainment-dropdown .site-header-entertainment-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-living-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav .site-header-living-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-living-dropdown .site-header-living-dropdown-left-nav .site-header-living-drop-left-link:hover {
-          background-color: lightblue; }
-    .site-header .site-header-living-dropdown .site-header-living-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-living-dropdown .site-header-living-dropdown-middle-nav .site-header-living-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-living-dropdown .site-header-living-dropdown-middle-nav .site-header-living-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-living-dropdown .site-header-living-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-kids-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav .site-header-kids-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-kids-dropdown .site-header-kids-dropdown-left-nav .site-header-kids-drop-left-link:hover {
-          background-color: lightblue; }
-    .site-header .site-header-kids-dropdown .site-header-kids-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-kids-dropdown .site-header-kids-dropdown-middle-nav .site-header-kids-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-kids-dropdown .site-header-kids-dropdown-middle-nav .site-header-kids-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-kids-dropdown .site-header-kids-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .site-header-vintage-dropdown {
-    margin: 0 14%;
-    height: 53%;
-    border: solid thin #dcdcd9;
-    display: none; }
-    .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav {
-      position: absolute;
-      height: 52%;
-      width: 17.5%;
-      border-right: solid thin #dcdcd9;
-      display: inline-block; }
-      .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav .site-header-vintage-drop-left-link {
-        padding: 1em 0; }
-        .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-left-nav .site-header-vintage-drop-left-link:hover {
-          background-color: lightblue; }
-    .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-middle-nav {
-      position: absolute;
-      height: 52%;
-      width: 34.5%;
-      margin: 0 0 0 17.5%;
-      display: inline-block;
-      display: none; }
-      .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-middle-nav .site-header-vintage-dropdown-middle-nav-left {
-        display: inline-block;
-        height: 98%;
-        width: 49%;
-        position: absolute;
-        margin: 2% 0 0 0; }
-      .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-middle-nav .site-header-vintage-dropdown-middle-nav-right {
-        position: absolute;
-        display: block;
-        height: 98%;
-        width: 49%;
-        margin: 2% 0 0 49%; }
-    .site-header .site-header-vintage-dropdown .site-header-vintage-dropdown-right-nav {
-      position: absolute;
-      height: 46%;
-      width: 19%;
-      margin: 1% 0  0 52%;
-      display: inline-block;
-      border: solid thin pink;
-      float: right; }
-  .site-header .show {
-    display: block; }
-  .site-header .hide {
-    display: none; }
+/*# sourceMappingURL=styles.css.map */
