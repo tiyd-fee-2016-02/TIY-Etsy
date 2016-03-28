@@ -5,7 +5,7 @@ var listingID;
 etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http){
  $scope.message = "hello world";
 
- $http.get("https://openapi.etsy.com/v2/listings/trending/?api_key=xkpd25inafnxzw5h0dmyo8ko&includes=MainImage,Shop&limit=300&offset=100").then(function(response){
+ $http.get("https://openapi.etsy.com/v2/listings/trending/?api_key=xkpd25inafnxzw5h0dmyo8ko&includes=MainImage,Shop&limit=100000&offset=100").then(function(response){
    $scope.trending = response.data;
 
   //  var card = response.data;
@@ -102,7 +102,9 @@ etsyApp.controller('etsyController', ['$scope', '$http', function($scope, $http)
     }
 
     window.onscroll = function() {
-      addStuff()
+      if(window.scrollY >= lowestHeight + 100){
+        addStuff()}
+        else{}
     };
 
 
