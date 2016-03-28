@@ -47,11 +47,11 @@
         <div class="listing-imgCarosel">
           <img src = "{{images[carouselClicker(carouselClick)].url_570xN}}"></img>
           <div class = "carousel-left" ng-click = "carouselClick = carouselClick - 1">
-            <div class = "carousel-left-button"><</div>
+            <div class = "carousel-left-button"><i class="fa fa-chevron-left fa-2x"></i></div>
           </div>
 
           <div class = "carousel-right" ng-click = "carouselClick = carouselClick + 1">
-            <div class = "carousel-right-button">></div>
+            <div class = "carousel-right-button"><i class="fa fa-chevron-right fa-2x"></i></div>
           </div>
         </div>
 
@@ -180,7 +180,7 @@
         </div>
 
         <div class = "overview">Overview</div>
-        Favorited by: <span class = "blue">{{listing.num_favorers}} people</span><br>
+        <span class = "favorited-by">Favorited by: <span class = "blue">{{listing.num_favorers}} people</span></span><br>
         <button class = "add-to-cart">Add to cart</button>
       </div>
       <div class="listing-socialMedia">
