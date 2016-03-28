@@ -1,3 +1,4 @@
+// global variable for the product details team
 var listingID;
 
 etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http, $scope) {
@@ -13,12 +14,15 @@ etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http,
       console.log('There was an error!', data);
 		});
 
+	// function for the product detais team
+	// takes a listing ID and assigns to the global variable listingID
+	// this method is called by an ng-click in catergory.html
 	$scope.assignListingID = function(myListingID) {
 		listingID = myListingID;
 		console.log("assignListingID() => " + listingID);
 	};
 
-// Mouseover function to show the heart and menu on 'shop all items cards.'
+	// Mouseover function to show the heart and menu on 'shop all items cards.'
 	var hoverEdit = false;
 
 	$scope.hoverIn = function(){
@@ -29,7 +33,8 @@ etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http,
 		this.hoverEdit = false;
 	};
 
-	// modal
+	// modal window boolean and toggle modal visibility function
+	// source: http://adamalbrecht.com/2013/12/12/creating-a-simple-modal-dialog-directive-in-angular-js/
  	$scope.modalShown = false;
   $scope.toggleModal = function() {
     $scope.modalShown = !$scope.modalShown;
@@ -38,14 +43,14 @@ etsyApp.controller('CategoryViewController', ['$http', '$scope', function($http,
 
 }]);
 
-//
-//
-//
+// we used code from the source below with slight modifications in lines 48-79,
+// some extra comments were added
+// source: http://adamalbrecht.com/2013/12/12/creating-a-simple-modal-dialog-directive-in-angular-js/
 etsyApp.directive('modalDialog', function() {
   return {
-    restrict: 'E',
-    scope: {
-      show: '='
+    restrict: 'E', 	// creates the directive as a tag  <modal-dialog></modal-dialog>
+    scope: {				// creates and isolated scope
+      show: '='			// shorthand for 2 way binding btn show attr in <modal-dialog show=""> and scope.show
     },
     replace: true, // Replace with the template below
     transclude: true, // we want to insert custom content inside the directive

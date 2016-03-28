@@ -497,10 +497,12 @@ a:hover {
    }
 }
 
-// angular modal CSS
-
+// app directive modal CSS
+// we used code from the source below with modifications in lines 504-556,
+// some extra comments were added
+// source: http://adamalbrecht.com/2013/12/12/creating-a-simple-modal-dialog-directive-in-angular-js/
 .ng-modal-overlay {
-  /* A dark translucent div that covers the whole screen */
+  // light grey translucent div that covers the whole screen
   // position: absolute;
   position: fixed;
   z-index:9999;
@@ -510,17 +512,20 @@ a:hover {
   height:100%;
   background-color:#ccc;
   opacity: 0.65;
-  // prevent click event on greyed out background around modal div
-  pointer-events: none;
+  // following CSS will prevent click event on greyed out background around modal div
+  // pointer-events: none;
+  //
+  // can also remove ng-click='hideModal()' from template, line 72 of
+  // category-controller.js to prevent overlay click from hiding modal content
 }
 
 .ng-modal-dialog {
   // div above the overlay
   z-index:10000;
-  // position: absolute;  forces modal to top of page, even if user was scrolled to bottom of page => line 512 fixes this issue
+  // position: absolute;  forces modal to top of page, even if user was scrolled to bottom of page => line 507 & 526 fixes this issue
   position: fixed;
-  width: 50%;  /* Default */
-  /* Center the dialog */
+  width: 50%;  // default - overridden below
+  // center the content
   top: 10%;
   left: 22%;
   // transform: translate(-20%, -20%);
@@ -549,6 +554,8 @@ a:hover {
   display: inline-block;
   font-family: $lato;
 }
+
+// model content CSS
 
 .cat-mod-continer {
   h1 {

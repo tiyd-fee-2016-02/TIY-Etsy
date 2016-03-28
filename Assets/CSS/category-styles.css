@@ -370,7 +370,6 @@ a:hover {
   opacity: 1; }
 
 .ng-modal-overlay {
-  /* A dark translucent div that covers the whole screen */
   position: fixed;
   z-index: 9999;
   top: 0;
@@ -378,15 +377,12 @@ a:hover {
   width: 100%;
   height: 100%;
   background-color: #ccc;
-  opacity: 0.65;
-  pointer-events: none; }
+  opacity: 0.65; }
 
 .ng-modal-dialog {
   z-index: 10000;
   position: fixed;
   width: 50%;
-  /* Default */
-  /* Center the dialog */
   top: 10%;
   left: 22%;
   background-color: #fff;
