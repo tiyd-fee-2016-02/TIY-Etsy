@@ -1,6 +1,3 @@
-body {
-  background-color: #efefeb; }
-
 .gnav-footer {
   border-top: 1px solid #e2e2e2;
   background-color: #f5f5f1;
@@ -92,11 +89,14 @@ body {
   .final-row #copy {
     color: #999;
     font-size: 12px; }
+.final-row a{
+    color: #666;
+}
   .final-row a:hover {
     text-decoration: underline; }
   .final-row a:visited {
     color: #666; }
-=======
+
 .site-header {
   font-family: sans-serif; }
   .site-header a {
