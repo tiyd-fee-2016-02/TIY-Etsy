@@ -542,4 +542,7 @@
   .site-header .left-link-hover {
     background-color: lightblue; }
 
-/*# sourceMappingURL=styles.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    color: \": expected expression (e.g. 1px, bold), was \"##e2e2e2;\"\A         on line 27 of Assets/CSS/styles.scss\A \A 22:     text-decoration: underline;\A 23:     color: #0192b5;\A 24: }\A 25: \A 26: .footer-content {\A 27:     color: ##e2e2e2;\A 28:     border-bottom: 1px solid #e2e2e2;\A 29:     width: 980px;\A 30:     height: 250px;\A 31:     text-align: left;\A 32:     display: flex;"; }
