@@ -5,7 +5,8 @@
     color: #666; }
   .site-header .site-header-top-wrap {
     border-bottom: solid thin #dcdcd9;
-    background-color: white; }
+    background-color: white;
+    height: 85px; }
     .site-header .site-header-top-wrap .site-header-etsy-logo {
       display: inline-block;
       margin: 0 0 0 16%;

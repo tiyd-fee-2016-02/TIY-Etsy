@@ -1,6 +1,6 @@
 var listingPageApp = angular.module('listingPageApp', ['ngRoute']);
 
-    var listingID = 272177332;//this will be passed to us via other pages' routing
+    var listingID = 175112598;//this will be passed to us via other pages' routing
 
     // listing id to test with : 272177332 - ring
     // another listing id to test with : 272810386 - gun

@@ -21,7 +21,9 @@ $site-background: #efefeb;
   .site-header-top-wrap{
       border-bottom: solid thin $gray-border;
       // box-shadow: 0 1px 0 1px black;
+        // border: solid thin black;
       background-color: white;
+      height: 85px;
       .site-header-etsy-logo{
         display: inline-block;
         margin:  0 0 0 16%;
