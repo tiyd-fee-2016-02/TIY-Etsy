@@ -735,15 +735,14 @@ $site-background: #efefeb;
   }
 }
 
+
+
 //evan
 
 body {
     background-color: #efefeb;
 }
 .gnav-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
     border-top: 1px solid #e2e2e2;
     background-color:#f5f5f1;
     font-size: 13px;
@@ -767,19 +766,33 @@ a:hover {
 
 .footer-content {
     color: #e2e2e2;
+    line-height: 26px;
+    margin-top: 250px;
+    margin-bottom: 5px;
+    font-family: 'Lato', 'Arial', sans-serif;
+    height: 500px;
+
+}
+
+.fa {
+    padding-right: 5px;
+    font-size: 1.1em;
+}
+
+.footer-content {
+    color: #666;
     border-bottom: 1px solid #e2e2e2;
     width: 980px;
     height: 250px;
     text-align: left;
     display: flex;
     justify-content: baseline;
-    margin-left: 12%;
-    margin-right: 12%;
+    margin-left: 15%;
+    margin-right: 10%;
     padding-top: 30px;
     padding-bottom: 15px;
-    // position: fixed;
-    // bottom: 0;
-
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -791,4 +804,78 @@ a:hover {
 
 .column-section {
     // border: 1px solid green;
+.column-section ul li a{
+
+        text-decoration: none;
+        color: #0192b5;
+            &:hover{
+                                text-decoration: underline;
+                                color: #0192b5;
+                            }
+            }
+
+.subfooter{
+    text-align: center;
+    ul li{
+        display:inline-block;
+    }
+    a{
+        display: inline-block;
+        border: 1px solid #e2e2e2;
+        text-decoration: none;
+        float: left;
+        line-height: 16px;
+        padding: 8px 15px;
+        color: #666;
+        font-size: 12px;
+    }
+    a:hover{
+        background-color: rgb(204,233,241);
+    }
+    .help-link {
+            border: 1px solid #e2e2e2;
+            text-decoration: none;
+            float: left;
+            line-height: 16px;
+            padding: 8px 10px;
+            color: #444;
+            display: block;
+            margin-left: 30px;
+            width: 150px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 2px;
+        }
+    .help-link:hover {
+        background-color: #f5f5f1;
+        border:1px solid #999;
+    }
+}
+.final-row{
+    text-align: center;
+    margin-top: 15px;
+    ul li {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        padding: 8px;
+        font-size:12px;
+        margin-top: 15px;
+        line-height: 18px;
+    }
+
+    #copy{
+        color: #999;
+        font-size: 12px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    a:visited {
+        color: #666;
+    }
+}
 }

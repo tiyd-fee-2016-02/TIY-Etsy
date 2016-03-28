@@ -548,9 +548,6 @@ body {
   background-color: #efefeb; }
 
 .gnav-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   border-top: 1px solid #e2e2e2;
   background-color: #f5f5f1;
   font-size: 13px;
@@ -573,20 +570,91 @@ a:hover {
 
 .footer-content {
   color: #e2e2e2;
+  line-height: 26px;
+  margin-top: 250px;
+  margin-bottom: 5px;
+  font-family: 'Lato', 'Arial', sans-serif;
+  height: 500px; }
+
+.fa {
+  padding-right: 5px;
+  font-size: 1.1em; }
+
+.footer-content {
+  color: #666;
   border-bottom: 1px solid #e2e2e2;
   width: 980px;
   height: 250px;
   text-align: left;
   display: flex;
   justify-content: baseline;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-left: 15%;
+  margin-right: 10%;
   padding-top: 30px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .column-section {
   float: left;
   width: 50%;
   margin-right: 30px; }
+
+.column-section .column-section ul li a {
+  text-decoration: none;
+  color: #0192b5; }
+  .column-section .column-section ul li a:hover {
+    text-decoration: underline;
+    color: #0192b5; }
+.column-section .subfooter {
+  text-align: center; }
+  .column-section .subfooter ul li {
+    display: inline-block; }
+  .column-section .subfooter a {
+    display: inline-block;
+    border: 1px solid #e2e2e2;
+    text-decoration: none;
+    float: left;
+    line-height: 16px;
+    padding: 8px 15px;
+    color: #666;
+    font-size: 12px; }
+  .column-section .subfooter a:hover {
+    background-color: #cce9f1; }
+  .column-section .subfooter .help-link {
+    border: 1px solid #e2e2e2;
+    text-decoration: none;
+    float: left;
+    line-height: 16px;
+    padding: 8px 10px;
+    color: #444;
+    display: block;
+    margin-left: 30px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 2px; }
+  .column-section .subfooter .help-link:hover {
+    background-color: #f5f5f1;
+    border: 1px solid #999; }
+.column-section .final-row {
+  text-align: center;
+  margin-top: 15px; }
+  .column-section .final-row ul li {
+    display: inline-block; }
+  .column-section .final-row a {
+    text-decoration: none;
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 18px; }
+  .column-section .final-row #copy {
+    color: #999;
+    font-size: 12px; }
+  .column-section .final-row a:hover {
+    text-decoration: underline; }
+  .column-section .final-row a:visited {
+    color: #666; }
 
 /*# sourceMappingURL=styles.css.map */
