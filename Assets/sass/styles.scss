@@ -15,7 +15,7 @@ $site-background: #efefeb;
   a {
     text-decoration: none;
     color: $dark-gray-type;
-    
+
   }
 
 
@@ -738,7 +738,7 @@ $site-background: #efefeb;
 
 
 
-//evan
+//Evan
 
 body {
     background-color: #efefeb;
@@ -750,12 +750,13 @@ body {
     display: block;
     line-height: 25px;
     margin-top: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-family: 'Lato', 'Arial', sans-serif;
 }
 .fa {
     padding-right: 5px;
 }
+
 a {
     text-decoration: none;
     color: #0192b5;
@@ -763,16 +764,6 @@ a {
 a:hover {
     text-decoration: underline;
     color: #0192b5;
-}
-
-.footer-content {
-    color: #e2e2e2;
-    line-height: 26px;
-    margin-top: 250px;
-    margin-bottom: 5px;
-    font-family: 'Lato', 'Arial', sans-serif;
-    height: 500px;
-
 }
 
 .fa {
@@ -786,40 +777,39 @@ a:hover {
     width: 980px;
     height: 250px;
     text-align: left;
-    display: flex;
-    justify-content: baseline;
     margin-left: 15%;
     margin-right: 10%;
     padding-top: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 
-.column-section{
+.column-section {
     float: left;
-    width: 50%;
+    width: 20%;
     margin-right: 30px;
 }
+.column-section ul li a {
+    padding: 0px;
+    text-decoration: none;
+    color: #0192b5;
 
-.column-section {
-    // border: 1px solid green;
-.column-section ul li a{
-
-        text-decoration: none;
+    &:hover{
+        text-decoration: underline;
         color: #0192b5;
-            &:hover{
-                                text-decoration: underline;
-                                color: #0192b5;
                             }
             }
 
+
+
 .subfooter{
-    text-align: center;
     ul li{
         display:inline-block;
+        text-align: center;
     }
+
     a{
         display: inline-block;
         border: 1px solid #e2e2e2;
@@ -829,6 +819,7 @@ a:hover {
         padding: 8px 15px;
         color: #666;
         font-size: 12px;
+        margin-right: -4px;
     }
     a:hover{
         background-color: rgb(204,233,241);
@@ -853,11 +844,16 @@ a:hover {
         border:1px solid #999;
     }
 }
+
+
 .final-row{
     text-align: center;
+    margin-right: 5%;
     margin-top: 15px;
+    padding-bottom: 15px;
     ul li {
         display: inline-block;
+        text-align: center;
     }
     a {
         text-decoration: none;
@@ -870,6 +866,7 @@ a:hover {
     #copy{
         color: #999;
         font-size: 12px;
+        margin-right: -5px;
     }
 
     a:hover {
@@ -879,4 +876,33 @@ a:hover {
         color: #666;
     }
 }
-}
+
+.footer-row.locale-help{
+     margin-left: 32%;
+     margin-top: 5px;
+
+ li a {
+      border: 1px solid #e2e2e2;
+    text-decoration: none;
+    float: left;
+     line-height: 18px;
+     padding: 8px 10px;
+     color: #666;
+     display: block;
+    }
+ }
+
+.help-link {
+    border: 1px solid #e2e2e2;
+    text-decoration: none;
+    float: left;
+    line-height: 18px;
+    padding: 8px 10px;
+    color: #444;
+    display: block;
+     margin-left: 50px;
+     width: 150px;
+     text-align: center;
+     font-weight: bold;
+         font-size: 16px;
+      }
