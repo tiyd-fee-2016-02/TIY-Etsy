@@ -1,0 +1,165 @@
+.home-community-tastemakers-wrapper{
+  font-family: $Bitter;
+  a{
+    text-decoration: none;
+  }
+  // border: 2px solid red;
+  width: 980px;
+  margin: 0 auto;
+  img{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+  }
+}
+
+.home-community-tastemakers-header{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  h1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h3{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #666;
+    font-family: $Lato;
+  }
+}
+
+.home-community-tastemaker-user{
+  display: inline-block;
+  border: 1px solid #e4e4e2;
+  border-radius: 3px;
+  width: 228px;
+  height: 244px;
+  margin-right: 16px;
+  ul{
+    height: 184px;
+  }
+  &:hover{
+    .home-community-tastemaker-user-header{
+      transition-duration: 0.2s;
+      margin-top: -10px;
+      div{
+        display:inline-block;
+      }
+    }
+    .home-community-tastemaker-user-footer{
+      h6{
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+#hctu4{
+  margin-right: 0px;
+}
+
+.home-community-tastemaker-user-header{
+  position: absolute;
+  img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2), -2px -2px 3px rgba(0,0,0,0.2);
+    margin-top: -13px;
+    margin-left: 10px;
+  }
+  div{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-top: -6px;
+    margin-left: 4px;
+    color: #666;
+    display:none;
+  }
+  h4{
+    display: inline-block;
+    color: #0192b5;
+  }
+}
+
+.home-community-tastemaker-user-img{
+  width: 112px;
+  height: 90px;
+  float: left;
+  border: 1px solid #efefef;
+  img{
+    width: 110px;
+    height: 88px;
+  }
+}
+
+.home-community-tastemaker-user-footer{
+  height: 60px;
+  h6{
+    margin-top: 15px;
+    margin-left: 12px;
+    font: {
+      size: 13px;
+      weight: bold;
+    };
+    color: $Dark-grey-type;
+  }
+  h5{
+    font-family: $Lato;
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 13px;
+    color: #999;
+  }
+  p{
+    color: #999;
+    margin-top: -28px;
+    margin-left: 180px;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    // border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 0.5px rgba(100,100,100,0.2), -1px -1px 0.5px rgba(100,100,100,0.2), -1px 1px 0.5px rgba(100,100,100,0.2), 1px -1px 0.5px rgba(100,100,100,0.2);
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-top: 3px;
+  }
+}
+
+.home-community-tastemakers-browse-container{
+  background: #E5F4F7;
+  border: 1px solid #CCE9F0;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 25px 0 30px;
+  border-radius: 5px;
+  h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+  };
+  &:hover{
+    background: #CCE9F0;
+  }
+}
+
+.home-community-tastemakers-browse-container-btn{
+  background: #34A8C4;
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 195px;
+  margin: 15px auto 0 auto;
+  padding: 7px 0;
+  border-radius: 3px;
+  color: white;
+  font:{
+    size: 15px;
+    weight: bold;
+    family: $Lato;
+  };
+}

@@ -1,0 +1,84 @@
+{
+  "heroImage1": [
+    {
+      "heroimageurl": "https://img0.etsystatic.com/site-assets/homepage-carousel/shc-makepienotwar.jpg",
+      "herotext": "Shop directly from people around the world."
+    }
+  ],
+  "heroImageScroll": [
+    {
+      "storeOwnerName": "Alana Little",
+      "storeOwnerImage": "https://img1.etsystatic.com/019/0/5216059/isc_90x90.6210311205_30o8.jpg",
+      "storeName": "makepienotwar",
+      "storeCountry": "United States",
+      "storeCity": "California",
+      "storeURL": "https://www.etsy.com/shop/makepienotwar?ref=l2-shopheader-name",
+      "products":[
+      {"prodImg": "https://img0.etsystatic.com/024/1/5216059/il_75x75.487641982_t0rd.jpg", "productDescription": "Set of three ampersand bracelets", "productLink": "https://www.etsy.com/listing/177004937/set-of-three-ampersand-bracelets?ref=hp_so_crsl_l", "listingID": 177004937},
+      {"prodImg": "https://img0.etsystatic.com/029/0/5216059/il_75x75.628517088_sqc0.jpg", "productDescription": "Simi bangle set", "productLink": "https://www.etsy.com/listing/220055428/semi-bangle-set?ref=hp_so_crsl_l", "listingID": 220055428},
+      {"prodImg": "https://img0.etsystatic.com/103/0/5216059/il_75x75.923264484_dlql.jpg", "productDescription": "Disney font custom name monogram bar rose gold silver necklace", "productLink": "https://www.etsy.com/listing/268470778/disney-font-custom-name-monogram-bar?ref=hp_so_crsl_l", "listingID": 268470778},
+      {"prodImg": "https://img0.etsystatic.com/012/1/5216059/il_75x75.432784390_l1mz.jpg", "productDescription": "five tri love brass gold filled necklace", "productLink": "https://www.etsy.com/listing/116640788/five-tri-love-brass-gold-filled-necklace?ref=hp_so_crsl_l", "listingID": 116640788}
+      ]
+    }
+  ],
+  "editorsPicksTop2": [
+    {"picksLink": "https://www.etsy.com/featured/personalized-and-custom-jewelry?ref=sohp", "picksPic": "https://img1.etsystatic.com/114/0/11266858/il_340x270.931868267_7sd5.jpg", "epcategory": "Personalized & Custom jewelry"},
+    {"picksLink": "https://www.etsy.com/featured/home-accents?ref=sohp", "picksPic": "https://img0.etsystatic.com/076/0/10187253/il_340x270.806949502_5h14.jpg", "epcategory": "Clever arrangements"}
+  ],
+  "editorsPicksBottom4": [
+    {"picksLink": "https://www.etsy.com/featured/diy-home-decorating-projects?ref=sohp", "picksPic": "https://img1.etsystatic.com/100/0/8571185/il_340x270.831014575_2t05.jpg", "epcategory": "DIY home decorating projects"},
+    {"picksLink": "https://www.etsy.com/featured/spring-gifts-under-30?ref=sohp", "picksPic": "https://img1.etsystatic.com/036/0/7886301/il_340x270.596907383_6sxi.jpg", "epcategory": "Best of spring: Under $30"},
+    {"picksLink": "https://www.etsy.com/featured/spring-fashion-accessories-trends?ref=sohp", "picksPic": "https://img0.etsystatic.com/038/0/7939301/il_340x270.596344586_tqnh.jpg", "epcategory": "Spring fashion accessories"},
+    {"picksLink": "https://www.etsy.com/featured/easter-gifts-and-decorations?ref=sohp", "picksPic": "https://img0.etsystatic.com/134/0/11266858/il_340x270.945136706_k8cb.jpg", "epcategory": "Easter gifts & decorations"}
+  ],
+  "commTastemakers": [
+    {
+      "tastemakerName": "Maria",
+      "tastemakerImage": "https://img1.etsystatic.com/004/0/18072052/iusa_75x75.20668391_fw9i.jpg",
+      "tastemakerProductImgs": [
+        "https://img1.etsystatic.com/051/1/5774848/il_170x135.730832749_cxco.jpg", "https://img1.etsystatic.com/058/1/5774848/il_170x135.681440379_8fbr.jpg", "https://img0.etsystatic.com/021/1/5774848/il_170x135.507166584_jm48.jpg", "https://img1.etsystatic.com/022/1/5774848/il_170x135.499389611_ihas.jpg"
+      ],
+      "tastemakerURL": "https://www.etsy.com/people/mariachekimoglou/favorites/items-i-love?ref=hp_tastemaker",
+      "tastemakerNumItems": "1604"
+    },
+    {
+      "tastemakerName": "Jessica-June",
+      "tastemakerImage": "https://img0.etsystatic.com/000/0/6055874/iusa_75x75.5777114.jpg",
+      "tastemakerProductImgs": [
+        "https://img0.etsystatic.com/117/1/10689811/il_170x135.935041472_gs1p.jpg", "https://img1.etsystatic.com/104/0/8652246/il_170x135.935557447_40jt.jpg", "https://img1.etsystatic.com/100/0/6615611/il_170x135.829275979_n5ui.jpg", "https://img1.etsystatic.com/073/0/10484016/il_170x135.820652553_mjgp.jpg"
+      ],
+      "tastemakerURL": "https://www.etsy.com/people/daydreambeliever28/favorites/items-i-love?ref=hp_tastemaker",
+      "tastemakerNumItems": "1745"
+    },
+    {
+      "tastemakerName": "Samantha",
+      "tastemakerImage": "https://img0.etsystatic.com/000/0/22917768/iusa_75x75.20089202.jpg",
+      "tastemakerProductImgs": [
+        "https://img1.etsystatic.com/011/0/5391764/il_170x135.437407653_hzkr.jpg", "https://img0.etsystatic.com/004/0/5986279/il_170x135.364275286_q3gy.jpg", "https://img0.etsystatic.com/000/0/5159952/il_170x135.283159846.jpg", "https://img1.etsystatic.com/004/0/5159952/il_170x135.361948599_lwhv.jpg"
+      ],
+      "tastemakerURL": "https://www.etsy.com/people/samanthaflanagan2/favorites/items-i-love?ref=hp_tastemaker",
+      "tastemakerNumItems": "12"
+    },
+    {
+      "tastemakerName": "Martin",
+      "tastemakerImage": "https://img0.etsystatic.com/000/0/19617795/iusa_75x75.9438478.jpg",
+      "tastemakerProductImgs": [
+        "https://img0.etsystatic.com/000/0/6088395/il_170x135.351839954.jpg", "https://img0.etsystatic.com/000/0/5165865/il_170x135.319193434.jpg", "https://img1.etsystatic.com/000/0/6680265/il_170x135.302886943.jpg", "https://img1.etsystatic.com/000/0/6057851/il_170x135.273581081.jpg"
+      ],
+      "tastemakerURL": "https://www.etsy.com/people/dfnqline/favorites/items-i-love?ref=hp_tastemaker",
+      "tastemakerNumItems": "8"
+    }
+  ],
+  "heroImage2": [
+    {
+      "heroImgURL": "https://img0.etsystatic.com/site-assets/homepage-carousel/lunaticart_cropped.jpg",
+      "featuredUserImg": "https://img0.etsystatic.com/039/0/5199914/isc_90x90.14920164228_82aw.jpg",
+      "featuredUserLink": "https://www.etsy.com/shop/LUNATICART?ref=hp_so_ft_av",
+      "featuredUserQuote": "“I strongly believe that being a conscious consumer is an important way to increase social equity and make a real difference around us.”",
+      "featuredUserName": "Berenice",
+      "featuredUserStoreName": "LUNATICART",
+      "storeCountry": "France",
+      "storeCity": "Paris"
+    }
+  ]
+}

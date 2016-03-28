@@ -657,4 +657,475 @@ a:hover {
   .column-section .final-row a:visited {
     color: #666; }
 
+.home-wrapper {
+  width: 100%; }
+
+.home-hero-image-1 {
+  font-size: 38px;
+  width: 100%;
+  height: 400px;
+  font-family: "Bitter", "Times", serif;
+  position: relative; }
+  .home-hero-image-1 img {
+    width: 100%;
+    height: 100%; }
+
+.home-hero-image-1-text h1 {
+  width: 560px;
+  left: 12%;
+  position: absolute;
+  top: 100px;
+  color: white; }
+
+.home-hero-image-1-banner {
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  display: inline-block; }
+
+.home-hero-image-1-banner-userinfo-link {
+  text-decoration: none; }
+
+.home-hero-image-1-banner-userinfo {
+  margin-left: 11.2%;
+  line-height: 21px;
+  font-size: 14px;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 6px;
+  color: white; }
+  .home-hero-image-1-banner-userinfo:hover .home-user-info-top-margin-storeName {
+    text-decoration: underline; }
+
+#home-userinfo-text-wrap {
+  display: inline-block; }
+
+.home-hero-image-1-banner-userinfo-image {
+  box-sizing: border-box;
+  position: absolute;
+  margin-top: 15px; }
+  .home-hero-image-1-banner-userinfo-image img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px; }
+
+.home-name-store-city-country {
+  margin-top: 25px;
+  margin-left: 70px; }
+
+.home-hero-image-1-banner-products {
+  display: inline-block;
+  margin-left: 112px; }
+
+.home-hero-image-1-banner-products-display-ilBlock li {
+  margin-left: 5px;
+  display: inline-block; }
+
+.home-hero-image-1-banner-products-thumbnail {
+  width: 75px;
+  height: 75px;
+  border-radius: 4px;
+  border: 4px solid white;
+  margin-top: 8.5px; }
+  .home-hero-image-1-banner-products-thumbnail:hover {
+    opacity: .9; }
+
+#home-items-number-tile {
+  text-align: center;
+  background-color: white;
+  float: right; }
+  #home-items-number-tile:hover {
+    background-color: #c7f1ff; }
+
+.home-scroll-number {
+  color: #34a8c4;
+  font-size: 24px;
+  margin-top: 20px; }
+
+.home-scroll-items {
+  color: #aaaaaa;
+  font-size: 14px; }
+
+.home-editor-pick-bg {
+  background: #eee;
+  padding-bottom: 40px;
+  border: 1px solid #eee; }
+  .home-editor-pick-bg a {
+    text-decoration: none;
+    color: black; }
+
+.home-editor-pick-wrapper {
+  width: 980px;
+  margin: 0 auto; }
+
+.home-editor-pick-header {
+  font-family: "Bitter", "Times", serif;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 40px; }
+
+.home-editor-pick-card-wrapper-top-2 {
+  width: 48.75%;
+  height: 190px;
+  display: inline-block;
+  margin-bottom: 20px;
+  vertical-align: top;
+  padding: 5px;
+  font-family: "Lato", "Arial", sans-serif; }
+  .home-editor-pick-card-wrapper-top-2:hover div div div:last-child {
+    text-decoration: underline; }
+  .home-editor-pick-card-wrapper-top-2 .home-editor-pick-card-inner-wrapper-top-2 {
+    width: 100%;
+    height: 190px;
+    color: #aaaaaa;
+    background: white;
+    border-radius: 3px; }
+  .home-editor-pick-card-wrapper-top-2 .home-editor-pick-card-wrapper-top-2-image img {
+    border-radius: 2px 0px 0px 2px;
+    width: 239px;
+    height: 192px; }
+
+.home-editor-pick-card-wrapper-top-2-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  margin-top: 60px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #777; }
+  .home-editor-pick-card-wrapper-top-2-text div {
+    display: block;
+    padding: 4px 0; }
+    .home-editor-pick-card-wrapper-top-2-text div:last-child {
+      color: black;
+      font-size: 20px;
+      font-weight: bold; }
+
+.home-editor-pick-card-wrapper-top-2-text-category {
+  font-family: "Bitter", "Times", serif; }
+
+.home-editor-pick-card-wrapper-top-2-image {
+  display: inline-block; }
+
+.home-editor-pick-card-wrapper-bottom-4 {
+  font-family: "Lato", "Arial", sans-serif;
+  width: 230px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 5px;
+  border-radius: 3px;
+  background: white; }
+  .home-editor-pick-card-wrapper-bottom-4:hover div div:last-child {
+    text-decoration: underline; }
+  .home-editor-pick-card-wrapper-bottom-4:last-child {
+    margin-right: 0px;
+    padding-right: 0px; }
+  .home-editor-pick-card-wrapper-bottom-4 .home-editor-pick-card-wrapper-bottom-4-image:hover img {
+    opacity: .95; }
+  .home-editor-pick-card-wrapper-bottom-4 img {
+    width: 100%;
+    border-radius: 3px; }
+
+.home-editor-pick-card-wrapper-bottom-4-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 95%;
+  margin-top: 18px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #777; }
+  .home-editor-pick-card-wrapper-bottom-4-text div {
+    display: block;
+    padding: 4px 0; }
+    .home-editor-pick-card-wrapper-bottom-4-text div:last-child {
+      color: black;
+      font-size: 20px;
+      font-weight: bold; }
+
+.home-editor-pick-card-wrapper-bottom-4-text-category {
+  font-family: "Bitter", "Times", serif; }
+
+.home-editor-pick-more-btn {
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 18px;
+  background: white;
+  border-radius: 3px;
+  width: 170px;
+  padding: 14px 14px;
+  margin: 30px auto;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.15); }
+  .home-editor-pick-more-btn:hover {
+    background: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.home-hero-image-2 {
+  font-family: "Bitter", "Times", serif; }
+  .home-hero-image-2 img {
+    width: 100%; }
+
+.home-hero-image-2-user-image {
+  border: 4px solid white;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -45px;
+  margin-left: 570px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2), -2px 2px 2px rgba(0, 0, 0, 0.2); }
+  .home-hero-image-2-user-image:hover {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4), -2px 2px 2px rgba(0, 0, 0, 0.4); }
+  .home-hero-image-2-user-image img {
+    border-radius: 50%; }
+
+.home-hero-image-2-user-info {
+  margin: 75px auto 75px auto;
+  width: 700px;
+  text-align: center; }
+  .home-hero-image-2-user-info h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .home-hero-image-2-user-info h3 {
+    font-size: 18px;
+    color: #666;
+    font-weight: 600; }
+    .home-hero-image-2-user-info h3 a {
+      text-decoration: none;
+      color: #0192b5; }
+      .home-hero-image-2-user-info h3 a:hover {
+        text-decoration: underline; }
+
+.home-community-tastemakers-wrapper {
+  font-family: "Bitter", "Times", serif;
+  width: 980px;
+  margin: 0 auto; }
+  .home-community-tastemakers-wrapper a {
+    text-decoration: none; }
+  .home-community-tastemakers-wrapper img {
+    width: 75px;
+    height: 75px;
+    display: inline-block; }
+
+.home-community-tastemakers-header {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 30px; }
+  .home-community-tastemakers-header h1 {
+    font-size: 30px;
+    font-weight: 600; }
+  .home-community-tastemakers-header h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #666;
+    font-family: "Lato", "Arial", sans-serif; }
+
+.home-community-tastemaker-user {
+  display: inline-block;
+  border: 1px solid #e4e4e2;
+  border-radius: 3px;
+  width: 228px;
+  height: 244px;
+  margin-right: 16px; }
+  .home-community-tastemaker-user ul {
+    height: 184px; }
+  .home-community-tastemaker-user:hover .home-community-tastemaker-user-header {
+    transition-duration: 0.2s;
+    margin-top: -10px; }
+    .home-community-tastemaker-user:hover .home-community-tastemaker-user-header div {
+      display: inline-block; }
+  .home-community-tastemaker-user:hover .home-community-tastemaker-user-footer h6 {
+    text-decoration: underline; }
+
+#hctu4 {
+  margin-right: 0px; }
+
+.home-community-tastemaker-user-header {
+  position: absolute; }
+  .home-community-tastemaker-user-header img {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+    margin-top: -13px;
+    margin-left: 10px; }
+  .home-community-tastemaker-user-header div {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    margin-top: -6px;
+    margin-left: 4px;
+    color: #666;
+    display: none; }
+  .home-community-tastemaker-user-header h4 {
+    display: inline-block;
+    color: #0192b5; }
+
+.home-community-tastemaker-user-img {
+  width: 112px;
+  height: 90px;
+  float: left;
+  border: 1px solid #efefef; }
+  .home-community-tastemaker-user-img img {
+    width: 110px;
+    height: 88px; }
+
+.home-community-tastemaker-user-footer {
+  height: 60px; }
+  .home-community-tastemaker-user-footer h6 {
+    margin-top: 15px;
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #666666; }
+  .home-community-tastemaker-user-footer h5 {
+    font-family: "Lato", "Arial", sans-serif;
+    margin-top: 2px;
+    margin-left: 12px;
+    font-size: 13px;
+    color: #999; }
+  .home-community-tastemaker-user-footer p {
+    color: #999;
+    margin-top: -28px;
+    margin-left: 180px;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    position: absolute;
+    box-shadow: 1px 1px 0.5px rgba(100, 100, 100, 0.2), -1px -1px 0.5px rgba(100, 100, 100, 0.2), -1px 1px 0.5px rgba(100, 100, 100, 0.2), 1px -1px 0.5px rgba(100, 100, 100, 0.2);
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-top: 3px; }
+
+.home-community-tastemakers-browse-container {
+  background: #E5F4F7;
+  border: 1px solid #CCE9F0;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 25px 0 30px;
+  border-radius: 5px; }
+  .home-community-tastemakers-browse-container h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: black; }
+  .home-community-tastemakers-browse-container:hover {
+    background: #CCE9F0; }
+
+.home-community-tastemakers-browse-container-btn {
+  background: #34A8C4;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 195px;
+  margin: 15px auto 0 auto;
+  padding: 7px 0;
+  border-radius: 3px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Lato", "Arial", sans-serif; }
+
+.home-subscribe-aboutEtsy-container {
+  background-color: #f5f5f1;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  width: 100%; }
+
+.home-subscribe-aboutEtsy {
+  min-width: 76%;
+  margin-left: 12%; }
+
+.home-subscribe-aboutEtsy-colDiv {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  margin-right: 60px; }
+
+.home-subscribe-aboutEtsy-colDiv-title {
+  font-family: "Bitter", "Times", serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: .1px; }
+
+.home-subscribe-aboutEtsy-colDiv-blurb {
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 17px;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+  line-height: 1.5; }
+
+.home-subscribe-aboutEtsy-submitEmail {
+  position: relative;
+  text-align: center;
+  width: 87%;
+  height: 170px;
+  background-image: url(../images/homepageimages/weddings-texture.png);
+  background-color: #dcdcd9;
+  border-color: #d2d2d2;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px; }
+
+.home-subscribe-aboutEtsy-submitEmail-image {
+  position: absolute;
+  width: 100%;
+  top: 48px;
+  left: 0; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer {
+  display: inline-block;
+  position: absolute;
+  left: 29.5%; }
+
+.home-subscribe-aboutEtsy-submitEmail-blurb {
+  font-family: "Bitter", "Times", serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  line-height: 1.5;
+  padding-top: 35px;
+  padding-bottom: 5px; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input {
+  padding: 5px;
+  height: 22px;
+  width: 260px;
+  font-size: 15px;
+  border-color: #aaaaaa;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1.5px; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-input::-webkit-input-placeholder {
+  font-size: 14px;
+  overflow: visible; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button {
+  color: white;
+  background: #34a8c4;
+  border-radius: 3px;
+  border-color: #2f98b1;
+  border-style: solid;
+  border-width: 1px;
+  height: 35px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 8px;
+  z-index: 10; }
+
+.home-subscribe-aboutEtsy-submitEmail-fieldcontainer-button:hover {
+  background: #3cb1cb; }
+
 /*# sourceMappingURL=styles.css.map */
