@@ -1,0 +1,663 @@
+$Orange: #f56400;
+$Blue: #34a8c4;
+$Background: #efefeb;
+$Grey-border: #dcdcd9;
+$Blue-border: #2f98b1;
+$Grey-type: #aaaaaa;
+$Dark-grey-type: #666666;
+$bitter: 'Bitter', 'Times', serif;
+$lato: 'Lato', 'Arial', sans-serif;
+
+body {
+    background-color: $Background;
+    margin: 0;
+    width: 1210px;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+#wrapper {
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+.page-header {
+   font-family: $bitter;
+   font-weight: 500;
+   margin-left: 3.5%;
+}
+
+.center-header {
+   text-align: center;
+   font-family: $bitter;
+   font-weight: 400;
+}
+
+.cat-page-path {
+  color: $Grey-type;
+  margin-left: 3.5%;
+  font-size: 0.8em;
+  font-family: $lato;
+}
+
+.cat-button-link {
+  text-decoration: none;
+}
+
+.cat-button {
+   margin-left: 45%;
+   margin-top: 50px;
+   padding: 10px;
+   background-color: #fff;
+   border: 1px solid $Grey-border;
+   border-radius: 3px;
+   color: $Dark-grey-type;
+   font-size: 14px;
+   font-weight: 600;
+}
+
+.row-1 {
+  margin-left: 2%;
+
+
+	.col-1-4 {
+	  border: 1px solid $Grey-border;
+     border-radius: 3px;
+     font-family: $lato;
+     font-weight: 300;
+     background-color: #fff;
+	  display: inline-block;
+	  width: 230px;
+      margin: 0 10px 0 15px;
+     .shop-all-nav {
+        width: 80%;
+        margin-left: 20px;
+        border-top: 1px solid $Grey-border;
+        border-radius: 3px;
+        padding-top: 20px;
+        color: black;
+     }
+	}
+
+	.col-2-4 {
+	  border: 1px solid $Grey-border;
+     border-radius: 3px;
+     background-color: #fff;
+	  display: inline-block;
+	  list-style: none;
+	  width: 365px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+    //   margin-bottom: 10px;
+	  padding-bottom: 30px;
+    // margin-top: 10px;
+	}
+
+	.col-3-4 {
+	  border: 1px solid $Grey-border;
+     border-radius: 3px;
+     background-color: #fff;
+	  display: inline-block;
+	  list-style: none;
+	  width: 365px;
+	  margin-left: 10px;
+    //   margin-bottom: 10px;
+	  padding-bottom: 30px;
+	}
+
+	ul {
+		list-style: none;
+		margin-left: -20px;
+	}
+
+	.cat-nav {
+		line-height: 1.7em;
+      font-family: $lato;
+      font-weight: 300;
+      a {
+         color: black;
+      }
+
+	}
+
+	.cat-header {
+		margin-left: 20px;
+      font-family: $bitter;
+      font-weight: 400;
+      a {
+      color: black;
+
+      }
+	}
+
+	.all-cat {
+		margin-left: 20px;
+      font-family: $lato;
+      font-weight: 400;
+      color: black;
+	}
+
+	img {
+		width: 100%;
+		height: 263px;
+      opacity: 0.9;
+        border-top-right-radius: 2px;
+        border-top-left-radius: 2px;
+	}
+   img:hover{
+      opacity: 1;
+   }
+}
+
+// STYLING FOR 2ND ROW
+
+.row-2 {
+  margin-left: 2%;
+  a {
+     color: black;
+ }
+	.colB-2-4 {
+	  border: 1px solid $Grey-border;
+     border-radius: 3px;
+     background-color: #fff;
+  	  display: inline-block;
+  	  list-style: none;
+  	  width: 235px;
+	  margin-top: 20px;
+  	  margin-left: 270px;
+  	  margin-right: 10px;
+  	}
+
+	.colB-3-4 {
+	  border: 1px solid $Grey-border;
+     border-radius: 3px;
+     background-color: #fff;
+	  display: inline-block;
+	  list-style: none;
+	  width: 235px;
+	  margin-top: 20px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+	}
+
+	.colB-4-4 {
+	  border: 1px solid $Grey-border;
+     border-radius: 3px;
+     background-color: #fff;
+	  display: inline-block;
+	  list-style: none;
+	  width: 235px;
+	  margin-top: 20px;
+	  margin-left: 10px;
+	}
+
+	.cat-header {
+		margin-left: 20px;
+      font-family: $bitter;
+      font-weight: 400;
+	}
+
+	.all-cat {
+		margin-left: 20px;
+	}
+
+	.row-2-img {
+		width: 100%;
+		height: 200px;
+        border-top-right-radius: 2px;
+        border-top-left-radius: 2px;
+	}
+   img {
+		width: 100%;
+		height: 263px;
+      opacity: 0.9;
+	}
+   img:hover{
+      opacity: 1;
+   }
+}//end of styling for 2nd row - sub categories
+
+//styling for 3rd row
+.row-3{
+   margin-left: 2%;
+   display: flex;
+   flex-wrap: wrap;
+   .cat-browse {
+      border: 1px solid $Grey-border;
+      border-radius: 3px;
+      background-color: #fff;
+	  display: flex;
+     flex-direction: column;
+	  list-style: none;
+	  width: 235px;
+	  margin-top: 20px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+   }
+   .cat-browse:hover > a {
+      text-decoration: none;
+      h3 {
+         text-decoration: underline;
+      }
+   }
+   .row-3-img {
+      width: 100%;
+      height: 200px;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+   }
+   .browse-cat {
+      margin-left: 20px;
+      margin-bottom: 0;
+      font-family: $lato;
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 2px;
+      margin-top: 5px;
+      color: $Grey-type;
+      text-decoration: none;
+   }
+
+   .cat-header {
+		margin-left: 20px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      font-family: $bitter;
+      font-weight: 400;
+      font-size: 16px;
+      color: black;
+      text-decoration: none;
+	}
+   img {
+		width: 100%;
+		height: 263px;
+      opacity: 0.9;
+	}
+   img:hover{
+      opacity: 1;
+   }
+}//end of styling for Browse more categories!
+
+
+//styling for 4th row = Related Shops
+.row-4 {
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 2%;
+
+   .cat-related {
+     border: 1px solid $Grey-border;
+     border-radius: 3px;
+     background-color: #fff;
+     display: flex;
+     flex-direction: column;
+     list-style: none;
+     width: 332px;
+     margin-top: 20px;
+     margin-left: 4px;
+     margin-right: 4px;
+     .related-img-container {
+        .main {
+           width: 60.5%;
+           height: 200px;;
+        }
+        .top-right{
+           width: 39%;
+           height: 99px;
+           float: right;
+        }
+        .bottom-right {
+           @extend .top-right;
+           margin-top: -103px;
+        }
+     }
+     .shop-card-link {
+       text-decoration: none;
+       color: #000;
+     }
+     .related-shop-details {
+        .shop-img {
+           display: inline-block;
+           height: 50px;
+           width: 50px;
+           padding: 10px;
+           border-top-right-radius: 2px;
+           border-top-left-radius: 2px;
+        }
+        .shop-footer-content {
+           display: inline-block;
+           width: 100%;
+           .shop-name-container {
+             float: right;
+             width: 250px;
+             margin: 15px 10px 10px 0;
+           }
+           .shop-name {
+             color: #000;
+             font-family: $lato;
+             font-size: 16px;
+             font-weight: bolder;
+             margin-bottom: 3px;
+           }
+           .shop-footer-avatar {
+             display: inline-block;
+             width: 45px;
+           }
+           .fa {
+              display: inline-block;
+              color: rgb(255, 217, 0);
+              font-size: 18px;
+           }
+           .fa-heart {
+             float: right;
+             padding: 5px 9px;
+             border: 1px solid $Grey-border;
+             border-radius: 4px;
+             color: $Grey-type;
+           }
+           p {
+              display: inline-block;
+              margin: 0 0 0 3px;
+              color: $Dark-grey-type;
+              font-family: $lato;
+           }
+        }
+     }
+   }
+
+   img {
+		width: 100%;
+		height: 263px;
+    opacity: 0.9;
+	}
+   img:hover{
+      opacity: 1;
+   }
+} //end of related shop details styling!
+
+//styling for row 5 shop all items! Shop all Items!
+.row-5 {
+   @extend .row-3;
+
+   .shop-all {
+      border: 1px solid $Grey-border;
+      border-radius: 3px;
+      background-color: #fff;
+	  display: flex;
+     flex-direction: column;
+	  list-style: none;
+	  width: 235px;
+     height: 245px;
+	  margin-top: 20px;
+	  margin-left: 10px;
+	  margin-right: 10px;
+     font-family: $lato;
+     position: relative;
+   }
+   .row-3-img {
+      width: 100%;
+      height: 200px;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+   }
+   .hover-nav {
+      display: flex;
+      justify-content: flex-end;
+      text-align: right;
+      position: absolute;
+      vertical-align: top;
+      width: 232px;
+      margin-top: 3px;
+      color: $Grey-type;
+      .fa {
+         display: inline-block;
+      }
+      .fa-heart {
+         margin-right: 1px;
+         border: 1px solid $Grey-border;
+         border-radius: 3px;
+         background-color: white;
+         padding: 5px;
+      }
+      .fa-heart:hover {
+         background-color: $Background;
+      }
+      .hamburger-nav {
+         display: inline-block;
+         border: 1px solid $Grey-border;
+         border-radius: 3px;
+         background-color: white;
+         padding: 3px 5px 3px 5px;
+        //  padding-top: 2px;
+         .fa-bars {
+            font-size: 16px;
+         }
+         .fa-sort-desc {
+            font-size: 15px;
+            vertical-align: text-top;
+            margin-left: 2px;
+         }
+      }
+      .hamburger-nav:hover {
+         background-color: $Background;
+      }
+   }
+
+   .shop-description {
+       position: absolute;
+       margin-top: 200px;
+       width:98%;
+       text-align:left;
+
+   .shop-all-description {
+      margin: 4px;
+    //   margin-top: 170px;
+      font-size: 12px;
+      a {
+      color: black;
+      }
+      a:hover {
+         text-decoration: none;
+      }
+   }
+   .shop-all-details {
+      display: flex;
+      justify-content: space-between;
+      .shop-all-seller {
+         margin: 0 0 0 4px;
+         font-size: 12px;
+         float:left;
+         width:100%;
+         a{
+            color: $Grey-type;
+         }
+      }
+      .shop-all-price {
+         margin: 0;
+         font-size: 12px;
+         color: #78c042;
+         align-items: flex-end;
+         float:right;
+      }
+   }
+   }
+   img {
+		width: 100%;
+		height: 263px;
+      opacity: 0.9;
+      position: absolute;
+	}
+   img:hover{
+      opacity: 1;
+   }
+}
+
+// app directive modal CSS
+// we used code from the source below with modifications in lines 504-556,
+// some extra comments were added
+// source: http://adamalbrecht.com/2013/12/12/creating-a-simple-modal-dialog-directive-in-angular-js/
+.ng-modal-overlay {
+  // light grey translucent div that covers the whole screen
+  // position: absolute;
+  position: fixed;
+  z-index:9999;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#ccc;
+  opacity: 0.65;
+  // following CSS will prevent click event on greyed out background around modal div
+  // pointer-events: none;
+  //
+  // can also remove ng-click='hideModal()' from template, line 72 of
+  // category-controller.js to prevent overlay click from hiding modal content
+}
+
+.ng-modal-dialog {
+  // div above the overlay
+  z-index:10000;
+  // position: absolute;  forces modal to top of page, even if user was scrolled to bottom of page => line 507 & 526 fixes this issue
+  position: fixed;
+  width: 50%;  // default - overridden below
+  // center the content
+  top: 10%;
+  left: 22%;
+  // transform: translate(-20%, -20%);
+  // -webkit-transform: translate(-25%, -25%);
+  // -moz-transform: translate(-25%, -25%);
+  background-color: #fff;
+  font-family: $lato;
+  // box-shadow: 4px 4px 15px #000;
+  border-radius: 5px;
+}
+
+.ng-modal-dialog-content {
+  padding: 20px 10px 10px 60px;
+  // margin-left: 40px;
+  text-align: left;
+}
+
+.ng-modal-close {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 12;
+  color: #eee;
+  display: inline-block;
+  font-family: $lato;
+}
+
+// model content CSS
+
+.cat-mod-continer {
+  h1 {
+    font-family: $bitter;
+    font-weight: lighter;
+    margin: 30px 0 5px 0;
+
+  }
+  p {
+    margin: 10px 0 20px 0;
+    color: $Dark-grey-type;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+  }
+}
+
+[class*="cat-mod-btn-"] {
+  width: 235px;
+  height: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 8px 18px 13px 18px;
+  margin-bottom: 10px;
+  background: #666; // default - overidden below
+  border: 1px solid grey; // default - overidden below
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .fa-facebook-square {
+    font-size: 22px !important;
+  }
+  .fa-google-plus-square {
+    font-size: 22px !important;
+  }
+}
+
+.cat-mod-btn-facebook {
+  background: rgb(133, 153, 204);
+  border: 1px solid rgb(125, 144, 192);
+  margin-top: 5px;
+}
+
+.cat-mod-btn-google {
+  background: rgb(209, 56, 50);
+  border: 1px solid rgb(170, 47, 43);
+}
+
+.cat-mod-btn-continue {
+  background: rgb(45, 152, 183);
+  border: 1px solid rgb(41, 134, 61);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cat-mod-permission-text {
+    font-size: 13px !important;
+    color: #888 !important;
+}
+
+.cat-mod-email {
+  width: 268px;
+  height: 30px;
+  margin: 7px 0 17px 0;
+  font-size: 15px;
+}
+
+.cat-mod-email-label {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+.cat-mod-sign-in {
+  letter-spacing: 0.1em;
+}
+
+.cat-mod-sign-in-link {
+  text-decoration: none !important;
+  color: rgb(20, 128, 164) !important;
+  letter-spacing: 0.1 em;
+}
+
+.cat-mod-sign-in-link:hover {
+  text-decoration: underline !important;
+}
+
+.the-OR-container {
+  height: 1px;
+  background: #dadbd6;
+  position: relative;
+  margin: 18px -10px 24px -60px;
+  letter-spacing: 0.1em;
+}
+
+.the-actual-OR {
+  position: absolute;
+  padding: 0 15px;
+  left: 47px;
+  top: -9px;
+  font-size: 14px;
+  font-weight: bolder;
+  background: #fff;
+}
