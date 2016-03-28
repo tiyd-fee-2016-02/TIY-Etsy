@@ -16,6 +16,61 @@ a{
 
   .shop-avatar {
     display: inline-block;
+    border-radius: 3px;
+  }
+
+  .name-and-button {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .shop-name {
+    font-family: "Bitter", serif;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .favorite-shop {
+    background-color: white;
+    border: solid 1px #dcdcd9;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 4px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .fa-heart {
+    color: #f2665d;
+  }
+
+  .further-products {
+    margin-left: 14px;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+  }
+
+  .header-store-preview {
+    float: right;
+  }
+
+  .total-shop-items {
+    display: inline-block;
+    width: 75px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: relative;
+    bottom: 20;
+    margin-left: 14px;
+    background-color: white;
+    font-family: "Lato", "Arial", sans-serif;
+    text-align: center;
+    .blue {
+      color: #0192b5;
+      font-size: 20px;
+    }
+    .gray {color: #dcdcd9;}
   }
 }
 .listing-Proper{
@@ -62,6 +117,10 @@ a{
         position: absolute;
         top: 285;
         border-radius: 0 4px 4px 0;
+        i {
+          margin-top: 25px;
+          margin-left: 8px;
+        }
       }
     }
     .carousel-right {
@@ -80,6 +139,10 @@ a{
         top: 285;
         left: 245;
         border-radius: 4px 0 0 4px;
+        i {
+          margin-top: 25px;
+          margin-left: 12px;
+        }
       }
     }
 
@@ -123,9 +186,53 @@ a{
 }
 .listing-Desc{
   border: #E4F3D9 5px solid;
-  border-bottom: #E4F3D9 40px solid;
   border-radius: 3px;
   margin-bottom: 20px;
+  padding: 14px;
+  .listing-title {
+    font-family: "Bitter", serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .currency-code {
+    color: #0192b5;
+    font-family: "Lato", "Arial", sans-serif;
+  }
+  .ask-question {
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .overview {
+    font-family: "Lato", "Arial", sans-serif;
+    margin-top: 25px;
+  }
+
+  .favorited-by {
+    font-family: "Lato", "Arial", sans-serif;
+  }
+
+  .add-to-cart {
+    background-color: #7ac142;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .listing-price {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato", "Arial", sans-serif;
+  }
+
+  .one-available {
+    font-family: "Lato", "Arial", sans-serif;
+    margin-top: 25px;
+  }
 }
 .listing-socialMedia{
  border: 5px #EFEFEB solid;
@@ -162,6 +269,7 @@ a{
   .preview-price {
     color: #78c042;
     font-size: 12px;
+    font-family: "Lato", "Arial", sans-serif;
   }
 }
 
@@ -172,9 +280,14 @@ a{
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.listing-thumbZoom{
+.listing-thumbnails{
   display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
+
+
 .listing-tabsThemselves{
   border-bottom: #DADBD6 1px solid;
   text-align: center;
@@ -217,6 +330,7 @@ a{
 .thumbnails {
   display: inline-block;
   margin-top: 7px;
+
   img {
     width: 30px;
     border-radius: 3px;

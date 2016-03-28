@@ -2,6 +2,9 @@ var listingPageApp = angular.module('listingPageApp', ['ngRoute']);
 
     var listingID = 272177332;//this will be passed to us via other pages' routing
 
+    // listing id to test with : 272177332 - ring
+    // another listing id to test with : 272810386 - gun
+    // another one: 175112598 - cat armor
     // shop id is 5652817. only here for reference
 
     // var gUserID = 7637157;//hard-coding for now so I can test
@@ -22,9 +25,9 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
         //based on previous get, find user information (based on listing)
         $http.get('https://openapi.etsy.com/v2/users/'+ $scope.userID + '/shops?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
           $scope.shopName = data.results[0].shop_name;
-          $scope.shopID = data.results[0].shop_id
+          $scope.shopID = data.results[0].shop_id;
 
-            $http.get('https://openapi.etsy.com/v2/shops/5652817?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
+            $http.get('https://openapi.etsy.com/v2/shops/'+ $scope.shopID +'?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
               $scope.shopAvatar = data.results[0].icon_url_fullxfull
             })
 
@@ -40,8 +43,7 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
               $scope.listing6 = data.results[5].listing_id;
               $scope.listing7 = data.results[6].listing_id;
               $scope.listing8 = data.results[7].listing_id;
-              $scope.listing9 = data.results[8].listing_id;
-              $scope.listing10 = data.results[9].listing_id;
+
 
 
               $http.get('https://openapi.etsy.com/v2/listings/'+ $scope.listing1 +'/images?api_key=s0og6fu8wnro0qfl4roi1muj').success(function(data){
@@ -79,6 +81,15 @@ listingPageApp.controller('listingPageController', ['$http', '$scope', function(
             })
 
         })
+
+        var quantityArray = [];
+
+        for (var i = 1; i <= $scope.listing.quantity; i++){
+          quantityArray.push(i);
+        }
+
+        console.log(quantityArray);
+        console.log($scope.listing.quantity);
 
     })
 

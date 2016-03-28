@@ -7,13 +7,63 @@ a {
 .off {
   display: none; }
 
+.btn{
+  border: 1px #dcdcd9 solid;
+  border-radius:3px;
+  padding: 4px;
+  display: inline-block;
+  margin:5px;
+  font-family: 'Lato', 'Arial', sans-serif;
+}
+
 .listing-SubHeader {
   margin-left: 12%;
   margin-right: 12%;
   padding-bottom: 30px;
   padding-top: 30px; }
   .listing-SubHeader .shop-avatar {
-    display: inline-block; }
+    display: inline-block;
+    border-radius: 3px; }
+  .listing-SubHeader .name-and-button {
+    display: inline-block;
+    margin-left: 10px; }
+  .listing-SubHeader .shop-name {
+    font-family: "Bitter", serif;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 15px; }
+  .listing-SubHeader .favorite-shop {
+    background-color: white;
+    border: solid 1px #dcdcd9;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 4px;
+    font-family: "Lato", sans-serif; }
+  .listing-SubHeader .fa-heart {
+    color: #f2665d; }
+  .listing-SubHeader .further-products {
+    margin-left: 14px;
+    display: inline-block;
+    width: 70px;
+    height: 70px; }
+  .listing-SubHeader .header-store-preview {
+    float: right; }
+  .listing-SubHeader .total-shop-items {
+    display: inline-block;
+    width: 75px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: relative;
+    bottom: 20;
+    margin-left: 14px;
+    background-color: white;
+    font-family: "Lato", "Arial", sans-serif;
+    text-align: center; }
+    .listing-SubHeader .total-shop-items .blue {
+      color: #0192b5;
+      font-size: 20px; }
+    .listing-SubHeader .total-shop-items .gray {
+      color: #dcdcd9; }
 
 .listing-Proper {
   display: inline-block;
@@ -36,6 +86,7 @@ a {
 
 .listing-imgCarosel {
   width: 570px;
+  vertical-align: middle;
   height: 700px;
   background: #f5f5f1;
   position: relative; }
@@ -57,6 +108,7 @@ a {
   .listing-imgCarosel .carousel-right {
     width: 285px;
     height: 700px;
+    height:inherit;
     position: absolute;
     top: 0;
     left: 285; }
@@ -72,11 +124,19 @@ a {
       border-radius: 4px 0 0 4px; }
 
 .carousel-left:hover .carousel-left-button {
-  background-color: #67BED3;
- }
+  background-color: #67BED3; }
 
 .carousel-right:hover .carousel-right-button {
-  background-color: #67BED3;
+  background-color: #67BED3; }
+
+.fa-chevron-left {
+  margin-top: 20px;
+  margin-left: 7px;
+}
+
+.fa-chevron-right {
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 /*======================BELOW HERE IS THE RIGHT COLUMN==============================*/
@@ -87,21 +147,66 @@ a {
 
 .listing-Desc {
   border: #E4F3D9 5px solid;
-  border-bottom: #E4F3D9 40px solid;
   border-radius: 3px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 14px; }
+  .listing-Desc .listing-title {
+    font-family: "Bitter", serif;
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .listing-Desc .currency-code {
+    color: #0192b5;
+    font-family: "Lato", "Arial", sans-serif; }
+  .listing-Desc .ask-question {
+    float: right;
+    font-weight: bold;
+    font-size: 12px; }
+  .listing-Desc .overview {
+    font-family: "Lato", "Arial", sans-serif; }
+  .listing-Desc .add-to-cart {
+    background-color: #7ac142;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 8px;
+    text-align: center; }
+  .add-to-cart {
+    margin-top: 25px;
+  }
+  .listing-Desc .listing-price {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Lato", "Arial", sans-serif; }
+  .listing-Desc .one-available {
+    font-family: "Lato", "Arial", sans-serif; }
+
+  .one-available {
+    margin-bottom: 25px;}
+
+  .listing-price {
+    margin-bottom: 25px;}
+
+  .favorited-by {
+    font-family: "Lato", "Arial", sans-serif;
+  }
 
 .listing-socialMedia {
-  position: relative;
   border: 5px #EFEFEB solid;
   border-bottom: #EFEFEB 40px solid;
   border-radius: 3px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  position: relative;
+}
 
 .listing-storeSummary {
   font-family: 'Lato', 'Arial', sans-serif;
   border: #E5F4F7 5px solid;
   border-radius: 3px; }
+
+  .listing-storeSummaryHeader{
+    text-align: center;
+    margin: 15px;
+  }
 
 .listing-preview-card {
   margin: 6px;
@@ -122,7 +227,8 @@ a {
     font-size: 12px; }
   .listing-preview-card .preview-price {
     color: #78c042;
-    font-size: 12px; }
+    font-size: 12px;
+    font-family: "Lato", "Arial", sans-serif; }
 
 .listing-subFooter {
   margin-left: 12%;
@@ -130,7 +236,7 @@ a {
   padding-bottom: 30px;
   padding-top: 30px; }
 
-.listing-thumbZoom {
+.listing-thumbnails {
   display: inline-block;
   width: 100%;
   text-align:center;
@@ -142,6 +248,40 @@ a {
  .mag:hover{
   color:  #2f98b1
  }
+ .oneReview{
+   border-bottom: #666666 1px solid;
+   font-size: .75em;
+   color: #666666;
+   padding: 30px;
+   display:block;
+ }
+ .listing-Reviewerpic{
+   display: inline-block;
+   width: 40px;
+   height:40px;
+   border-radius: 20px;
+   background: #2f98b1;
+   margin-left: 20px;
+
+ }
+ .listing-ReviewLeft{
+   display:inline-block;
+   text-align: left;
+   width: 20%;
+   color: #666666;
+   /*border: 1px green solid;*/
+
+   /*margin-left: 20px;*/
+ }
+ .listing-ReviewRight{
+   position: relative;
+   display: inline-block;
+   float: right;
+   width:78%;
+   color: #666666;
+   /*border: red 1px solid;*/
+ }
+
 
 .listing-tabsThemselves {
   border-bottom: #DADBD6 1px solid;
@@ -168,44 +308,34 @@ a {
   border-bottom: 1px #fff solid;
   color: #666666; }
 
-pre{
-
-}
-
 .listing-tabContent {
   font-family: 'Lato', 'Arial', sans-serif;
-  color: rbg(102,102,102);
   margin-top: 50px;
-  display: inline-block;
-  line-height: 25px;
-  width: 100%;
-  word-wrap: break-word;
-  /*background: red;*/
-  /*display: none;*/
  }
-
 
 .listing-tabContentSelected {
   display: block; }
 
+.listing-pol{
+  border-bottom: 1px #666666 solid;
+  padding-bottom: 20px;
+  color: #666666;
+}
+.listing-polSection{
+  display: inline-block;
+}
+.listing-polLeft{
+  float:left;
+  width: 30%;
+  display: inline-block;
+}
+.listing-polRight{
+  float: right;
+  width: 68%;
+  display: inline-block;
+}
 .stars {
   color: #FFDC1E; }
-.btn{
-  vertical-align:middle;
-  color: rbg(102,102,102);
-  border-radius: 3px;
-  display: inline-block;
-  width: 100px;
-  border: #D9D9D9 1px solid;
-  padding: 4px;
-  margin:7px;
-  font-family: 'Lato', 'Arial', sans-serif;
-}
-.socialBar{
-  position: absolute;
-  top: 50px;
-  display: block-inline;
-}
 
 /*======================BELOW HERE IS THUMBNAILS==============================*/
 .thumbnails {
