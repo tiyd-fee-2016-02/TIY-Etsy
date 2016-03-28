@@ -18,7 +18,6 @@ $site-background: #efefeb;
 
   }
 
-
   .site-header-top-wrap{
       border-bottom: solid thin $gray-border;
       // box-shadow: 0 1px 0 1px black;
@@ -779,7 +778,7 @@ a:hover {
     text-align: left;
     margin-left: 15%;
     margin-right: 10%;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 50px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -788,9 +787,11 @@ a:hover {
 
 .column-section {
     float: left;
-    width: 20%;
-    margin-right: 30px;
+    width: 18%;
+    margin-right: 15px;
+    display: inline;
 }
+
 .column-section ul li a {
     padding: 0px;
     text-decoration: none;
