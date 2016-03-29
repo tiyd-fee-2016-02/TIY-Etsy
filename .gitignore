@@ -1,3 +1,8 @@
-bower_components
 
+.gitignore
+bower_components
+./assets/css/styles.scss
+styles.css.map
+category-styles.css.map
+Assets/CSS/.sass-cache/
 .sass-cache

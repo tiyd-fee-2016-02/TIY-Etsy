@@ -1,0 +1,44 @@
+{
+  "clothingAccessories" : [
+    {"pickLink": "https://www.etsy.com/featured/spring-fashion-accessories-trends?ref=catnav-2938",
+    "pickPic": "https://img0.etsystatic.com/131/1/12135157/il_570xN.927442060_efwn.jpg",
+    "pickDesc": "Spring fashion accessories"
+    }
+  ],
+  "Jewelry" : [
+    {"pickLink": "https://www.etsy.com/featured/jewelry?ref=catnav-1179",
+    "pickPic": "https://img0.etsystatic.com/109/1/9659142/il_570xN.891140096_grzr.jpg",
+    "pickDesc": "Jewelry Shop"
+    }
+  ],
+  "craftSupplies" : [
+    {"pickLink": "https://www.etsy.com/featured/diy-spring-craft-trends?ref=catnav-562",
+    "pickPic": "https://img1.etsystatic.com/059/0/6290369/il_570xN.752547949_n7mv.jpg",
+    "pickDesc": "Spring crafting trends"}
+  ],
+  "weddings" : [
+    {"pickLink": "https://www.etsy.com/featured/spring-weddings?ref=catnav-1633",
+    "pickPic": "https://img1.etsystatic.com/067/1/10423308/il_570xN.795223885_cprd.jpg",
+    "pickDesc": "Spring weddings"}
+  ],
+  "entertainment" : [
+    {"pickLink": "https://www.etsy.com/featured/tech-trends?ref=catnav-2961",
+    "pickPic": "https://img0.etsystatic.com/128/0/10903406/il_570xN.903877734_bunu.jpg",
+    "pickDesc": "Tech trends"}
+  ],
+  "homeLiving" : [
+    {"pickLink": "https://www.etsy.com/featured/home-and-wall-art?ref=catnav-891",
+    "pickPic": "https://img1.etsystatic.com/107/0/8504748/il_570xN.993194973_r071.jpg",
+    "pickDesc": "Home Gallery"}
+  ],
+  "kidsBaby" :[
+    {"pickLink": "https://www.etsy.com/featured/kids-easter-gifts?ref=catnav-2941",
+    "pickPic": "https://img1.etsystatic.com/128/1/6479062/il_570xN.932136135_ncpn.jpg",
+    "pickDesc": "Kids' Easter gifts & activities"}
+  ],
+  "Vintage" : [
+    {"pickLink": "https://www.etsy.com/featured/vintage-home-decor?ref=catnav-2963",
+    "pickPic": "https://img1.etsystatic.com/101/0/11378757/il_570xN.864233041_nqfh.jpg",
+    "pickDesc": "Your vintage source"}
+  ]
+}
